@@ -1,15 +1,16 @@
 export interface SearchRequest {
   s: string;
-  apikey: string;
 }
-
 export interface MovieRequest {
   i: string;
-  apikey: string;
-  plot: string;
 }
-
 export interface SearchResponse {
+  Response: "True" | "False";
+  Search: MovieShort[];
+  totalResults: number;
+  Error?: string;
+}
+export interface MovieShort {
   Title: string;
   Year: string;
   imdbID: string;
@@ -18,7 +19,6 @@ export interface SearchResponse {
   Response?: string;
   Error?: string;
 }
-
 export interface MovieRespons {
   Title: string;
   Year: string;
