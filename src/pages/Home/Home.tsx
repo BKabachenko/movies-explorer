@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import SearchInput from "../../components/SearchInput/SearchInput";
 import type { MovieShort, SearchResponse } from "../../types";
 import { searchMovie } from "../../api/movies";
+import MovieList from "../../components/MovieList/MovieList";
 
 const Home = () => {
   const [movies, setMovies] = useState<MovieShort[]>([]);
@@ -36,6 +37,7 @@ const Home = () => {
   return (
     <>
       <SearchInput />
+      <MovieList list={movies}/>
     </>
   );
 };
