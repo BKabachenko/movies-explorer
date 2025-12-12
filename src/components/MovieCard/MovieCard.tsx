@@ -1,25 +1,29 @@
 import s from "./MovieCard.module.scss";
 import type { MovieShort } from "../../types";
 
-type MovieCardType = {
+type MovieCardProps = {
   movie: MovieShort;
 };
 
-const MovieCard = ({ movie }: MovieCardType) => {
-  if (movie.Poster === "N/A") {
-    movie = {
-      ...movie,
-      Poster: "https://dummyimage.com/300x450/787878/ffffff&text=No+Preview",
-    };
-  }
+const MovieCard = ({ movie }: MovieCardProps) => {
+  const posterLink =
+    movie.Poster === "N/A"
+      ? "https://dummyimage.com/300x450/787878/ffffff&text=No+Preview"
+      : movie.Poster;
 
   return (
-    <div className={s.movieCard}>
-      <img src={movie.Poster} alt={movie.Title + " poster image"} />
-      <p className={s.title}>{movie.Title}</p>
-      <p className={s.type}>{movie.Type}</p>
-      <p className={s.year}>{movie.Year}</p>
-    </div>
+    <article className={s.movieCard}>
+      <div className={s.imgWrapper}>
+        <img src={posterLink} alt={movie.Title + " poster image"} loading="lazy" />
+      </div>
+      <div className={s.content}>
+        <h3 className={s.title}>{movie.Title}</h3>
+        <div className={s.meta}>
+          <p className={s.type}>{movie.Type}</p>
+          <p className={s.year}>{movie.Year}</p>
+        </div>
+      </div>
+    </article>
   );
 };
 
