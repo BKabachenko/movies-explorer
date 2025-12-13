@@ -2,14 +2,15 @@ import s from "./MovieList.module.scss";
 import type { MovieShort } from "../../types";
 import MovieCard from "../MovieCard/MovieCard";
 
-type MovieListType = {
+type MovieListProps = {
   list: MovieShort[];
 };
 
-const MovieList = ({ list }: MovieListType) => {
-  if (list.length === 0 && undefined) return (
-    <div className="list">
-      <h1>No Films</h1>
+const MovieList = ({ list }: MovieListProps) => {
+  if (list.length === 0 || !list ) return (
+    <div className={s.emptyList}>
+      <h2>No Films</h2>
+      <p>Please change search request.</p>
     </div>
   );
 
