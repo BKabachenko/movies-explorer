@@ -1,52 +1,51 @@
 .movieCard {
   width: 150px;
-  min-height: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
   background-color: rgb(173, 173, 173);
   border: 1px solid #000;
+  
   cursor: pointer;
   transition: transform 0.2s ease;
+  
   &:hover {
     transform: scale(1.1);
-    & .meta {
-      opacity: 1;
-      display: block;
-    }
   }
   .imgWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(173, 173, 173);
-    width: 148px;
-    height: 220px;
+    width: 100%;
+    aspect-ratio: 2/3;
+    overflow: hidden;
+    position: relative;
     img {
       width: 100%;
       height: 100%;
       background-color: rgb(173, 173, 173);
       object-fit: cover;
+      object-position: center top;
     }
   }
   .content {
+    min-height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    // position: relative;
   }
   .title {
     text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
   }
   .meta {
-    transform: scale(1.1);
-    width: 146px;
-    max-height: 100px;
-    opacity: 0;
-    display: none;
-    position: absolute;
-    background-color: rgb(173, 173, 173);
-    border: 1px solid #000;
-    border-top: none;
-    bottom: -31px;
   }
   .type {
   }
