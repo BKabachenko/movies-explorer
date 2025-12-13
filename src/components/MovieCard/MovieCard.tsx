@@ -17,7 +17,9 @@ const MovieCard = ({ movie }: MovieCardProps) => {
         <img src={posterLink} alt={movie.Title + " poster image"} loading="lazy" />
       </div>
       <div className={s.content}>
-        <h3 className={s.title}>{movie.Title}</h3>
+        <h3 className={s.title} title={movie.Title}>
+          {movie.Title}
+        </h3>
         <div className={s.meta}>
           <p className={s.type}>{movie.Type}</p>
           <p className={s.year}>{movie.Year}</p>
