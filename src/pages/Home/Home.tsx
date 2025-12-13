@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import SearchInput from "../../components/SearchInput/SearchInput";
 import type { MovieShort, SearchResponse } from "../../types";
 import { searchMovie } from "../../api/movies";
