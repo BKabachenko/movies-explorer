@@ -18,7 +18,7 @@ export const searchMovie = async (searchTitle: string): Promise<SearchResponse> 
 
     return data;
   } catch (error) {
-    console.error("Api error");
+    console.error("Api error", error);
     throw error;
   }
 };
