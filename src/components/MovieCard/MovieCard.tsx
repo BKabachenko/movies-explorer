@@ -1,5 +1,6 @@
 import s from "./MovieCard.module.scss";
 import type { MovieShort } from "../../types";
+import { Link } from "react-router";
 
 type MovieCardProps = {
   movie: MovieShort;
@@ -12,20 +13,22 @@ const MovieCard = ({ movie }: MovieCardProps) => {
       : movie.Poster;
 
   return (
-    <article className={s.movieCard}>
-      <div className={s.imgWrapper}>
-        <img src={posterLink} alt={movie.Title + " poster image"} loading="lazy" />
-      </div>
-      <div className={s.content}>
-        <h3 className={s.title} title={movie.Title}>
-          {movie.Title}
-        </h3>
-        <div className={s.meta}>
-          <p className={s.type}>{movie.Type}</p>
-          <p className={s.year}>{movie.Year}</p>
+    <Link to={`/movie/${movie.imdbID}`}className={s.link}>
+      <article className={s.movieCard}>
+        <div className={s.imgWrapper}>
+          <img src={posterLink} alt={movie.Title + " poster image"} loading="lazy" />
         </div>
-      </div>
-    </article>
+        <div className={s.content}>
+          <h3 className={s.title} title={movie.Title}>
+            {movie.Title}
+          </h3>
+          <div className={s.meta}>
+            <p className={s.type}>{movie.Type}</p>
+            <p className={s.year}>{movie.Year}</p>
+          </div>
+        </div>
+      </article>
+    </Link>
   );
 };
 
