@@ -19,7 +19,7 @@ export interface MovieShort {
   Response?: string;
   Error?: string;
 }
-export interface MovieRespons {
+export interface MovieFull {
   Title: string;
   Year: string;
   Rated: string;
