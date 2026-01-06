@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { getMovieById } from "../../api/movies";
 import type { MovieFull } from "../../types";
 import s from "./MovieDetails.module.scss";
@@ -10,7 +10,7 @@ const MovieDetails = () => {
   const [error, setError] = useState<null | string>(null);
 
   const { id } = useParams();
-
+  const navigate = useNavigate();
   useEffect(() => {
     const fetchMovie = async () => {
       try {
@@ -52,6 +52,13 @@ const MovieDetails = () => {
           <p>{movie.Director}</p>
           <p>{movie.Writer}</p>
           <p>{movie.Actors}</p>
+          <button
+            className="w-20 h-8 shadow-md cursor-pointer p-2 rounded-md bg-sky-500 hover:bg-sky-300 hover:text-white transition"
+            type="button"
+            onClick={() => navigate(-1)}
+          >
+            Back
+          </button>
         </div>
       )}
     </>
