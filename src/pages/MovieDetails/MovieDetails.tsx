@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router";
-import { getMovieById } from "../../api/movies";
-import type { MovieFull } from "../../types";
-import s from "./MovieDetails.module.scss";
+import { useNavigate, useParams } from 'react-router';
+import { getMovieById } from '../../api/movies';
+import type { MovieFull } from '../../types';
+import { useEffect, useState } from 'react';
+import s from './MovieDetails.module.scss';
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState<MovieFull>();
@@ -21,13 +21,13 @@ const MovieDetails = () => {
           const data = await getMovieById(id);
           setMovie(data);
         } else {
-          throw new Error("ID undefined");
+          throw new Error('ID undefined');
         }
       } catch (error) {
         if (error instanceof Error) {
           setError(error.message);
         } else {
-          throw new Error("New error");
+          throw new Error('New error');
         }
       } finally {
         setIsLoading(false);
@@ -53,8 +53,8 @@ const MovieDetails = () => {
           <p>{movie.Writer}</p>
           <p>{movie.Actors}</p>
           <button
-            className="w-20 h-8 shadow-md cursor-pointer p-2 rounded-md bg-sky-500 hover:bg-sky-300 hover:text-white transition"
-            type="button"
+            className='h-8 w-20 cursor-pointer rounded-md bg-sky-500 p-2 shadow-md transition hover:bg-sky-300 hover:text-white'
+            type='button'
             onClick={() => navigate(-1)}
           >
             Back
