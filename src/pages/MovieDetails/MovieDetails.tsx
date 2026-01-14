@@ -39,10 +39,13 @@ const MovieDetails = () => {
     fetchMovie();
   }, [id]);
 
-  const posterLink =
-    movie!.Poster === 'N/A'
-      ? 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview'
-      : movie!.Poster;
+  const getPosterName = () => {
+    const posterLink =
+      movie!.Poster === 'N/A'
+        ? 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview'
+        : movie!.Poster;
+    return posterLink;
+  };
 
   return (
     <>
@@ -50,10 +53,19 @@ const MovieDetails = () => {
       {error && <h3>Error. {error}</h3>}
       {!isLoading && !error && movie && (
         <div className='w-full'>
-          <div className='p-2'>
-            <div className='h-96 w-full rounded-xl border-4 border-red-800 p-4'>
-              <img src={posterLink} alt={movie.Title} className='h-full rounded-xl' />
+          <button
+            className='h-8 w-20 cursor-pointer rounded-md bg-sky-500 p-2 shadow-md transition hover:bg-sky-300 hover:text-white'
+            type='button'
+            onClick={() => navigate(-1)}
+          >
+            Back
+          </button>
+
+          <div className='p-3'>
+            <div className='flex h-96 w-fit justify-center rounded-xl shadow-xl border border-gray-100 p-1'>
+              <img src={getPosterName()} alt={movie.Title} className='rounded-xl' />
             </div>
+
             <h3>{movie.Title}</h3>
             <p>{movie.Year}</p>
             <p>{movie.Rated}</p>
@@ -63,13 +75,6 @@ const MovieDetails = () => {
             <p>{movie.Director}</p>
             <p>{movie.Writer}</p>
             <p>{movie.Actors}</p>
-            <button
-              className='h-8 w-20 cursor-pointer rounded-md bg-sky-500 p-2 shadow-md transition hover:bg-sky-300 hover:text-white'
-              type='button'
-              onClick={() => navigate(-1)}
-            >
-              Back
-            </button>
           </div>
         </div>
       )}
