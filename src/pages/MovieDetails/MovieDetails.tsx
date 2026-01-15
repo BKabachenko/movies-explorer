@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router';
 
 import { getMovieById } from '../../api/movies';
+import Badge from '../../components/Badge/Badge';
 import type { MovieFull } from '../../types';
 
 // import s from './MovieDetails.module.scss';
@@ -65,24 +66,58 @@ const MovieDetails = () => {
             Back
           </button>
 
-          <div className='rounded-xl bg-white p-3'>
-            <div className='flex flex-row'>
+          <div className='rounded-xl bg-white px-10 py-5'>
+            <div className='mb-10 flex flex-row gap-x-6'>
               <div className='flex h-96 w-fit justify-center rounded-xl border border-gray-100 p-1 shadow-2xl'>
                 <img src={getPosterName()} alt={movie.Title} className='rounded-xl' />
               </div>
 
-              <div className='flex flex-col'>
-                <p>{splitArray(movie.Genre).map((elem) => elem)}</p>
-                <p>{movie.Metascore}</p>
+              <div className='flex flex-col justify-center'>
+                <div className='flex flex-row gap-3'>
+                  {splitArray(movie.Genre).map((e, i) => (
+                    <Badge key={i} variant='genre'>
+                      {e}
+                    </Badge>
+                  ))}
+                  <Badge variant='rate' icon=''>
+                    {movie.Metascore}
+                  </Badge>
+                </div>
                 <h3>{movie.Title}</h3>
-                <p>{movie.Year}</p>
-                <p>{movie.Runtime}</p>
-                <p>{movie.Rated}</p>
+                <div className='flex flex-row gap-3'>
+                  <Badge variant='secondary' icon=''>
+                    {movie.Year}
+                  </Badge>
+                  <Badge variant='secondary' icon=''>
+                    {movie.Runtime}
+                  </Badge>
+                  <Badge variant='secondary' icon=''>
+                    {movie.Rated}
+                  </Badge>
+                </div>
               </div>
             </div>
-            <p>{splitArray(movie.Director).map((elem) => elem)}</p>
-            <p>{splitArray(movie.Writer).map((elem) => elem)}</p>
-            <p>{splitArray(movie.Actors).map((elem) => elem)}</p>
+            <div>
+              {splitArray(movie.Director).map((e, i) => (
+                <Badge key={i} variant='author'>
+                  {e}
+                </Badge>
+              ))}
+            </div>
+            <div>
+              {splitArray(movie.Writer).map((e, i) => (
+                <Badge key={i} variant='author'>
+                  {e}
+                </Badge>
+              ))}
+            </div>
+            <div>
+              {splitArray(movie.Actors).map((e, i) => (
+                <Badge key={i} variant='author'>
+                  {e}
+                </Badge>
+              ))}
+            </div>
           </div>
         </div>
       )}
