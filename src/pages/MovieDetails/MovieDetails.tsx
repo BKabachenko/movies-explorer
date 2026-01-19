@@ -2,6 +2,12 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router';
 
 import { getMovieById } from '../../api/movies';
+import calendarIcon from '../../assets/icons/calendar-year.svg';
+import clockIcon from '../../assets/icons/clock.svg';
+import peopleIcon from '../../assets/icons/people.svg';
+import starIcon from '../../assets/icons/star.svg';
+import trophyIcon from '../../assets/icons/trophy.svg';
+import worldIcon from '../../assets/icons/world.svg';
 import Badge from '../../components/Badge/Badge';
 import type { MovieFull } from '../../types';
 
@@ -67,53 +73,51 @@ const MovieDetails = () => {
           </button>
 
           <div className='rounded-xl bg-white px-10 py-5'>
-            <div className='mb-10 flex flex-row gap-x-6'>
+            <div className='mb-10 flex flex-col flex-wrap content-center justify-center gap-6 sm:flex-row md:justify-start'>
               <div className='flex h-96 w-fit justify-center rounded-xl border border-gray-100 p-1 shadow-2xl'>
                 <img src={getPosterName()} alt={movie.Title} className='rounded-xl' />
               </div>
 
-              <div className='flex flex-col justify-center'>
-                <div className='flex flex-row gap-3'>
+              <div className='flex flex-col justify-center '>
+                <div className='flex flex-row gap-3 justify-center flex-wrap sm:justify-start'>
                   {splitArray(movie.Genre).map((e, i) => (
                     <Badge key={i} variant='genre'>
                       {e}
                     </Badge>
                   ))}
-                  <Badge variant='rate' icon=''>
+                  <Badge variant='rate' icon={starIcon}>
                     {movie.Metascore}
                   </Badge>
                 </div>
-                <h3>{movie.Title}</h3>
-                <div className='flex flex-row gap-3'>
-                  <Badge variant='secondary' icon=''>
+                <h3 className='text-4xl text-center sm:text-5xl md:text-7xl font-semibold py-4'>{movie.Title}</h3>
+                <div className='flex flex-row gap-3 justify-center flex-wrap sm:justify-start'>
+                  <Badge variant='secondary' icon={calendarIcon}>
                     {movie.Year}
                   </Badge>
-                  <Badge variant='secondary' icon=''>
+                  <Badge variant='secondary' icon={clockIcon}>
                     {movie.Runtime}
                   </Badge>
-                  <Badge variant='secondary' icon=''>
-                    {movie.Rated}
-                  </Badge>
+                  <Badge variant='secondary'>{movie.Rated}</Badge>
                 </div>
               </div>
             </div>
             <div>
               {splitArray(movie.Director).map((e, i) => (
-                <Badge key={i} variant='author'>
+                <Badge key={i} variant='author' icon={peopleIcon}>
                   {e}
                 </Badge>
               ))}
             </div>
             <div>
               {splitArray(movie.Writer).map((e, i) => (
-                <Badge key={i} variant='author'>
+                <Badge key={i} variant='author' icon={peopleIcon}>
                   {e}
                 </Badge>
               ))}
             </div>
             <div>
               {splitArray(movie.Actors).map((e, i) => (
-                <Badge key={i} variant='author'>
+                <Badge key={i} variant='author' icon={peopleIcon}>
                   {e}
                 </Badge>
               ))}
