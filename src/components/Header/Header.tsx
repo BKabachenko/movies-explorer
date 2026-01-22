@@ -1,7 +1,25 @@
+import { useNavigate, useSearchParams } from 'react-router';
+
 import logo from '../../assets/icons/main-logo.svg?react';
 import Icon from '../Icon/Icon';
+import SearchInput from '../SearchInput/SearchInput';
 
 const Header = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchText = searchParams.get('search') || '';
+  const navigate = useNavigate();
+
+  const onSearch = (searchText: string) => {
+    if (searchText.trim().length > 0) {
+      navigate({
+        pathname: '/',
+        search: `search=${searchText}`,
+      });
+    } else {
+      setSearchParams({});
+    }
+  };
+
   return (
     <header className='flex w-full flex-col content-center justify-center gap-2 p-2 px-10 md:flex-row'>
       <div className='flex flex-1 content-center justify-center'>
@@ -12,7 +30,9 @@ const Header = () => {
           Kino<span className='text-indigo-800'>Base</span>
         </p>
       </div>
-      <div className='flex flex-5 content-center justify-center border border-red-500'>search</div>
+      <div className='flex flex-5 content-center justify-center border border-red-500'>
+        <SearchInput onSearch={onSearch} initialValue={searchText} />
+      </div>
     </header>
   );
 };
