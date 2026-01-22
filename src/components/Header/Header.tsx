@@ -30,7 +30,7 @@ const Header = () => {
           Kino<span className='text-indigo-800'>Base</span>
         </p>
       </div>
-      <div className='flex flex-5 content-center justify-center border border-red-500'>
+      <div className='flex flex-5 content-center justify-center'>
         <SearchInput onSearch={onSearch} initialValue={searchText} />
       </div>
     </header>
