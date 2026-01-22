@@ -4,6 +4,7 @@ import { useParams } from 'react-router';
 import { getMovieById } from '../../api/movies';
 import calendarIcon from '../../assets/icons/calendar-year.svg?react';
 import clockIcon from '../../assets/icons/clock.svg?react';
+import infoIcon from '../../assets/icons/info.svg?react';
 import peopleIcon from '../../assets/icons/people.svg?react';
 import starIcon from '../../assets/icons/star.svg?react';
 import trophyIcon from '../../assets/icons/trophy.svg?react';
@@ -82,7 +83,7 @@ const MovieDetails = () => {
                       {e}
                     </Badge>
                   ))}
-                  <Badge variant='rate' >
+                  <Badge variant='rate'>
                     <Icon src={starIcon} />
                     {movie.Metascore}
                   </Badge>
@@ -104,29 +105,66 @@ const MovieDetails = () => {
               </div>
             </div>
 
-            <div>
-              {splitArray(movie.Director).map((e, i) => (
-                <Badge key={i} variant='author'>
-                  <Icon src={peopleIcon} />
-                  {e}
-                </Badge>
-              ))}
-            </div>
-            <div>
-              {splitArray(movie.Writer).map((e, i) => (
-                <Badge key={i} variant='author'>
-                  <Icon src={peopleIcon} />
-                  {e}
-                </Badge>
-              ))}
-            </div>
-            <div>
-              {splitArray(movie.Actors).map((e, i) => (
-                <Badge key={i} variant='author'>
-                  <Icon src={peopleIcon} />
-                  {e}
-                </Badge>
-              ))}
+            <div className='flex flex-col justify-around gap-8 md:flex-row'>
+              <div className='flex flex-col gap-5'>
+                <div className='flex flex-col'>
+                  <p className='mb-2 flex-1 text-center text-xl font-semibold md:text-left'>Plot</p>
+                  {movie.Plot}
+                </div>
+                <div className='flex flex-col'>
+                  <p className='mb-2 flex-1 text-center text-xl font-semibold md:text-left'>Cast</p>
+                  <div className='flex flex-col justify-center gap-2 sm:flex-row md:justify-start'>
+                    {splitArray(movie.Actors).map((e, i) => (
+                      <Badge key={i} variant='author'>
+                        <Icon src={peopleIcon} />
+                        {e}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className='rounded-xl bg-gray-100 p-8'>
+                <div className='flex items-center gap-2 text-xl font-semibold'>
+                  <Icon src={infoIcon} size='md' className='translate-y-0.4 text-indigo-600' />
+                  Details
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Director</p>
+                  {movie.Director}
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Writer</p>
+                  {movie.Writer}
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Type</p>
+                  {movie.Type}
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Awards</p>
+                  {movie.Awards}
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Country</p>
+                  {movie.Country}
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Language</p>
+                  {movie.Language}
+                </div>
+
+                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
+                  <p className='text-gray-500'>Production</p>
+                  {movie.Production}
+                </div>
+              </div>
             </div>
           </div>
         </div>
