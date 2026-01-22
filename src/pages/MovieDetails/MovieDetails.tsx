@@ -104,9 +104,9 @@ const MovieDetails = () => {
                 </div>
               </div>
             </div>
-
+            
             <div className='flex flex-col justify-around gap-8 md:flex-row'>
-              <div className='flex flex-col gap-5'>
+              <div className='flex flex-col gap-5 flex-1'>
                 <div className='flex flex-col'>
                   <p className='mb-2 flex-1 text-center text-xl font-semibold md:text-left'>Plot</p>
                   {movie.Plot}
@@ -124,7 +124,7 @@ const MovieDetails = () => {
                 </div>
               </div>
 
-              <div className='rounded-xl bg-gray-100 p-8'>
+              <div className='rounded-xl bg-gray-100 p-8 flex-1 md:max-w-100'>
                 <div className='flex items-center gap-2 text-xl font-semibold'>
                   <Icon src={infoIcon} size='md' className='translate-y-0.4 text-indigo-600' />
                   Details
