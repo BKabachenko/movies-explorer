@@ -11,7 +11,7 @@ const Badge = ({ children, variant }: Badge) => {
     author: 'rounded-2xl border border-gray-200 bg-transparent text-black shadow-sm',
   };
   const defaultStyle =
-    'flex text-center flex-wrap content-center justify-center p-1 px-4 text-sm font-semibold gap-2';
+    'flex text-center flex-wrap content-center justify-center items-center p-1 px-4 text-sm font-semibold gap-2';
   const badgeStyle = variants[variant] + ' ' + defaultStyle;
   return (
     <div className={badgeStyle}>
