@@ -15,7 +15,7 @@ const Icon = ({ src: SvgIcon, size = 'sm', className }: IconProps) => {
 
   return (
     <>
-      <SvgIcon className={`${sizeClasses[size]} ${className} shrink-0 transition-colors translate-y-0.5`} />
+      <SvgIcon className={`${sizeClasses[size]} ${className} shrink-0 transition-colors`} />
     </>
   );
 };
