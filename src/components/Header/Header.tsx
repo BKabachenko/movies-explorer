@@ -21,10 +21,10 @@ const Header = () => {
   };
 
   return (
-    <header className='flex w-full flex-col content-center justify-center gap-2 p-2 px-10 md:flex-row'>
+    <header className='mb-4 flex w-full flex-col content-center justify-center gap-2 bg-white p-2 px-10 md:flex-row sticky top-0 z-99'>
       <div className='flex flex-1 content-center justify-center'>
         <div className='flex h-8 w-8 content-center justify-center rounded-lg bg-indigo-800'>
-          <Icon src={logo} className='h-full translate-0 !translate-y-0 text-white' />
+          <Icon src={logo} className='h-full translate-0 text-white' />
         </div>
         <p className='p-1 font-bold'>
           Kino<span className='text-indigo-800'>Base</span>
