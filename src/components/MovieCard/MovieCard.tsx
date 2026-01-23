@@ -6,10 +6,12 @@ type MovieCardProps = {
   movie: MovieShort;
 };
 
+const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
+
 const MovieCard = ({ movie }: MovieCardProps) => {
   const posterLink =
     movie.Poster === 'N/A'
-      ? 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview'
+      ? dummyPosterLink
       : movie.Poster;
 
   return (
@@ -18,8 +20,11 @@ const MovieCard = ({ movie }: MovieCardProps) => {
         <div className='flex w-full justify-center rounded-xl border border-gray-300'>
           <img
             src={posterLink}
-            alt={movie.Title + ' poster image'}
+            alt={`${movie.Title} poster`}
             loading='lazy'
+            onError={(e)=> {
+              e.currentTarget.src = dummyPosterLink;
+            }}
             className='aspect-2/3 h-full w-full rounded-xl object-cover object-center group-hover:shadow-xl  group-hover:shadow-indigo-200/50'
           />
         </div>
