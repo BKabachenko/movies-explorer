@@ -48,10 +48,13 @@ const MovieDetails = () => {
     fetchMovie();
   }, [id]);
 
+  const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
+
+
   const getPosterSrc = () => {
     const posterLink =
       movie!.Poster === 'N/A'
-        ? 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview'
+        ? dummyPosterLink
         : movie!.Poster;
     return posterLink;
   };
@@ -72,7 +75,7 @@ const MovieDetails = () => {
             <div className='mb-10 flex flex-col content-center justify-center gap-6 sm:flex-row md:justify-start'>
               <div className='flex content-center justify-center'>
                 <div className='flex h-96 w-fit content-center justify-center rounded-xl border border-gray-100 p-1 shadow-2xl'>
-                  <img src={getPosterSrc()} alt={movie.Title} className='rounded-xl' />
+                  <img src={getPosterSrc()} alt={movie.Title} className='rounded-xl' onError={e => e.currentTarget.src = dummyPosterLink}/>
                 </div>
               </div>
 
