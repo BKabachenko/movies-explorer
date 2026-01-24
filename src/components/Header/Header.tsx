@@ -21,19 +21,21 @@ const Header = () => {
   };
 
   return (
-    <header className='sticky top-0 z-99 mb-4 flex w-full flex-col content-center justify-center gap-2 bg-white p-2 px-10 md:flex-row sm:py-4 md:py-6 '>
-      <div className='flex flex-1 content-center justify-center'>
-        <Link to='/' className='group flex flex-row content-center justify-center'>
-          <div className='flex h-8 w-8 content-center justify-center rounded-lg bg-indigo-800 transition-all group-hover:scale-110'>
-            <Icon src={logo} className='h-full w-6 text-white' />
-          </div>
-          <p className='p-1 font-bold'>
-            Kino<span className='text-indigo-800'>Base</span>
-          </p>
-        </Link>
-      </div>
-      <div className='flex flex-5 content-center justify-center'>
-        <SearchInput onSearch={onSearch} initialValue={searchText} />
+    <header className='sticky top-0 z-99 mb-4 flex w-full justify-around bg-white/80 backdrop-blur-md'>
+      <div className='flex max-w-7xl flex-1 flex-col gap-2 p-2 px-10 sm:py-4 md:flex-row md:py-6'>
+        <div className='flex flex-1 justify-center'>
+          <Link to='/' className='group flex flex-row'>
+            <div className='flex h-8 w-8 content-center justify-center rounded-lg bg-indigo-800 transition-all group-hover:scale-110'>
+              <Icon src={logo} className='h-full w-6 text-white' />
+            </div>
+            <p className='p-1 font-bold'>
+              Kino<span className='text-indigo-800'>Base</span>
+            </p>
+          </Link>
+        </div>
+        <div className='flex-5 pr-6'>
+          <SearchInput onSearch={onSearch} initialValue={searchText} />
+        </div>
       </div>
     </header>
   );
