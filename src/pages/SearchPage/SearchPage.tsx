@@ -1,12 +1,12 @@
 import BackBtn from "../../components/BackBtn/BackBtn"
 
-const Search = () => {
+const SearchPage = () => {
   return (
     <>
     <BackBtn />
-    <div>Search</div>
+    <div>SearchPage</div>
     </>
   )
 }
 
-export default Search
+export default SearchPage
