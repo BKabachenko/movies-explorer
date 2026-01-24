@@ -1,0 +1,8002 @@
+[
+  {
+    "id": "tt0111161",
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "rating": "9.3",
+    "votes": "3032717",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0068646",
+    "title": "The Godfather",
+    "year": "1972",
+    "rating": "9.2",
+    "votes": "2117036",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0468569",
+    "title": "The Dark Knight",
+    "year": "2008",
+    "rating": "9",
+    "votes": "3009281",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0167260",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": "2003",
+    "rating": "9",
+    "votes": "2070954",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt0108052",
+    "title": "Schindler's List",
+    "year": "1993",
+    "rating": "9",
+    "votes": "1517396",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0071562",
+    "title": "The Godfather Part II",
+    "year": "1974",
+    "rating": "9",
+    "votes": "1424575",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0050083",
+    "title": "12 Angry Men",
+    "year": "1957",
+    "rating": "9",
+    "votes": "921208",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0110912",
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "rating": "8.9",
+    "votes": "2326885",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0120737",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": "2001",
+    "rating": "8.9",
+    "votes": "2100870",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt1375666",
+    "title": "Inception",
+    "year": "2010",
+    "rating": "8.8",
+    "votes": "2673142",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0137523",
+    "title": "Fight Club",
+    "year": "1999",
+    "rating": "8.8",
+    "votes": "2454070",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0109830",
+    "title": "Forrest Gump",
+    "year": "1994",
+    "rating": "8.8",
+    "votes": "2370264",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0167261",
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": "2002",
+    "rating": "8.8",
+    "votes": "1867057",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt0060196",
+    "title": "The Good, the Bad and the Ugly",
+    "year": "1966",
+    "rating": "8.8",
+    "votes": "850036",
+    "genres": "Adventure,Western"
+  },
+  {
+    "id": "tt23849204",
+    "title": "12th Fail",
+    "year": "2023",
+    "rating": "8.8",
+    "votes": "145906",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0252488",
+    "title": "The Chaos Class Failed the Class",
+    "year": "1975",
+    "rating": "8.8",
+    "votes": "25727",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0816692",
+    "title": "Interstellar",
+    "year": "2014",
+    "rating": "8.7",
+    "votes": "2331286",
+    "genres": "Adventure,Drama,Sci-Fi"
+  },
+  {
+    "id": "tt0133093",
+    "title": "The Matrix",
+    "year": "1999",
+    "rating": "8.7",
+    "votes": "2148111",
+    "genres": "Action,Sci-Fi"
+  },
+  {
+    "id": "tt0080684",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": "1980",
+    "rating": "8.7",
+    "votes": "1435906",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0099685",
+    "title": "Goodfellas",
+    "year": "1990",
+    "rating": "8.7",
+    "votes": "1320234",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0073486",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": "1975",
+    "rating": "8.7",
+    "votes": "1113451",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt15097216",
+    "title": "Jai Bhim",
+    "year": "2021",
+    "rating": "8.7",
+    "votes": "224863",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt10189514",
+    "title": "Soorarai Pottru",
+    "year": "2020",
+    "rating": "8.7",
+    "votes": "127387",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt7466810",
+    "title": "777 Charlie",
+    "year": "2022",
+    "rating": "8.7",
+    "votes": "42960",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0114369",
+    "title": "Se7en",
+    "year": "1995",
+    "rating": "8.6",
+    "votes": "1902880",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0102926",
+    "title": "The Silence of the Lambs",
+    "year": "1991",
+    "rating": "8.6",
+    "votes": "1628347",
+    "genres": "Crime,Drama,Horror"
+  },
+  {
+    "id": "tt0120815",
+    "title": "Saving Private Ryan",
+    "year": "1998",
+    "rating": "8.6",
+    "votes": "1564672",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0076759",
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": "1977",
+    "rating": "8.6",
+    "votes": "1502763",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0120689",
+    "title": "The Green Mile",
+    "year": "1999",
+    "rating": "8.6",
+    "votes": "1479928",
+    "genres": "Crime,Drama,Fantasy"
+  },
+  {
+    "id": "tt0103064",
+    "title": "Terminator 2: Judgment Day",
+    "year": "1991",
+    "rating": "8.6",
+    "votes": "1228026",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0245429",
+    "title": "Spirited Away",
+    "year": "2001",
+    "rating": "8.6",
+    "votes": "905562",
+    "genres": "Animation,Adventure,Family"
+  },
+  {
+    "id": "tt0317248",
+    "title": "City of God",
+    "year": "2002",
+    "rating": "8.6",
+    "votes": "834978",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0118799",
+    "title": "Life Is Beautiful",
+    "year": "1997",
+    "rating": "8.6",
+    "votes": "775668",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0038650",
+    "title": "It's a Wonderful Life",
+    "year": "1946",
+    "rating": "8.6",
+    "votes": "526320",
+    "genres": "Drama,Family,Fantasy"
+  },
+  {
+    "id": "tt0047478",
+    "title": "Seven Samurai",
+    "year": "1954",
+    "rating": "8.6",
+    "votes": "382862",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt0056058",
+    "title": "Harakiri",
+    "year": "1962",
+    "rating": "8.6",
+    "votes": "78958",
+    "genres": "Drama,Mystery"
+  },
+  {
+    "id": "tt9263550",
+    "title": "Rocketry: The Nambi Effect",
+    "year": "2022",
+    "rating": "8.6",
+    "votes": "60450",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0093603",
+    "title": "Nayakan",
+    "year": "1987",
+    "rating": "8.6",
+    "votes": "26102",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt1853728",
+    "title": "Django Unchained",
+    "year": "2012",
+    "rating": "8.5",
+    "votes": "1783828",
+    "genres": "Western"
+  },
+  {
+    "id": "tt0172495",
+    "title": "Gladiator",
+    "year": "2000",
+    "rating": "8.5",
+    "votes": "1752109",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0482571",
+    "title": "The Prestige",
+    "year": "2006",
+    "rating": "8.5",
+    "votes": "1509232",
+    "genres": "Drama,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt0407887",
+    "title": "The Departed",
+    "year": "2006",
+    "rating": "8.5",
+    "votes": "1482666",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0088763",
+    "title": "Back to the Future",
+    "year": "1985",
+    "rating": "8.5",
+    "votes": "1372390",
+    "genres": "Adventure,Comedy,Sci-Fi"
+  },
+  {
+    "id": "tt0110413",
+    "title": "Léon: The Professional",
+    "year": "1994",
+    "rating": "8.5",
+    "votes": "1298864",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0120586",
+    "title": "American History X",
+    "year": "1998",
+    "rating": "8.5",
+    "votes": "1228149",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0110357",
+    "title": "The Lion King",
+    "year": "1994",
+    "rating": "8.5",
+    "votes": "1198987",
+    "genres": "Animation,Adventure,Drama"
+  },
+  {
+    "id": "tt0114814",
+    "title": "The Usual Suspects",
+    "year": "1995",
+    "rating": "8.5",
+    "votes": "1186588",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt2582802",
+    "title": "Whiplash",
+    "year": "2014",
+    "rating": "8.5",
+    "votes": "1068259",
+    "genres": "Drama,Music"
+  },
+  {
+    "id": "tt6751668",
+    "title": "Parasite",
+    "year": "2019",
+    "rating": "8.5",
+    "votes": "1054893",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0078748",
+    "title": "Alien",
+    "year": "1979",
+    "rating": "8.5",
+    "votes": "1012359",
+    "genres": "Horror,Sci-Fi"
+  },
+  {
+    "id": "tt1675434",
+    "title": "The Intouchables",
+    "year": "2011",
+    "rating": "8.5",
+    "votes": "974571",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0253474",
+    "title": "The Pianist",
+    "year": "2002",
+    "rating": "8.5",
+    "votes": "964812",
+    "genres": "Biography,Drama,Music"
+  },
+  {
+    "id": "tt0054215",
+    "title": "Psycho",
+    "year": "1960",
+    "rating": "8.5",
+    "votes": "750207",
+    "genres": "Drama,Horror,Mystery"
+  },
+  {
+    "id": "tt0034583",
+    "title": "Casablanca",
+    "year": "1942",
+    "rating": "8.5",
+    "votes": "629566",
+    "genres": "Drama,Romance,War"
+  },
+  {
+    "id": "tt15239678",
+    "title": "Dune: Part Two",
+    "year": "2024",
+    "rating": "8.5",
+    "votes": "622309",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0047396",
+    "title": "Rear Window",
+    "year": "1954",
+    "rating": "8.5",
+    "votes": "544582",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt9362722",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": "2023",
+    "rating": "8.5",
+    "votes": "449142",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0064116",
+    "title": "Once Upon a Time in the West",
+    "year": "1968",
+    "rating": "8.5",
+    "votes": "366896",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt0095327",
+    "title": "Grave of the Fireflies",
+    "year": "1988",
+    "rating": "8.5",
+    "votes": "346059",
+    "genres": "Animation,Drama,War"
+  },
+  {
+    "id": "tt0095765",
+    "title": "Cinema Paradiso",
+    "year": "1988",
+    "rating": "8.5",
+    "votes": "300217",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0027977",
+    "title": "Modern Times",
+    "year": "1936",
+    "rating": "8.5",
+    "votes": "271972",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0021749",
+    "title": "City Lights",
+    "year": "1931",
+    "rating": "8.5",
+    "votes": "206281",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt20850406",
+    "title": "Sita Ramam",
+    "year": "2022",
+    "rating": "8.5",
+    "votes": "75057",
+    "genres": "Action,Drama,Mystery"
+  },
+  {
+    "id": "tt7019842",
+    "title": "96",
+    "year": "2018",
+    "rating": "8.5",
+    "votes": "41022",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt16492678",
+    "title": "Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc",
+    "year": "2021",
+    "rating": "8.5",
+    "votes": "31684",
+    "genres": "Animation,Action,Fantasy"
+  },
+  {
+    "id": "tt1345836",
+    "title": "The Dark Knight Rises",
+    "year": "2012",
+    "rating": "8.4",
+    "votes": "1906779",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0361748",
+    "title": "Inglourious Basterds",
+    "year": "2009",
+    "rating": "8.4",
+    "votes": "1674581",
+    "genres": "Adventure,Drama,War"
+  },
+  {
+    "id": "tt0209144",
+    "title": "Memento",
+    "year": "2000",
+    "rating": "8.4",
+    "votes": "1374668",
+    "genres": "Mystery,Thriller"
+  },
+  {
+    "id": "tt4154796",
+    "title": "Avengers: Endgame",
+    "year": "2019",
+    "rating": "8.4",
+    "votes": "1349237",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt4154756",
+    "title": "Avengers: Infinity War",
+    "year": "2018",
+    "rating": "8.4",
+    "votes": "1280151",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0910970",
+    "title": "WALL·E",
+    "year": "2008",
+    "rating": "8.4",
+    "votes": "1256426",
+    "genres": "Animation,Adventure,Family"
+  },
+  {
+    "id": "tt0081505",
+    "title": "The Shining",
+    "year": "1980",
+    "rating": "8.4",
+    "votes": "1162974",
+    "genres": "Drama,Horror"
+  },
+  {
+    "id": "tt0082971",
+    "title": "Raiders of the Lost Ark",
+    "year": "1981",
+    "rating": "8.4",
+    "votes": "1071250",
+    "genres": "Action,Adventure"
+  },
+  {
+    "id": "tt0090605",
+    "title": "Aliens",
+    "year": "1986",
+    "rating": "8.4",
+    "votes": "806482",
+    "genres": "Action,Adventure,Horror"
+  },
+  {
+    "id": "tt0078788",
+    "title": "Apocalypse Now",
+    "year": "1979",
+    "rating": "8.4",
+    "votes": "739883",
+    "genres": "Drama,Mystery,War"
+  },
+  {
+    "id": "tt4633694",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": "2018",
+    "rating": "8.4",
+    "votes": "726329",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt2380307",
+    "title": "Coco",
+    "year": "2017",
+    "rating": "8.4",
+    "votes": "646210",
+    "genres": "Animation,Adventure,Drama"
+  },
+  {
+    "id": "tt1187043",
+    "title": "3 Idiots",
+    "year": "2009",
+    "rating": "8.4",
+    "votes": "456685",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0086879",
+    "title": "Amadeus",
+    "year": "1984",
+    "rating": "8.4",
+    "votes": "447319",
+    "genres": "Biography,Drama,Music"
+  },
+  {
+    "id": "tt0405094",
+    "title": "The Lives of Others",
+    "year": "2006",
+    "rating": "8.4",
+    "votes": "426520",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt5311514",
+    "title": "Your Name.",
+    "year": "2016",
+    "rating": "8.4",
+    "votes": "354259",
+    "genres": "Animation,Drama,Fantasy"
+  },
+  {
+    "id": "tt0082096",
+    "title": "Das Boot",
+    "year": "1981",
+    "rating": "8.4",
+    "votes": "278570",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0032553",
+    "title": "The Great Dictator",
+    "year": "1940",
+    "rating": "8.4",
+    "votes": "248184",
+    "genres": "Comedy,Drama,War"
+  },
+  {
+    "id": "tt0043014",
+    "title": "Sunset Boulevard",
+    "year": "1950",
+    "rating": "8.4",
+    "votes": "248131",
+    "genres": "Drama,Film-Noir"
+  },
+  {
+    "id": "tt0050825",
+    "title": "Paths of Glory",
+    "year": "1957",
+    "rating": "8.4",
+    "votes": "225349",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0051201",
+    "title": "Witness for the Prosecution",
+    "year": "1957",
+    "rating": "8.4",
+    "votes": "149364",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt8267604",
+    "title": "Capernaum",
+    "year": "2018",
+    "rating": "8.4",
+    "votes": "115435",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt26548265",
+    "title": "Maharaja",
+    "year": "2024",
+    "rating": "8.4",
+    "votes": "66651",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0057565",
+    "title": "High and Low",
+    "year": "1963",
+    "rating": "8.4",
+    "votes": "59553",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt21626284",
+    "title": "Lost Ladies",
+    "year": "2023",
+    "rating": "8.4",
+    "votes": "50621",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt9900782",
+    "title": "Kaithi",
+    "year": "2019",
+    "rating": "8.4",
+    "votes": "46256",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt3417422",
+    "title": "Drishyam",
+    "year": "2013",
+    "rating": "8.4",
+    "votes": "45752",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt12361178",
+    "title": "Drishyam 2",
+    "year": "2021",
+    "rating": "8.4",
+    "votes": "42809",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt9477520",
+    "title": "Asuran",
+    "year": "2019",
+    "rating": "8.4",
+    "votes": "35466",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt7286456",
+    "title": "Joker",
+    "year": "2019",
+    "rating": "8.3",
+    "votes": "1602200",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0169547",
+    "title": "American Beauty",
+    "year": "1999",
+    "rating": "8.3",
+    "votes": "1246367",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1049413",
+    "title": "Up",
+    "year": "2009",
+    "rating": "8.3",
+    "votes": "1177381",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0086190",
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "year": "1983",
+    "rating": "8.3",
+    "votes": "1160829",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0338013",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": "2004",
+    "rating": "8.3",
+    "votes": "1133007",
+    "genres": "Drama,Romance,Sci-Fi"
+  },
+  {
+    "id": "tt0119217",
+    "title": "Good Will Hunting",
+    "year": "1997",
+    "rating": "8.3",
+    "votes": "1132530",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0105236",
+    "title": "Reservoir Dogs",
+    "year": "1992",
+    "rating": "8.3",
+    "votes": "1129221",
+    "genres": "Crime,Thriller"
+  },
+  {
+    "id": "tt0112573",
+    "title": "Braveheart",
+    "year": "1995",
+    "rating": "8.3",
+    "votes": "1126885",
+    "genres": "Biography,Drama,War"
+  },
+  {
+    "id": "tt0114709",
+    "title": "Toy Story",
+    "year": "1995",
+    "rating": "8.3",
+    "votes": "1118700",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0086250",
+    "title": "Scarface",
+    "year": "1983",
+    "rating": "8.3",
+    "votes": "961191",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0180093",
+    "title": "Requiem for a Dream",
+    "year": "2000",
+    "rating": "8.3",
+    "votes": "936029",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0435761",
+    "title": "Toy Story 3",
+    "year": "2010",
+    "rating": "8.3",
+    "votes": "928785",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt15398776",
+    "title": "Oppenheimer",
+    "year": "2023",
+    "rating": "8.3",
+    "votes": "879717",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0211915",
+    "title": "Amélie",
+    "year": "2001",
+    "rating": "8.3",
+    "votes": "816648",
+    "genres": "Comedy,Romance"
+  },
+  {
+    "id": "tt0113277",
+    "title": "Heat",
+    "year": "1995",
+    "rating": "8.3",
+    "votes": "754014",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0062622",
+    "title": "2001: A Space Odyssey",
+    "year": "1968",
+    "rating": "8.3",
+    "votes": "751258",
+    "genres": "Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0364569",
+    "title": "Oldboy",
+    "year": "2003",
+    "rating": "8.3",
+    "votes": "676041",
+    "genres": "Action,Drama,Mystery"
+  },
+  {
+    "id": "tt0057012",
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "year": "1964",
+    "rating": "8.3",
+    "votes": "536558",
+    "genres": "Comedy,War"
+  },
+  {
+    "id": "tt0033467",
+    "title": "Citizen Kane",
+    "year": "1941",
+    "rating": "8.3",
+    "votes": "479916",
+    "genres": "Drama,Mystery"
+  },
+  {
+    "id": "tt0119698",
+    "title": "Princess Mononoke",
+    "year": "1997",
+    "rating": "8.3",
+    "votes": "458305",
+    "genres": "Animation,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0052357",
+    "title": "Vertigo",
+    "year": "1958",
+    "rating": "8.3",
+    "votes": "443798",
+    "genres": "Mystery,Romance,Thriller"
+  },
+  {
+    "id": "tt0087843",
+    "title": "Once Upon a Time in America",
+    "year": "1984",
+    "rating": "8.3",
+    "votes": "393842",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt2106476",
+    "title": "The Hunt",
+    "year": "2012",
+    "rating": "8.3",
+    "votes": "386581",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0053125",
+    "title": "North by Northwest",
+    "year": "1959",
+    "rating": "8.3",
+    "votes": "359629",
+    "genres": "Adventure,Drama,Mystery"
+  },
+  {
+    "id": "tt0056592",
+    "title": "To Kill a Mockingbird",
+    "year": "1962",
+    "rating": "8.3",
+    "votes": "342519",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0056172",
+    "title": "Lawrence of Arabia",
+    "year": "1962",
+    "rating": "8.3",
+    "votes": "328186",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0070735",
+    "title": "The Sting",
+    "year": "1973",
+    "rating": "8.3",
+    "votes": "289506",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0045152",
+    "title": "Singin' in the Rain",
+    "year": "1952",
+    "rating": "8.3",
+    "votes": "271799",
+    "genres": "Comedy,Musical,Romance"
+  },
+  {
+    "id": "tt1832382",
+    "title": "A Separation",
+    "year": "2011",
+    "rating": "8.3",
+    "votes": "268517",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1255953",
+    "title": "Incendies",
+    "year": "2010",
+    "rating": "8.3",
+    "votes": "225694",
+    "genres": "Drama,Mystery,War"
+  },
+  {
+    "id": "tt5074352",
+    "title": "Dangal",
+    "year": "2016",
+    "rating": "8.3",
+    "votes": "224317",
+    "genres": "Action,Biography,Drama"
+  },
+  {
+    "id": "tt0986264",
+    "title": "Like Stars on Earth",
+    "year": "2007",
+    "rating": "8.3",
+    "votes": "216831",
+    "genres": "Drama,Family"
+  },
+  {
+    "id": "tt0053604",
+    "title": "The Apartment",
+    "year": "1960",
+    "rating": "8.3",
+    "votes": "208227",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0017136",
+    "title": "Metropolis",
+    "year": "1927",
+    "rating": "8.3",
+    "votes": "193637",
+    "genres": "Drama,Sci-Fi"
+  },
+  {
+    "id": "tt0022100",
+    "title": "M",
+    "year": "1931",
+    "rating": "8.3",
+    "votes": "176430",
+    "genres": "Crime,Mystery,Thriller"
+  },
+  {
+    "id": "tt0036775",
+    "title": "Double Indemnity",
+    "year": "1944",
+    "rating": "8.3",
+    "votes": "174386",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt10295212",
+    "title": "Shershaah",
+    "year": "2021",
+    "rating": "8.3",
+    "votes": "132130",
+    "genres": "Action,Biography,Drama"
+  },
+  {
+    "id": "tt8503618",
+    "title": "Hamilton",
+    "year": "2020",
+    "rating": "8.3",
+    "votes": "126752",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0091251",
+    "title": "Come and See",
+    "year": "1985",
+    "rating": "8.3",
+    "votes": "110972",
+    "genres": "Drama,Thriller,War"
+  },
+  {
+    "id": "tt14961016",
+    "title": "I'm Still Here",
+    "year": "2024",
+    "rating": "8.3",
+    "votes": "103163",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0044741",
+    "title": "Ikiru",
+    "year": "1952",
+    "rating": "8.3",
+    "votes": "95909",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0055031",
+    "title": "Judgment at Nuremberg",
+    "year": "1961",
+    "rating": "8.3",
+    "votes": "90986",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt9179430",
+    "title": "Vikram",
+    "year": "2022",
+    "rating": "8.3",
+    "votes": "80416",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt9052870",
+    "title": "Chhichhore",
+    "year": "2019",
+    "rating": "8.3",
+    "votes": "67641",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt7060344",
+    "title": "Raatchasan",
+    "year": "2018",
+    "rating": "8.3",
+    "votes": "53561",
+    "genres": "Crime,Mystery,Thriller"
+  },
+  {
+    "id": "tt10280296",
+    "title": "Sardar Udham",
+    "year": "2021",
+    "rating": "8.3",
+    "votes": "49029",
+    "genres": "Crime,Drama,History"
+  },
+  {
+    "id": "tt0993846",
+    "title": "The Wolf of Wall Street",
+    "year": "2013",
+    "rating": "8.2",
+    "votes": "1677997",
+    "genres": "Biography,Comedy,Crime"
+  },
+  {
+    "id": "tt0372784",
+    "title": "Batman Begins",
+    "year": "2005",
+    "rating": "8.2",
+    "votes": "1641496",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt1130884",
+    "title": "Shutter Island",
+    "year": "2010",
+    "rating": "8.2",
+    "votes": "1542842",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0120382",
+    "title": "The Truman Show",
+    "year": "1998",
+    "rating": "8.2",
+    "votes": "1272422",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0266697",
+    "title": "Kill Bill: Vol. 1",
+    "year": "2003",
+    "rating": "8.2",
+    "votes": "1247007",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0266543",
+    "title": "Finding Nemo",
+    "year": "2003",
+    "rating": "8.2",
+    "votes": "1156448",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0477348",
+    "title": "No Country for Old Men",
+    "year": "2007",
+    "rating": "8.2",
+    "votes": "1117368",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0107290",
+    "title": "Jurassic Park",
+    "year": "1993",
+    "rating": "8.2",
+    "votes": "1114781",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0167404",
+    "title": "The Sixth Sense",
+    "year": "1999",
+    "rating": "8.2",
+    "votes": "1096026",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0268978",
+    "title": "A Beautiful Mind",
+    "year": "2001",
+    "rating": "8.2",
+    "votes": "1019546",
+    "genres": "Biography,Drama,Mystery"
+  },
+  {
+    "id": "tt0095016",
+    "title": "Die Hard",
+    "year": "1988",
+    "rating": "8.2",
+    "votes": "987638",
+    "genres": "Action,Thriller"
+  },
+  {
+    "id": "tt0075314",
+    "title": "Taxi Driver",
+    "year": "1976",
+    "rating": "8.2",
+    "votes": "974808",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt10872600",
+    "title": "Spider-Man: No Way Home",
+    "year": "2021",
+    "rating": "8.2",
+    "votes": "945256",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0208092",
+    "title": "Snatch",
+    "year": "2000",
+    "rating": "8.2",
+    "votes": "943462",
+    "genres": "Comedy,Crime"
+  },
+  {
+    "id": "tt0066921",
+    "title": "A Clockwork Orange",
+    "year": "1971",
+    "rating": "8.2",
+    "votes": "909382",
+    "genres": "Crime,Sci-Fi"
+  },
+  {
+    "id": "tt1392214",
+    "title": "Prisoners",
+    "year": "2013",
+    "rating": "8.2",
+    "votes": "867103",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0097576",
+    "title": "Indiana Jones and the Last Crusade",
+    "year": "1989",
+    "rating": "8.2",
+    "votes": "836276",
+    "genres": "Action,Adventure"
+  },
+  {
+    "id": "tt0093058",
+    "title": "Full Metal Jacket",
+    "year": "1987",
+    "rating": "8.2",
+    "votes": "819432",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt1745960",
+    "title": "Top Gun: Maverick",
+    "year": "2022",
+    "rating": "8.2",
+    "votes": "769392",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt8579674",
+    "title": "1917",
+    "year": "2019",
+    "rating": "8.2",
+    "votes": "724252",
+    "genres": "Action,Drama,War"
+  },
+  {
+    "id": "tt0457430",
+    "title": "Pan's Labyrinth",
+    "year": "2006",
+    "rating": "8.2",
+    "votes": "723211",
+    "genres": "Drama,Fantasy,War"
+  },
+  {
+    "id": "tt0469494",
+    "title": "There Will Be Blood",
+    "year": "2007",
+    "rating": "8.2",
+    "votes": "668572",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0119488",
+    "title": "L.A. Confidential",
+    "year": "1997",
+    "rating": "8.2",
+    "votes": "639373",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt6966692",
+    "title": "Green Book",
+    "year": "2018",
+    "rating": "8.2",
+    "votes": "631208",
+    "genres": "Biography,Comedy,Drama"
+  },
+  {
+    "id": "tt0112641",
+    "title": "Casino",
+    "year": "1995",
+    "rating": "8.2",
+    "votes": "590085",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0071853",
+    "title": "Monty Python and the Holy Grail",
+    "year": "1975",
+    "rating": "8.2",
+    "votes": "586253",
+    "genres": "Adventure,Comedy,Fantasy"
+  },
+  {
+    "id": "tt0084787",
+    "title": "The Thing",
+    "year": "1982",
+    "rating": "8.2",
+    "votes": "496074",
+    "genres": "Horror,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt0347149",
+    "title": "Howl's Moving Castle",
+    "year": "2004",
+    "rating": "8.2",
+    "votes": "480633",
+    "genres": "Animation,Adventure,Family"
+  },
+  {
+    "id": "tt0105695",
+    "title": "Unforgiven",
+    "year": "1992",
+    "rating": "8.2",
+    "votes": "453160",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt0363163",
+    "title": "Downfall",
+    "year": "2004",
+    "rating": "8.2",
+    "votes": "387342",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0031381",
+    "title": "Gone with the Wind",
+    "year": "1939",
+    "rating": "8.2",
+    "votes": "345467",
+    "genres": "Drama,Romance,War"
+  },
+  {
+    "id": "tt0053291",
+    "title": "Some Like It Hot",
+    "year": "1959",
+    "rating": "8.2",
+    "votes": "294212",
+    "genres": "Comedy,Music,Romance"
+  },
+  {
+    "id": "tt0059578",
+    "title": "For a Few Dollars More",
+    "year": "1965",
+    "rating": "8.2",
+    "votes": "287302",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt0080678",
+    "title": "The Elephant Man",
+    "year": "1980",
+    "rating": "8.2",
+    "votes": "271883",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0057115",
+    "title": "The Great Escape",
+    "year": "1963",
+    "rating": "8.2",
+    "votes": "267642",
+    "genres": "Adventure,Drama,Thriller"
+  },
+  {
+    "id": "tt1305806",
+    "title": "The Secret in Their Eyes",
+    "year": "2009",
+    "rating": "8.2",
+    "votes": "231799",
+    "genres": "Drama,Mystery,Romance"
+  },
+  {
+    "id": "tt4729430",
+    "title": "Klaus",
+    "year": "2019",
+    "rating": "8.2",
+    "votes": "213003",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt10272386",
+    "title": "The Father",
+    "year": "2020",
+    "rating": "8.2",
+    "votes": "211630",
+    "genres": "Drama,Mystery"
+  },
+  {
+    "id": "tt0046912",
+    "title": "Dial M for Murder",
+    "year": "1954",
+    "rating": "8.2",
+    "votes": "197241",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0042876",
+    "title": "Rashomon",
+    "year": "1950",
+    "rating": "8.2",
+    "votes": "188757",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0040522",
+    "title": "Bicycle Thieves",
+    "year": "1948",
+    "rating": "8.2",
+    "votes": "184625",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt29623480",
+    "title": "The Wild Robot",
+    "year": "2024",
+    "rating": "8.2",
+    "votes": "160247",
+    "genres": "Animation,Sci-Fi"
+  },
+  {
+    "id": "tt10698680",
+    "title": "K.G.F: Chapter 2",
+    "year": "2022",
+    "rating": "8.2",
+    "votes": "158247",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0042192",
+    "title": "All About Eve",
+    "year": "1950",
+    "rating": "8.2",
+    "votes": "144178",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0089881",
+    "title": "Ran",
+    "year": "1985",
+    "rating": "8.2",
+    "votes": "142982",
+    "genres": "Action,Drama,War"
+  },
+  {
+    "id": "tt0012349",
+    "title": "The Kid",
+    "year": "1921",
+    "rating": "8.2",
+    "votes": "140655",
+    "genres": "Comedy,Drama,Family"
+  },
+  {
+    "id": "tt0055630",
+    "title": "Yojimbo",
+    "year": "1961",
+    "rating": "8.2",
+    "votes": "137153",
+    "genres": "Action,Drama,Thriller"
+  },
+  {
+    "id": "tt0040897",
+    "title": "The Treasure of the Sierra Madre",
+    "year": "1948",
+    "rating": "8.2",
+    "votes": "136981",
+    "genres": "Adventure,Drama,Western"
+  },
+  {
+    "id": "tt4849438",
+    "title": "Baahubali 2: The Conclusion",
+    "year": "2017",
+    "rating": "8.2",
+    "votes": "122910",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt8108198",
+    "title": "Andhadhun",
+    "year": "2018",
+    "rating": "8.2",
+    "votes": "108099",
+    "genres": "Crime,Mystery,Thriller"
+  },
+  {
+    "id": "tt15327088",
+    "title": "Kantara",
+    "year": "2022",
+    "rating": "8.2",
+    "votes": "107497",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt1954470",
+    "title": "Gangs of Wasseypur",
+    "year": "2012",
+    "rating": "8.2",
+    "votes": "107221",
+    "genres": "Action,Comedy,Crime"
+  },
+  {
+    "id": "tt7838252",
+    "title": "K.G.F: Chapter 1",
+    "year": "2018",
+    "rating": "8.2",
+    "votes": "104344",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0367110",
+    "title": "Swades",
+    "year": "2004",
+    "rating": "8.2",
+    "votes": "101375",
+    "genres": "Drama,Musical"
+  },
+  {
+    "id": "tt4430212",
+    "title": "Drishyam",
+    "year": "2015",
+    "rating": "8.2",
+    "votes": "100676",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0476735",
+    "title": "My Father and My Son",
+    "year": "2005",
+    "rating": "8.2",
+    "votes": "96992",
+    "genres": "Drama,Family"
+  },
+  {
+    "id": "tt1562872",
+    "title": "Zindagi Na Milegi Dobara",
+    "year": "2011",
+    "rating": "8.2",
+    "votes": "90094",
+    "genres": "Comedy,Drama,Musical"
+  },
+  {
+    "id": "tt0118849",
+    "title": "Children of Heaven",
+    "year": "1997",
+    "rating": "8.2",
+    "votes": "85276",
+    "genres": "Drama,Family,Sport"
+  },
+  {
+    "id": "tt11032374",
+    "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+    "year": "2020",
+    "rating": "8.2",
+    "votes": "83287",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0242519",
+    "title": "Hera Pheri",
+    "year": "2000",
+    "rating": "8.2",
+    "votes": "75775",
+    "genres": "Action,Comedy,Crime"
+  },
+  {
+    "id": "tt8291224",
+    "title": "Uri: The Surgical Strike",
+    "year": "2019",
+    "rating": "8.2",
+    "votes": "75635",
+    "genres": "Action,Drama,History"
+  },
+  {
+    "id": "tt2356180",
+    "title": "Bhaag Milkha Bhaag",
+    "year": "2013",
+    "rating": "8.2",
+    "votes": "74417",
+    "genres": "Biography,Drama,Sport"
+  },
+  {
+    "id": "tt8239946",
+    "title": "Tumbbad",
+    "year": "2018",
+    "rating": "8.2",
+    "votes": "67857",
+    "genres": "Drama,Fantasy,Horror"
+  },
+  {
+    "id": "tt0015324",
+    "title": "Sherlock Jr.",
+    "year": "1924",
+    "rating": "8.2",
+    "votes": "61468",
+    "genres": "Action,Comedy,Romance"
+  },
+  {
+    "id": "tt10431500",
+    "title": "Miracle in Cell No. 7",
+    "year": "2019",
+    "rating": "8.2",
+    "votes": "58998",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt6148156",
+    "title": "Vikram Vedha",
+    "year": "2017",
+    "rating": "8.2",
+    "votes": "52717",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt15501640",
+    "title": "Drishyam 2",
+    "year": "2022",
+    "rating": "8.2",
+    "votes": "48404",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt6316138",
+    "title": "Ayla: The Daughter of War",
+    "year": "2017",
+    "rating": "8.2",
+    "votes": "45887",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0048473",
+    "title": "Pather Panchali",
+    "year": "1955",
+    "rating": "8.2",
+    "votes": "40057",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1620933",
+    "title": "Paan Singh Tomar",
+    "year": "2012",
+    "rating": "8.2",
+    "votes": "38899",
+    "genres": "Action,Biography,Crime"
+  },
+  {
+    "id": "tt0071411",
+    "title": "Dersu Uzala",
+    "year": "1975",
+    "rating": "8.2",
+    "votes": "34933",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0045274",
+    "title": "Umberto D.",
+    "year": "1952",
+    "rating": "8.2",
+    "votes": "29523",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt7392212",
+    "title": "Rangasthalam",
+    "year": "2018",
+    "rating": "8.2",
+    "votes": "29212",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt0049902",
+    "title": "A Man Escaped",
+    "year": "1956",
+    "rating": "8.2",
+    "votes": "28831",
+    "genres": "Drama,Thriller,War"
+  },
+  {
+    "id": "tt26458038",
+    "title": "Manjummel Boys",
+    "year": "2024",
+    "rating": "8.2",
+    "votes": "27142",
+    "genres": "Adventure,Drama,Thriller"
+  },
+  {
+    "id": "tt0466460",
+    "title": "Khosla Ka Ghosla!",
+    "year": "2006",
+    "rating": "8.2",
+    "votes": "25783",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0325980",
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": "2003",
+    "rating": "8.1",
+    "votes": "1261691",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0434409",
+    "title": "V for Vendetta",
+    "year": "2005",
+    "rating": "8.1",
+    "votes": "1212321",
+    "genres": "Action,Drama,Sci-Fi"
+  },
+  {
+    "id": "tt1392190",
+    "title": "Mad Max: Fury Road",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "1161560",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0264464",
+    "title": "Catch Me If You Can",
+    "year": "2002",
+    "rating": "8.1",
+    "votes": "1159465",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt2267998",
+    "title": "Gone Girl",
+    "year": "2014",
+    "rating": "8.1",
+    "votes": "1117129",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0198781",
+    "title": "Monsters, Inc.",
+    "year": "2001",
+    "rating": "8.1",
+    "votes": "1024229",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt1201607",
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": "2011",
+    "rating": "8.1",
+    "votes": "993597",
+    "genres": "Adventure,Family,Fantasy"
+  },
+  {
+    "id": "tt0088247",
+    "title": "The Terminator",
+    "year": "1984",
+    "rating": "8.1",
+    "votes": "961529",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt2278388",
+    "title": "The Grand Budapest Hotel",
+    "year": "2014",
+    "rating": "8.1",
+    "votes": "923566",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0118715",
+    "title": "The Big Lebowski",
+    "year": "1998",
+    "rating": "8.1",
+    "votes": "888283",
+    "genres": "Comedy,Crime"
+  },
+  {
+    "id": "tt3315342",
+    "title": "Logan",
+    "year": "2017",
+    "rating": "8.1",
+    "votes": "886544",
+    "genres": "Action,Drama,Sci-Fi"
+  },
+  {
+    "id": "tt0382932",
+    "title": "Ratatouille",
+    "year": "2007",
+    "rating": "8.1",
+    "votes": "880873",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt2096673",
+    "title": "Inside Out",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "863446",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0083658",
+    "title": "Blade Runner",
+    "year": "1982",
+    "rating": "8.1",
+    "votes": "852073",
+    "genres": "Action,Drama,Sci-Fi"
+  },
+  {
+    "id": "tt0892769",
+    "title": "How to Train Your Dragon",
+    "year": "2010",
+    "rating": "8.1",
+    "votes": "840456",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt1205489",
+    "title": "Gran Torino",
+    "year": "2008",
+    "rating": "8.1",
+    "votes": "837328",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt2024544",
+    "title": "12 Years a Slave",
+    "year": "2013",
+    "rating": "8.1",
+    "votes": "762964",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0116282",
+    "title": "Fargo",
+    "year": "1996",
+    "rating": "8.1",
+    "votes": "753860",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0117951",
+    "title": "Trainspotting",
+    "year": "1996",
+    "rating": "8.1",
+    "votes": "747656",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0405159",
+    "title": "Million Dollar Baby",
+    "year": "2004",
+    "rating": "8.1",
+    "votes": "744585",
+    "genres": "Drama,Sport"
+  },
+  {
+    "id": "tt0073195",
+    "title": "Jaws",
+    "year": "1975",
+    "rating": "8.1",
+    "votes": "691972",
+    "genres": "Adventure,Drama,Horror"
+  },
+  {
+    "id": "tt0075148",
+    "title": "Rocky",
+    "year": "1976",
+    "rating": "8.1",
+    "votes": "657621",
+    "genres": "Drama,Sport"
+  },
+  {
+    "id": "tt2119532",
+    "title": "Hacksaw Ridge",
+    "year": "2016",
+    "rating": "8.1",
+    "votes": "634094",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0120735",
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "year": "1998",
+    "rating": "8.1",
+    "votes": "633742",
+    "genres": "Comedy,Crime"
+  },
+  {
+    "id": "tt0097165",
+    "title": "Dead Poets Society",
+    "year": "1989",
+    "rating": "8.1",
+    "votes": "588149",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt5027774",
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "year": "2017",
+    "rating": "8.1",
+    "votes": "581014",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt1979320",
+    "title": "Rush",
+    "year": "2013",
+    "rating": "8.1",
+    "votes": "532666",
+    "genres": "Biography,Drama,Sport"
+  },
+  {
+    "id": "tt1950186",
+    "title": "Ford v Ferrari",
+    "year": "2019",
+    "rating": "8.1",
+    "votes": "519112",
+    "genres": "Action,Biography,Drama"
+  },
+  {
+    "id": "tt1895587",
+    "title": "Spotlight",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "517434",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt1291584",
+    "title": "Warrior",
+    "year": "2011",
+    "rating": "8.1",
+    "votes": "512948",
+    "genres": "Action,Drama,Sport"
+  },
+  {
+    "id": "tt1454029",
+    "title": "The Help",
+    "year": "2011",
+    "rating": "8.1",
+    "votes": "511406",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0070047",
+    "title": "The Exorcist",
+    "year": "1973",
+    "rating": "8.1",
+    "votes": "476173",
+    "genres": "Horror"
+  },
+  {
+    "id": "tt3170832",
+    "title": "Room",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "466730",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0092005",
+    "title": "Stand by Me",
+    "year": "1986",
+    "rating": "8.1",
+    "votes": "462755",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0091763",
+    "title": "Platoon",
+    "year": "1986",
+    "rating": "8.1",
+    "votes": "454877",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0032138",
+    "title": "The Wizard of Oz",
+    "year": "1939",
+    "rating": "8.1",
+    "votes": "449250",
+    "genres": "Adventure,Family,Fantasy"
+  },
+  {
+    "id": "tt0096283",
+    "title": "My Neighbor Totoro",
+    "year": "1988",
+    "rating": "8.1",
+    "votes": "405321",
+    "genres": "Animation,Comedy,Family"
+  },
+  {
+    "id": "tt0081398",
+    "title": "Raging Bull",
+    "year": "1980",
+    "rating": "8.1",
+    "votes": "394610",
+    "genres": "Biography,Drama,Sport"
+  },
+  {
+    "id": "tt0395169",
+    "title": "Hotel Rwanda",
+    "year": "2004",
+    "rating": "8.1",
+    "votes": "383003",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0077416",
+    "title": "The Deer Hunter",
+    "year": "1978",
+    "rating": "8.1",
+    "votes": "374574",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0071315",
+    "title": "Chinatown",
+    "year": "1974",
+    "rating": "8.1",
+    "votes": "363912",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0112471",
+    "title": "Before Sunrise",
+    "year": "1995",
+    "rating": "8.1",
+    "votes": "357552",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt1028532",
+    "title": "Hachi: A Dog's Tale",
+    "year": "2009",
+    "rating": "8.1",
+    "votes": "327023",
+    "genres": "Biography,Drama,Family"
+  },
+  {
+    "id": "tt0381681",
+    "title": "Before Sunset",
+    "year": "2004",
+    "rating": "8.1",
+    "votes": "301062",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0059742",
+    "title": "The Sound of Music",
+    "year": "1965",
+    "rating": "8.1",
+    "votes": "275077",
+    "genres": "Biography,Drama,Family"
+  },
+  {
+    "id": "tt0052618",
+    "title": "Ben-Hur",
+    "year": "1959",
+    "rating": "8.1",
+    "votes": "262308",
+    "genres": "Adventure,Drama"
+  },
+  {
+    "id": "tt0129167",
+    "title": "The Iron Giant",
+    "year": "1999",
+    "rating": "8.1",
+    "votes": "243507",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0050212",
+    "title": "The Bridge on the River Kwai",
+    "year": "1957",
+    "rating": "8.1",
+    "votes": "241116",
+    "genres": "Adventure,Drama,War"
+  },
+  {
+    "id": "tt0353969",
+    "title": "Memories of Murder",
+    "year": "2003",
+    "rating": "8.1",
+    "votes": "239167",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt3011894",
+    "title": "Wild Tales",
+    "year": "2014",
+    "rating": "8.1",
+    "votes": "227413",
+    "genres": "Comedy,Drama,Thriller"
+  },
+  {
+    "id": "tt0113247",
+    "title": "La haine",
+    "year": "1995",
+    "rating": "8.1",
+    "votes": "210556",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt2338151",
+    "title": "PK",
+    "year": "2014",
+    "rating": "8.1",
+    "votes": "210016",
+    "genres": "Comedy,Drama,Sci-Fi"
+  },
+  {
+    "id": "tt0050976",
+    "title": "The Seventh Seal",
+    "year": "1957",
+    "rating": "8.1",
+    "votes": "207598",
+    "genres": "Drama,Fantasy"
+  },
+  {
+    "id": "tt0978762",
+    "title": "Mary and Max",
+    "year": "2009",
+    "rating": "8.1",
+    "votes": "195402",
+    "genres": "Animation,Comedy,Drama"
+  },
+  {
+    "id": "tt0107207",
+    "title": "In the Name of the Father",
+    "year": "1993",
+    "rating": "8.1",
+    "votes": "195207",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0072684",
+    "title": "Barry Lyndon",
+    "year": "1975",
+    "rating": "8.1",
+    "votes": "192431",
+    "genres": "Adventure,Drama,War"
+  },
+  {
+    "id": "tt0041959",
+    "title": "The Third Man",
+    "year": "1949",
+    "rating": "8.1",
+    "votes": "189170",
+    "genres": "Drama,Film-Noir,Mystery"
+  },
+  {
+    "id": "tt4016934",
+    "title": "The Handmaiden",
+    "year": "2016",
+    "rating": "8.1",
+    "votes": "187139",
+    "genres": "Drama,Romance,Thriller"
+  },
+  {
+    "id": "tt0074958",
+    "title": "Network",
+    "year": "1976",
+    "rating": "8.1",
+    "votes": "178712",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0118694",
+    "title": "In the Mood for Love",
+    "year": "2000",
+    "rating": "8.1",
+    "votes": "176392",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0047296",
+    "title": "On the Waterfront",
+    "year": "1954",
+    "rating": "8.1",
+    "votes": "171725",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0032976",
+    "title": "Rebecca",
+    "year": "1940",
+    "rating": "8.1",
+    "votes": "157250",
+    "genres": "Drama,Mystery,Romance"
+  },
+  {
+    "id": "tt0087884",
+    "title": "Paris, Texas",
+    "year": "1984",
+    "rating": "8.1",
+    "votes": "130747",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0031679",
+    "title": "Mr. Smith Goes to Washington",
+    "year": "1939",
+    "rating": "8.1",
+    "votes": "125555",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0405508",
+    "title": "Rang De Basanti",
+    "year": "2006",
+    "rating": "8.1",
+    "votes": "124204",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0169102",
+    "title": "Lagaan: Once Upon a Time in India",
+    "year": "2001",
+    "rating": "8.1",
+    "votes": "123643",
+    "genres": "Drama,Musical,Sport"
+  },
+  {
+    "id": "tt0015864",
+    "title": "The Gold Rush",
+    "year": "1925",
+    "rating": "8.1",
+    "votes": "123323",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0050986",
+    "title": "Wild Strawberries",
+    "year": "1957",
+    "rating": "8.1",
+    "votes": "119975",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt5323662",
+    "title": "A Silent Voice: The Movie",
+    "year": "2016",
+    "rating": "8.1",
+    "votes": "118845",
+    "genres": "Animation,Drama"
+  },
+  {
+    "id": "tt8613070",
+    "title": "Portrait of a Lady on Fire",
+    "year": "2019",
+    "rating": "8.1",
+    "votes": "118357",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0025316",
+    "title": "It Happened One Night",
+    "year": "1934",
+    "rating": "8.1",
+    "votes": "116511",
+    "genres": "Comedy,Romance"
+  },
+  {
+    "id": "tt0111495",
+    "title": "Three Colors: Red",
+    "year": "1994",
+    "rating": "8.1",
+    "votes": "113586",
+    "genres": "Drama,Mystery,Romance"
+  },
+  {
+    "id": "tt0032551",
+    "title": "The Grapes of Wrath",
+    "year": "1940",
+    "rating": "8.1",
+    "votes": "104105",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt3863552",
+    "title": "Bajrangi Bhaijaan",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "104085",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt0017925",
+    "title": "The General",
+    "year": "1926",
+    "rating": "8.1",
+    "votes": "102326",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt0374887",
+    "title": "Munna Bhai M.B.B.S.",
+    "year": "2003",
+    "rating": "8.1",
+    "votes": "91697",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt2082197",
+    "title": "Barfi!",
+    "year": "2012",
+    "rating": "8.1",
+    "votes": "89766",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0871510",
+    "title": "Chak De! India",
+    "year": "2007",
+    "rating": "8.1",
+    "votes": "86972",
+    "genres": "Drama,Family,Sport"
+  },
+  {
+    "id": "tt0056217",
+    "title": "The Man Who Shot Liberty Valance",
+    "year": "1962",
+    "rating": "8.1",
+    "votes": "85469",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt1280558",
+    "title": "A Wednesday",
+    "year": "2008",
+    "rating": "8.1",
+    "votes": "83984",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0036868",
+    "title": "The Best Years of Our Lives",
+    "year": "1946",
+    "rating": "8.1",
+    "votes": "74099",
+    "genres": "Drama,Romance,War"
+  },
+  {
+    "id": "tt0116231",
+    "title": "The Bandit",
+    "year": "1996",
+    "rating": "8.1",
+    "votes": "73827",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0046438",
+    "title": "Tokyo Story",
+    "year": "1953",
+    "rating": "8.1",
+    "votes": "73449",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0046911",
+    "title": "Diabolique",
+    "year": "1955",
+    "rating": "8.1",
+    "votes": "71349",
+    "genres": "Crime,Drama,Horror"
+  },
+  {
+    "id": "tt0058946",
+    "title": "The Battle of Algiers",
+    "year": "1966",
+    "rating": "8.1",
+    "votes": "70660",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0169858",
+    "title": "Neon Genesis Evangelion: The End of Evangelion",
+    "year": "1997",
+    "rating": "8.1",
+    "votes": "70060",
+    "genres": "Animation,Action,Drama"
+  },
+  {
+    "id": "tt0046268",
+    "title": "The Wages of Fear",
+    "year": "1953",
+    "rating": "8.1",
+    "votes": "70039",
+    "genres": "Adventure,Drama,Thriller"
+  },
+  {
+    "id": "tt0020629",
+    "title": "All Quiet on the Western Front",
+    "year": "1930",
+    "rating": "8.1",
+    "votes": "69833",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt3322420",
+    "title": "Queen",
+    "year": "2013",
+    "rating": "8.1",
+    "votes": "69662",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0083922",
+    "title": "Fanny and Alexander",
+    "year": "1982",
+    "rating": "8.1",
+    "votes": "69349",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt2283748",
+    "title": "OMG: Oh My God!",
+    "year": "2012",
+    "rating": "8.1",
+    "votes": "67937",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt1821480",
+    "title": "Kahaani",
+    "year": "2012",
+    "rating": "8.1",
+    "votes": "67586",
+    "genres": "Mystery,Thriller"
+  },
+  {
+    "id": "tt0019254",
+    "title": "The Passion of Joan of Arc",
+    "year": "1928",
+    "rating": "8.1",
+    "votes": "64519",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0073707",
+    "title": "Sholay",
+    "year": "1975",
+    "rating": "8.1",
+    "votes": "60519",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt0018455",
+    "title": "Sunrise",
+    "year": "1927",
+    "rating": "8.1",
+    "votes": "55297",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0050783",
+    "title": "Nights of Cabiria",
+    "year": "1957",
+    "rating": "8.1",
+    "votes": "54795",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0070510",
+    "title": "Paper Moon",
+    "year": "1973",
+    "rating": "8.1",
+    "votes": "54788",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0074896",
+    "title": "The Message",
+    "year": "1976",
+    "rating": "8.1",
+    "votes": "52445",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt2140203",
+    "title": "Wolf Children",
+    "year": "2012",
+    "rating": "8.1",
+    "votes": "51937",
+    "genres": "Animation,Drama,Family"
+  },
+  {
+    "id": "tt2991224",
+    "title": "Tangerines",
+    "year": "2013",
+    "rating": "8.1",
+    "votes": "50426",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt1639426",
+    "title": "Udaan",
+    "year": "2010",
+    "rating": "8.1",
+    "votes": "48438",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0035446",
+    "title": "To Be or Not to Be",
+    "year": "1942",
+    "rating": "8.1",
+    "votes": "46665",
+    "genres": "Comedy,Romance,War"
+  },
+  {
+    "id": "tt0040725",
+    "title": "The Red Shoes",
+    "year": "1948",
+    "rating": "8.1",
+    "votes": "41375",
+    "genres": "Drama,Music,Romance"
+  },
+  {
+    "id": "tt0043338",
+    "title": "Ace in the Hole",
+    "year": "1951",
+    "rating": "8.1",
+    "votes": "40729",
+    "genres": "Drama,Film-Noir"
+  },
+  {
+    "id": "tt0028950",
+    "title": "The Grand Illusion",
+    "year": "1937",
+    "rating": "8.1",
+    "votes": "40059",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0077711",
+    "title": "Autumn Sonata",
+    "year": "1978",
+    "rating": "8.1",
+    "votes": "39782",
+    "genres": "Drama,Music"
+  },
+  {
+    "id": "tt4934950",
+    "title": "Guilty",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "39562",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt10324144",
+    "title": "Article 15",
+    "year": "2019",
+    "rating": "8.1",
+    "votes": "38310",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0048021",
+    "title": "Rififi",
+    "year": "1955",
+    "rating": "8.1",
+    "votes": "37961",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0018773",
+    "title": "The Circus",
+    "year": "1928",
+    "rating": "8.1",
+    "votes": "37274",
+    "genres": "Comedy,Family,Romance"
+  },
+  {
+    "id": "tt0042041",
+    "title": "White Heat",
+    "year": "1949",
+    "rating": "8.1",
+    "votes": "37117",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0375611",
+    "title": "Black",
+    "year": "2005",
+    "rating": "8.1",
+    "votes": "36871",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0101640",
+    "title": "Raise the Red Lantern",
+    "year": "1991",
+    "rating": "8.1",
+    "votes": "36539",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0066763",
+    "title": "Anand",
+    "year": "1971",
+    "rating": "8.1",
+    "votes": "36360",
+    "genres": "Drama,Musical"
+  },
+  {
+    "id": "tt0106332",
+    "title": "Farewell My Concubine",
+    "year": "1993",
+    "rating": "8.1",
+    "votes": "35006",
+    "genres": "Drama,Music,Romance"
+  },
+  {
+    "id": "tt0053946",
+    "title": "Inherit the Wind",
+    "year": "1960",
+    "rating": "8.1",
+    "votes": "34119",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0097223",
+    "title": "Time of the Gypsies",
+    "year": "1988",
+    "rating": "8.1",
+    "votes": "33570",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt4635372",
+    "title": "Masaan",
+    "year": "2015",
+    "rating": "8.1",
+    "votes": "32971",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0065234",
+    "title": "Z",
+    "year": "1969",
+    "rating": "8.1",
+    "votes": "32614",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0244316",
+    "title": "Yi Yi",
+    "year": "2000",
+    "rating": "8.1",
+    "votes": "30309",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt7236034",
+    "title": "I Want to Eat Your Pancreas",
+    "year": "2018",
+    "rating": "8.1",
+    "votes": "29537",
+    "genres": "Animation,Drama,Family"
+  },
+  {
+    "id": "tt0263438",
+    "title": "Everything's Gonna Be Great",
+    "year": "1998",
+    "rating": "8.1",
+    "votes": "28891",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0091288",
+    "title": "Jean de Florette",
+    "year": "1986",
+    "rating": "8.1",
+    "votes": "28354",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0200087",
+    "title": "Sarfarosh",
+    "year": "1999",
+    "rating": "8.1",
+    "votes": "27898",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0064040",
+    "title": "Army of Shadows",
+    "year": "1969",
+    "rating": "8.1",
+    "votes": "27584",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0044008",
+    "title": "A Christmas Carol",
+    "year": "1951",
+    "rating": "8.1",
+    "votes": "27489",
+    "genres": "Drama,Family,Fantasy"
+  },
+  {
+    "id": "tt0095467",
+    "title": "A Short Film About Love",
+    "year": "1988",
+    "rating": "8.1",
+    "votes": "27163",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0046478",
+    "title": "Ugetsu",
+    "year": "1953",
+    "rating": "8.1",
+    "votes": "27047",
+    "genres": "Drama,Fantasy,War"
+  },
+  {
+    "id": "tt0428870",
+    "title": "A Moment to Remember",
+    "year": "2004",
+    "rating": "8.1",
+    "votes": "26390",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0351817",
+    "title": "The Twilight Samurai",
+    "year": "2002",
+    "rating": "8.1",
+    "votes": "26313",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0848228",
+    "title": "The Avengers",
+    "year": "2012",
+    "rating": "8",
+    "votes": "1503852",
+    "genres": "Action,Sci-Fi"
+  },
+  {
+    "id": "tt2015381",
+    "title": "Guardians of the Galaxy",
+    "year": "2014",
+    "rating": "8",
+    "votes": "1313542",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt1431045",
+    "title": "Deadpool",
+    "year": "2016",
+    "rating": "8",
+    "votes": "1202283",
+    "genres": "Action,Comedy,Sci-Fi"
+  },
+  {
+    "id": "tt3659388",
+    "title": "The Martian",
+    "year": "2015",
+    "rating": "8",
+    "votes": "965243",
+    "genres": "Adventure,Drama,Sci-Fi"
+  },
+  {
+    "id": "tt1160419",
+    "title": "Dune: Part One",
+    "year": "2021",
+    "rating": "8",
+    "votes": "951799",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt1663202",
+    "title": "The Revenant",
+    "year": "2015",
+    "rating": "8",
+    "votes": "909036",
+    "genres": "Adventure,Drama,Western"
+  },
+  {
+    "id": "tt1010048",
+    "title": "Slumdog Millionaire",
+    "year": "2008",
+    "rating": "8",
+    "votes": "894125",
+    "genres": "Crime,Drama,Romance"
+  },
+  {
+    "id": "tt0246578",
+    "title": "Donnie Darko",
+    "year": "2001",
+    "rating": "8",
+    "votes": "879851",
+    "genres": "Drama,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt0947798",
+    "title": "Black Swan",
+    "year": "2010",
+    "rating": "8",
+    "votes": "856374",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0317705",
+    "title": "The Incredibles",
+    "year": "2004",
+    "rating": "8",
+    "votes": "851766",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt2084970",
+    "title": "The Imitation Game",
+    "year": "2014",
+    "rating": "8",
+    "votes": "851223",
+    "genres": "Biography,Drama,Thriller"
+  },
+  {
+    "id": "tt0378194",
+    "title": "Kill Bill: Vol. 2",
+    "year": "2004",
+    "rating": "8",
+    "votes": "835738",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0401792",
+    "title": "Sin City",
+    "year": "2005",
+    "rating": "8",
+    "votes": "806371",
+    "genres": "Crime,Thriller"
+  },
+  {
+    "id": "tt1504320",
+    "title": "The King's Speech",
+    "year": "2010",
+    "rating": "8",
+    "votes": "720577",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0381061",
+    "title": "Casino Royale",
+    "year": "2006",
+    "rating": "8",
+    "votes": "716121",
+    "genres": "Action,Adventure,Thriller"
+  },
+  {
+    "id": "tt3783958",
+    "title": "La La Land",
+    "year": "2016",
+    "rating": "8",
+    "votes": "715933",
+    "genres": "Comedy,Drama,Music"
+  },
+  {
+    "id": "tt0107048",
+    "title": "Groundhog Day",
+    "year": "1993",
+    "rating": "8",
+    "votes": "714494",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt1856101",
+    "title": "Blade Runner 2049",
+    "year": "2017",
+    "rating": "8",
+    "votes": "710357",
+    "genres": "Action,Drama,Mystery"
+  },
+  {
+    "id": "tt1798709",
+    "title": "Her",
+    "year": "2013",
+    "rating": "8",
+    "votes": "699667",
+    "genres": "Drama,Romance,Sci-Fi"
+  },
+  {
+    "id": "tt0758758",
+    "title": "Into the Wild",
+    "year": "2007",
+    "rating": "8",
+    "votes": "677679",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0440963",
+    "title": "The Bourne Ultimatum",
+    "year": "2007",
+    "rating": "8",
+    "votes": "670418",
+    "genres": "Action,Mystery,Thriller"
+  },
+  {
+    "id": "tt0114746",
+    "title": "12 Monkeys",
+    "year": "1995",
+    "rating": "8",
+    "votes": "662960",
+    "genres": "Mystery,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt0450259",
+    "title": "Blood Diamond",
+    "year": "2006",
+    "rating": "8",
+    "votes": "605528",
+    "genres": "Adventure,Drama,Thriller"
+  },
+  {
+    "id": "tt0454921",
+    "title": "The Pursuit of Happyness",
+    "year": "2006",
+    "rating": "8",
+    "votes": "589545",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt2948356",
+    "title": "Zootopia",
+    "year": "2016",
+    "rating": "8",
+    "votes": "577360",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0095953",
+    "title": "Rain Man",
+    "year": "1988",
+    "rating": "8",
+    "votes": "563625",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0101414",
+    "title": "Beauty and the Beast",
+    "year": "1991",
+    "rating": "8",
+    "votes": "492202",
+    "genres": "Animation,Family,Fantasy"
+  },
+  {
+    "id": "tt0103639",
+    "title": "Aladdin",
+    "year": "1992",
+    "rating": "8",
+    "votes": "485407",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0319061",
+    "title": "Big Fish",
+    "year": "2003",
+    "rating": "8",
+    "votes": "468520",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt0093779",
+    "title": "The Princess Bride",
+    "year": "1987",
+    "rating": "8",
+    "votes": "464992",
+    "genres": "Adventure,Comedy,Family"
+  },
+  {
+    "id": "tt0079470",
+    "title": "Monty Python's Life of Brian",
+    "year": "1979",
+    "rating": "8",
+    "votes": "428281",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt2948372",
+    "title": "Soul",
+    "year": "2020",
+    "rating": "8",
+    "votes": "406229",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0105323",
+    "title": "Scent of a Woman",
+    "year": "1992",
+    "rating": "8",
+    "votes": "349250",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0175880",
+    "title": "Magnolia",
+    "year": "1999",
+    "rating": "8",
+    "votes": "337292",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0099348",
+    "title": "Dances with Wolves",
+    "year": "1990",
+    "rating": "8",
+    "votes": "300404",
+    "genres": "Adventure,Drama,Western"
+  },
+  {
+    "id": "tt0061722",
+    "title": "The Graduate",
+    "year": "1967",
+    "rating": "8",
+    "votes": "296023",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0072890",
+    "title": "Dog Day Afternoon",
+    "year": "1975",
+    "rating": "8",
+    "votes": "281271",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0245712",
+    "title": "Amores Perros",
+    "year": "2000",
+    "rating": "8",
+    "votes": "265743",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt3741834",
+    "title": "Lion",
+    "year": "2016",
+    "rating": "8",
+    "votes": "258926",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0063522",
+    "title": "Rosemary's Baby",
+    "year": "1968",
+    "rating": "8",
+    "votes": "247605",
+    "genres": "Drama,Horror"
+  },
+  {
+    "id": "tt0083987",
+    "title": "Gandhi",
+    "year": "1982",
+    "rating": "8",
+    "votes": "243705",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt1220719",
+    "title": "Ip Man",
+    "year": "2008",
+    "rating": "8",
+    "votes": "238171",
+    "genres": "Action,Biography,Drama"
+  },
+  {
+    "id": "tt0064115",
+    "title": "Butch Cassidy and the Sundance Kid",
+    "year": "1969",
+    "rating": "8",
+    "votes": "231883",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0094625",
+    "title": "Akira",
+    "year": "1988",
+    "rating": "8",
+    "votes": "215047",
+    "genres": "Animation,Drama,Fantasy"
+  },
+  {
+    "id": "tt0063442",
+    "title": "Planet of the Apes",
+    "year": "1968",
+    "rating": "8",
+    "votes": "204390",
+    "genres": "Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0352248",
+    "title": "Cinderella Man",
+    "year": "2005",
+    "rating": "8",
+    "votes": "203886",
+    "genres": "Biography,Drama,Romance"
+  },
+  {
+    "id": "tt4857264",
+    "title": "The Invisible Guest",
+    "year": "2016",
+    "rating": "8",
+    "votes": "201903",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0061512",
+    "title": "Cool Hand Luke",
+    "year": "1967",
+    "rating": "8",
+    "votes": "194078",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0092067",
+    "title": "Castle in the Sky",
+    "year": "1986",
+    "rating": "8",
+    "votes": "190348",
+    "genres": "Animation,Adventure,Family"
+  },
+  {
+    "id": "tt0087544",
+    "title": "Nausicaä of the Valley of the Wind",
+    "year": "1984",
+    "rating": "8",
+    "votes": "190134",
+    "genres": "Animation,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt10366460",
+    "title": "CODA",
+    "year": "2021",
+    "rating": "8",
+    "votes": "177503",
+    "genres": "Comedy,Drama,Music"
+  },
+  {
+    "id": "tt0102138",
+    "title": "JFK",
+    "year": "1991",
+    "rating": "8",
+    "votes": "175967",
+    "genres": "Drama,History,Thriller"
+  },
+  {
+    "id": "tt0072431",
+    "title": "Young Frankenstein",
+    "year": "1974",
+    "rating": "8",
+    "votes": "175081",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0276919",
+    "title": "Dogville",
+    "year": "2003",
+    "rating": "8",
+    "votes": "163627",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0046250",
+    "title": "Roman Holiday",
+    "year": "1953",
+    "rating": "8",
+    "votes": "152464",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0079944",
+    "title": "Stalker",
+    "year": "1979",
+    "rating": "8",
+    "votes": "150874",
+    "genres": "Drama,Sci-Fi"
+  },
+  {
+    "id": "tt2631186",
+    "title": "Baahubali: The Beginning",
+    "year": "2015",
+    "rating": "8",
+    "votes": "144335",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt0070511",
+    "title": "Papillon",
+    "year": "1973",
+    "rating": "8",
+    "votes": "142020",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0060827",
+    "title": "Persona",
+    "year": "1966",
+    "rating": "8",
+    "votes": "135832",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0338564",
+    "title": "Infernal Affairs",
+    "year": "2002",
+    "rating": "8",
+    "votes": "134603",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0053198",
+    "title": "The 400 Blows",
+    "year": "1959",
+    "rating": "8",
+    "votes": "131230",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0056801",
+    "title": "8½",
+    "year": "1963",
+    "rating": "8",
+    "votes": "128954",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0097216",
+    "title": "Do the Right Thing",
+    "year": "1989",
+    "rating": "8",
+    "votes": "117989",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0861739",
+    "title": "Elite Squad",
+    "year": "2007",
+    "rating": "8",
+    "votes": "114701",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0401383",
+    "title": "The Diving Bell and the Butterfly",
+    "year": "2007",
+    "rating": "8",
+    "votes": "111649",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0156887",
+    "title": "Perfect Blue",
+    "year": "1997",
+    "rating": "8",
+    "votes": "107015",
+    "genres": "Animation,Crime,Drama"
+  },
+  {
+    "id": "tt0166896",
+    "title": "The Straight Story",
+    "year": "1999",
+    "rating": "8",
+    "votes": "103661",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0808417",
+    "title": "Persepolis",
+    "year": "2007",
+    "rating": "8",
+    "votes": "102701",
+    "genres": "Animation,Biography,Drama"
+  },
+  {
+    "id": "tt0048424",
+    "title": "The Night of the Hunter",
+    "year": "1955",
+    "rating": "8",
+    "votes": "102359",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0117666",
+    "title": "Sling Blade",
+    "year": "1996",
+    "rating": "8",
+    "votes": "101682",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0154420",
+    "title": "The Celebration",
+    "year": "1998",
+    "rating": "8",
+    "votes": "97405",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1555149",
+    "title": "Elite Squad 2: The Enemy Within",
+    "year": "2010",
+    "rating": "8",
+    "votes": "89357",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0374546",
+    "title": "Spring, Summer, Fall, Winter... and Spring",
+    "year": "2003",
+    "rating": "8",
+    "votes": "88808",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0084503",
+    "title": "Pink Floyd: The Wall",
+    "year": "1982",
+    "rating": "8",
+    "votes": "87633",
+    "genres": "Drama,Fantasy,Music"
+  },
+  {
+    "id": "tt0369702",
+    "title": "The Sea Inside",
+    "year": "2004",
+    "rating": "8",
+    "votes": "86853",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0053779",
+    "title": "La Dolce Vita",
+    "year": "1960",
+    "rating": "8",
+    "votes": "82313",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0061184",
+    "title": "Who's Afraid of Virginia Woolf?",
+    "year": "1966",
+    "rating": "8",
+    "votes": "82237",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0112870",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "year": "1995",
+    "rating": "8",
+    "votes": "79895",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0292490",
+    "title": "Dil Chahta Hai",
+    "year": "2001",
+    "rating": "8",
+    "votes": "77734",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0052561",
+    "title": "Anatomy of a Murder",
+    "year": "1959",
+    "rating": "8",
+    "votes": "74887",
+    "genres": "Drama,Mystery"
+  },
+  {
+    "id": "tt0010323",
+    "title": "The Cabinet of Dr. Caligari",
+    "year": "1920",
+    "rating": "8",
+    "votes": "73295",
+    "genres": "Horror,Mystery,Thriller"
+  },
+  {
+    "id": "tt4169250",
+    "title": "M.S. Dhoni: The Untold Story",
+    "year": "2016",
+    "rating": "8",
+    "votes": "71600",
+    "genres": "Biography,Drama,Sport"
+  },
+  {
+    "id": "tt0120731",
+    "title": "The Legend of 1900",
+    "year": "1998",
+    "rating": "8",
+    "votes": "71289",
+    "genres": "Drama,Music,Romance"
+  },
+  {
+    "id": "tt0053221",
+    "title": "Rio Bravo",
+    "year": "1959",
+    "rating": "8",
+    "votes": "70816",
+    "genres": "Western"
+  },
+  {
+    "id": "tt0384116",
+    "title": "G.O.R.A.",
+    "year": "2004",
+    "rating": "8",
+    "votes": "69168",
+    "genres": "Adventure,Comedy,Sci-Fi"
+  },
+  {
+    "id": "tt0047528",
+    "title": "La Strada",
+    "year": "1954",
+    "rating": "8",
+    "votes": "68192",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1865505",
+    "title": "Song of the Sea",
+    "year": "2014",
+    "rating": "8",
+    "votes": "65590",
+    "genres": "Animation,Adventure,Drama"
+  },
+  {
+    "id": "tt0056687",
+    "title": "What Ever Happened to Baby Jane?",
+    "year": "1962",
+    "rating": "8",
+    "votes": "64733",
+    "genres": "Drama,Horror,Thriller"
+  },
+  {
+    "id": "tt3612616",
+    "title": "Mommy",
+    "year": "2014",
+    "rating": "8",
+    "votes": "63820",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0114787",
+    "title": "Underground",
+    "year": "1995",
+    "rating": "8",
+    "votes": "62694",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt0062229",
+    "title": "Le Samouraï",
+    "year": "1967",
+    "rating": "8",
+    "votes": "62216",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt2377938",
+    "title": "Special 26",
+    "year": "2013",
+    "rating": "8",
+    "votes": "60677",
+    "genres": "Crime,Drama,History"
+  },
+  {
+    "id": "tt3390572",
+    "title": "Haider",
+    "year": "2014",
+    "rating": "8",
+    "votes": "59282",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0060107",
+    "title": "Andrei Rublev",
+    "year": "1966",
+    "rating": "8",
+    "votes": "58799",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0050613",
+    "title": "Throne of Blood",
+    "year": "1957",
+    "rating": "8",
+    "votes": "57980",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt2576852",
+    "title": "The Tale of The Princess Kaguya",
+    "year": "2013",
+    "rating": "8",
+    "votes": "57975",
+    "genres": "Animation,Drama,Family"
+  },
+  {
+    "id": "tt0118843",
+    "title": "Black Cat, White Cat",
+    "year": "1998",
+    "rating": "8",
+    "votes": "57599",
+    "genres": "Comedy,Crime,Romance"
+  },
+  {
+    "id": "tt2758880",
+    "title": "Winter Sleep",
+    "year": "2014",
+    "rating": "8",
+    "votes": "57403",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0109117",
+    "title": "Andaz Apna Apna",
+    "year": "1994",
+    "rating": "8",
+    "votes": "56576",
+    "genres": "Action,Comedy,Romance"
+  },
+  {
+    "id": "tt1069238",
+    "title": "Departures",
+    "year": "2008",
+    "rating": "8",
+    "votes": "56238",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0067328",
+    "title": "The Last Picture Show",
+    "year": "1971",
+    "rating": "8",
+    "votes": "54814",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0456144",
+    "title": "Lage Raho Munna Bhai",
+    "year": "2006",
+    "rating": "8",
+    "votes": "51820",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt5571734",
+    "title": "Pink",
+    "year": "2016",
+    "rating": "8",
+    "votes": "49864",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0067093",
+    "title": "Fiddler on the Roof",
+    "year": "1971",
+    "rating": "8",
+    "votes": "49848",
+    "genres": "Drama,Family,Musical"
+  },
+  {
+    "id": "tt0117589",
+    "title": "Secrets & Lies",
+    "year": "1996",
+    "rating": "8",
+    "votes": "49439",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0140888",
+    "title": "Central Station",
+    "year": "1998",
+    "rating": "8",
+    "votes": "47685",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0037558",
+    "title": "Brief Encounter",
+    "year": "1945",
+    "rating": "8",
+    "votes": "46407",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0051808",
+    "title": "The Hidden Fortress",
+    "year": "1958",
+    "rating": "8",
+    "votes": "43911",
+    "genres": "Adventure,Drama"
+  },
+  {
+    "id": "tt0056443",
+    "title": "Sanjuro",
+    "year": "1962",
+    "rating": "8",
+    "votes": "42640",
+    "genres": "Action,Drama,Thriller"
+  },
+  {
+    "id": "tt0039689",
+    "title": "Out of the Past",
+    "year": "1947",
+    "rating": "8",
+    "votes": "42528",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0386064",
+    "title": "Tae Guk Gi: The Brotherhood of War",
+    "year": "2004",
+    "rating": "8",
+    "votes": "41767",
+    "genres": "Action,Drama,War"
+  },
+  {
+    "id": "tt5198068",
+    "title": "Wolfwalkers",
+    "year": "2020",
+    "rating": "8",
+    "votes": "41693",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0056111",
+    "title": "Ivan's Childhood",
+    "year": "1962",
+    "rating": "8",
+    "votes": "41567",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0033045",
+    "title": "The Shop Around the Corner",
+    "year": "1940",
+    "rating": "8",
+    "votes": "41457",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0041546",
+    "title": "Kind Hearts and Coronets",
+    "year": "1949",
+    "rating": "8",
+    "votes": "40723",
+    "genres": "Comedy,Crime"
+  },
+  {
+    "id": "tt0083946",
+    "title": "Fitzcarraldo",
+    "year": "1982",
+    "rating": "8",
+    "votes": "40617",
+    "genres": "Adventure,Drama,Music"
+  },
+  {
+    "id": "tt8633462",
+    "title": "Quo Vadis, Aida?",
+    "year": "2020",
+    "rating": "8",
+    "votes": "40392",
+    "genres": "Drama,History,War"
+  },
+  {
+    "id": "tt0270053",
+    "title": "Vizontele",
+    "year": "2001",
+    "rating": "8",
+    "votes": "40072",
+    "genres": "Comedy,Drama,History"
+  },
+  {
+    "id": "tt0051036",
+    "title": "Sweet Smell of Success",
+    "year": "1957",
+    "rating": "8",
+    "votes": "37789",
+    "genres": "Drama,Film-Noir"
+  },
+  {
+    "id": "tt0092593",
+    "title": "Au Revoir les Enfants",
+    "year": "1987",
+    "rating": "8",
+    "votes": "37357",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0056732",
+    "title": "The Exterminating Angel",
+    "year": "1962",
+    "rating": "8",
+    "votes": "36848",
+    "genres": "Drama,Fantasy"
+  },
+  {
+    "id": "tt1171701",
+    "title": "The Breath",
+    "year": "2009",
+    "rating": "8",
+    "votes": "36177",
+    "genres": "Action,Drama,Thriller"
+  },
+  {
+    "id": "tt0408664",
+    "title": "Nobody Knows",
+    "year": "2004",
+    "rating": "8",
+    "votes": "33362",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0053976",
+    "title": "The Virgin Spring",
+    "year": "1960",
+    "rating": "8",
+    "votes": "32714",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0038890",
+    "title": "Rome, Open City",
+    "year": "1945",
+    "rating": "8",
+    "votes": "31920",
+    "genres": "Drama,Thriller,War"
+  },
+  {
+    "id": "tt0072417",
+    "title": "A Woman Under the Influence",
+    "year": "1974",
+    "rating": "8",
+    "votes": "31161",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt27540542",
+    "title": "Lucky Baskhar",
+    "year": "2024",
+    "rating": "8",
+    "votes": "31059",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt24485052",
+    "title": "Sirf Ek Bandaa Kaafi Hai",
+    "year": "2023",
+    "rating": "8",
+    "votes": "30315",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt6628102",
+    "title": "The Wild Pear Tree",
+    "year": "2018",
+    "rating": "8",
+    "votes": "29452",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0057358",
+    "title": "Winter Light",
+    "year": "1963",
+    "rating": "8",
+    "votes": "28182",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0055601",
+    "title": "Viridiana",
+    "year": "1961",
+    "rating": "8",
+    "votes": "27084",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0038733",
+    "title": "A Matter of Life and Death",
+    "year": "1946",
+    "rating": "8",
+    "votes": "26583",
+    "genres": "Drama,Fantasy,Romance"
+  },
+  {
+    "id": "tt0058083",
+    "title": "Fail Safe",
+    "year": "1964",
+    "rating": "8",
+    "votes": "25929",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0499549",
+    "title": "Avatar",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "1427561",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0120338",
+    "title": "Titanic",
+    "year": "1997",
+    "rating": "7.9",
+    "votes": "1335230",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0371746",
+    "title": "Iron Man",
+    "year": "2008",
+    "rating": "7.9",
+    "votes": "1169411",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt3501632",
+    "title": "Thor: Ragnarok",
+    "year": "2017",
+    "rating": "7.9",
+    "votes": "851995",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt8946378",
+    "title": "Knives Out",
+    "year": "2019",
+    "rating": "7.9",
+    "votes": "814085",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt2543164",
+    "title": "Arrival",
+    "year": "2016",
+    "rating": "7.9",
+    "votes": "813675",
+    "genres": "Drama,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt0126029",
+    "title": "Shrek",
+    "year": "2001",
+    "rating": "7.9",
+    "votes": "770749",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt1631867",
+    "title": "Edge of Tomorrow",
+    "year": "2014",
+    "rating": "7.9",
+    "votes": "769732",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt1877832",
+    "title": "X-Men: Days of Future Past",
+    "year": "2014",
+    "rating": "7.9",
+    "votes": "768454",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt1136608",
+    "title": "District 9",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "734213",
+    "genres": "Action,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt0304141",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "year": "2004",
+    "rating": "7.9",
+    "votes": "726671",
+    "genres": "Adventure,Family,Fantasy"
+  },
+  {
+    "id": "tt0454876",
+    "title": "Life of Pi",
+    "year": "2012",
+    "rating": "7.9",
+    "votes": "683820",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt0120363",
+    "title": "Toy Story 2",
+    "year": "1999",
+    "rating": "7.9",
+    "votes": "643345",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0796366",
+    "title": "Star Trek",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "628974",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt1727824",
+    "title": "Bohemian Rhapsody",
+    "year": "2018",
+    "rating": "7.9",
+    "votes": "620789",
+    "genres": "Biography,Drama,Music"
+  },
+  {
+    "id": "tt0365748",
+    "title": "Shaun of the Dead",
+    "year": "2004",
+    "rating": "7.9",
+    "votes": "617607",
+    "genres": "Comedy,Horror"
+  },
+  {
+    "id": "tt1659337",
+    "title": "The Perks of Being a Wallflower",
+    "year": "2012",
+    "rating": "7.9",
+    "votes": "569177",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0206634",
+    "title": "Children of Men",
+    "year": "2006",
+    "rating": "7.9",
+    "votes": "546380",
+    "genres": "Drama,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt0099487",
+    "title": "Edward Scissorhands",
+    "year": "1990",
+    "rating": "7.9",
+    "votes": "544945",
+    "genres": "Drama,Fantasy,Romance"
+  },
+  {
+    "id": "tt0790636",
+    "title": "Dallas Buyers Club",
+    "year": "2013",
+    "rating": "7.9",
+    "votes": "533975",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0327056",
+    "title": "Mystic River",
+    "year": "2003",
+    "rating": "7.9",
+    "votes": "502749",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0780536",
+    "title": "In Bruges",
+    "year": "2008",
+    "rating": "7.9",
+    "votes": "478275",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt2584384",
+    "title": "Jojo Rabbit",
+    "year": "2019",
+    "rating": "7.9",
+    "votes": "465593",
+    "genres": "Comedy,Drama,War"
+  },
+  {
+    "id": "tt12361974",
+    "title": "Zack Snyder's Justice League",
+    "year": "2021",
+    "rating": "7.9",
+    "votes": "454659",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt0083866",
+    "title": "E.T. the Extra-Terrestrial",
+    "year": "1982",
+    "rating": "7.9",
+    "votes": "452664",
+    "genres": "Adventure,Family,Sci-Fi"
+  },
+  {
+    "id": "tt6791350",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": "2023",
+    "rating": "7.9",
+    "votes": "424998",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt0166924",
+    "title": "Mulholland Drive",
+    "year": "2001",
+    "rating": "7.9",
+    "votes": "405454",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0107688",
+    "title": "The Nightmare Before Christmas",
+    "year": "1993",
+    "rating": "7.9",
+    "votes": "394455",
+    "genres": "Animation,Family,Fantasy"
+  },
+  {
+    "id": "tt1065073",
+    "title": "Boyhood",
+    "year": "2014",
+    "rating": "7.9",
+    "votes": "374847",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt7653254",
+    "title": "Marriage Story",
+    "year": "2019",
+    "rating": "7.9",
+    "votes": "359794",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt1125849",
+    "title": "The Wrestler",
+    "year": "2008",
+    "rating": "7.9",
+    "votes": "325320",
+    "genres": "Drama,Sport"
+  },
+  {
+    "id": "tt0181875",
+    "title": "Almost Famous",
+    "year": "2000",
+    "rating": "7.9",
+    "votes": "303265",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0118749",
+    "title": "Boogie Nights",
+    "year": "1997",
+    "rating": "7.9",
+    "votes": "290651",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0190332",
+    "title": "Crouching Tiger, Hidden Dragon",
+    "year": "2000",
+    "rating": "7.9",
+    "votes": "287679",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0432283",
+    "title": "Fantastic Mr. Fox",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "284922",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0075686",
+    "title": "Annie Hall",
+    "year": "1977",
+    "rating": "7.9",
+    "votes": "283745",
+    "genres": "Comedy,Romance"
+  },
+  {
+    "id": "tt0108399",
+    "title": "True Romance",
+    "year": "1993",
+    "rating": "7.9",
+    "votes": "251632",
+    "genres": "Crime,Drama,Romance"
+  },
+  {
+    "id": "tt0058461",
+    "title": "A Fistful of Dollars",
+    "year": "1964",
+    "rating": "7.9",
+    "votes": "243053",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt0106519",
+    "title": "Carlito's Way",
+    "year": "1993",
+    "rating": "7.9",
+    "votes": "239562",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0080455",
+    "title": "The Blues Brothers",
+    "year": "1980",
+    "rating": "7.9",
+    "votes": "221441",
+    "genres": "Adventure,Comedy,Crime"
+  },
+  {
+    "id": "tt14849194",
+    "title": "The Holdovers",
+    "year": "2023",
+    "rating": "7.9",
+    "votes": "198087",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0299977",
+    "title": "Hero",
+    "year": "2002",
+    "rating": "7.9",
+    "votes": "190545",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt2543472",
+    "title": "Wonder",
+    "year": "2017",
+    "rating": "7.9",
+    "votes": "187691",
+    "genres": "Drama,Family"
+  },
+  {
+    "id": "tt2209418",
+    "title": "Before Midnight",
+    "year": "2013",
+    "rating": "7.9",
+    "votes": "178835",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0085334",
+    "title": "A Christmas Story",
+    "year": "1983",
+    "rating": "7.9",
+    "votes": "174958",
+    "genres": "Comedy,Family"
+  },
+  {
+    "id": "tt0033870",
+    "title": "The Maltese Falcon",
+    "year": "1941",
+    "rating": "7.9",
+    "votes": "170706",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0113568",
+    "title": "Ghost in the Shell",
+    "year": "1995",
+    "rating": "7.9",
+    "votes": "164539",
+    "genres": "Animation,Action,Crime"
+  },
+  {
+    "id": "tt0040746",
+    "title": "Rope",
+    "year": "1948",
+    "rating": "7.9",
+    "votes": "160099",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0088258",
+    "title": "This Is Spinal Tap",
+    "year": "1984",
+    "rating": "7.9",
+    "votes": "151241",
+    "genres": "Comedy,Music"
+  },
+  {
+    "id": "tt0054331",
+    "title": "Spartacus",
+    "year": "1960",
+    "rating": "7.9",
+    "votes": "147559",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0044079",
+    "title": "Strangers on a Train",
+    "year": "1951",
+    "rating": "7.9",
+    "votes": "145334",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt2265171",
+    "title": "The Raid 2",
+    "year": "2014",
+    "rating": "7.9",
+    "votes": "135147",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0074119",
+    "title": "All the President's Men",
+    "year": "1976",
+    "rating": "7.9",
+    "votes": "130858",
+    "genres": "Drama,History,Thriller"
+  },
+  {
+    "id": "tt0168629",
+    "title": "Dancer in the Dark",
+    "year": "2000",
+    "rating": "7.9",
+    "votes": "120328",
+    "genres": "Crime,Drama,Musical"
+  },
+  {
+    "id": "tt0287467",
+    "title": "Talk to Her",
+    "year": "2002",
+    "rating": "7.9",
+    "votes": "119822",
+    "genres": "Drama,Mystery,Romance"
+  },
+  {
+    "id": "tt1188996",
+    "title": "My Name Is Khan",
+    "year": "2010",
+    "rating": "7.9",
+    "votes": "119391",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0044081",
+    "title": "A Streetcar Named Desire",
+    "year": "1951",
+    "rating": "7.9",
+    "votes": "117183",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0044706",
+    "title": "High Noon",
+    "year": "1952",
+    "rating": "7.9",
+    "votes": "113347",
+    "genres": "Drama,Thriller,Western"
+  },
+  {
+    "id": "tt0052311",
+    "title": "Touch of Evil",
+    "year": "1958",
+    "rating": "7.9",
+    "votes": "112432",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0066206",
+    "title": "Patton",
+    "year": "1970",
+    "rating": "7.9",
+    "votes": "110971",
+    "genres": "Biography,Drama,War"
+  },
+  {
+    "id": "tt0038787",
+    "title": "Notorious",
+    "year": "1946",
+    "rating": "7.9",
+    "votes": "110745",
+    "genres": "Drama,Film-Noir,Mystery"
+  },
+  {
+    "id": "tt1602620",
+    "title": "Amour",
+    "year": "2012",
+    "rating": "7.9",
+    "votes": "108154",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt3544112",
+    "title": "Sing Street",
+    "year": "2016",
+    "rating": "7.9",
+    "votes": "104382",
+    "genres": "Comedy,Drama,Music"
+  },
+  {
+    "id": "tt0109424",
+    "title": "Chungking Express",
+    "year": "1994",
+    "rating": "7.9",
+    "votes": "103174",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0049406",
+    "title": "The Killing",
+    "year": "1956",
+    "rating": "7.9",
+    "votes": "101667",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0069293",
+    "title": "Solaris",
+    "year": "1972",
+    "rating": "7.9",
+    "votes": "101639",
+    "genres": "Drama,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt2370248",
+    "title": "Short Term 12",
+    "year": "2013",
+    "rating": "7.9",
+    "votes": "93597",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0024216",
+    "title": "King Kong",
+    "year": "1933",
+    "rating": "7.9",
+    "votes": "93487",
+    "genres": "Adventure,Horror"
+  },
+  {
+    "id": "tt0038355",
+    "title": "The Big Sleep",
+    "year": "1946",
+    "rating": "7.9",
+    "votes": "93081",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0065214",
+    "title": "The Wild Bunch",
+    "year": "1969",
+    "rating": "7.9",
+    "votes": "92813",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt8075192",
+    "title": "Shoplifters",
+    "year": "2018",
+    "rating": "7.9",
+    "votes": "91215",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0054997",
+    "title": "The Hustler",
+    "year": "1961",
+    "rating": "7.9",
+    "votes": "88811",
+    "genres": "Drama,Sport"
+  },
+  {
+    "id": "tt0061811",
+    "title": "In the Heat of the Night",
+    "year": "1967",
+    "rating": "7.9",
+    "votes": "87153",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0059113",
+    "title": "Doctor Zhivago",
+    "year": "1965",
+    "rating": "7.9",
+    "votes": "84402",
+    "genres": "Drama,Romance,War"
+  },
+  {
+    "id": "tt0067185",
+    "title": "Harold and Maude",
+    "year": "1971",
+    "rating": "7.9",
+    "votes": "83951",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0056218",
+    "title": "The Manchurian Candidate",
+    "year": "1962",
+    "rating": "7.9",
+    "votes": "82433",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt27503384",
+    "title": "Perfect Days",
+    "year": "2023",
+    "rating": "7.9",
+    "votes": "81535",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0093191",
+    "title": "Wings of Desire",
+    "year": "1987",
+    "rating": "7.9",
+    "votes": "80680",
+    "genres": "Drama,Fantasy,Romance"
+  },
+  {
+    "id": "tt0049833",
+    "title": "The Ten Commandments",
+    "year": "1956",
+    "rating": "7.9",
+    "votes": "80540",
+    "genres": "Adventure,Drama,Family"
+  },
+  {
+    "id": "tt0078841",
+    "title": "Being There",
+    "year": "1979",
+    "rating": "7.9",
+    "votes": "80327",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0347304",
+    "title": "Kal Ho Naa Ho",
+    "year": "2003",
+    "rating": "7.9",
+    "votes": "78237",
+    "genres": "Comedy,Drama,Musical"
+  },
+  {
+    "id": "tt0036613",
+    "title": "Arsenic and Old Lace",
+    "year": "1944",
+    "rating": "7.9",
+    "votes": "76778",
+    "genres": "Comedy,Crime,Thriller"
+  },
+  {
+    "id": "tt4772188",
+    "title": "Flow",
+    "year": "2024",
+    "rating": "7.9",
+    "votes": "71801",
+    "genres": "Animation,Adventure,Family"
+  },
+  {
+    "id": "tt1032846",
+    "title": "4 Months, 3 Weeks and 2 Days",
+    "year": "2007",
+    "rating": "7.9",
+    "votes": "64597",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0015648",
+    "title": "Battleship Potemkin",
+    "year": "1925",
+    "rating": "7.9",
+    "votes": "63236",
+    "genres": "Drama,History,Thriller"
+  },
+  {
+    "id": "tt3848892",
+    "title": "Baby",
+    "year": "2015",
+    "rating": "7.9",
+    "votes": "61804",
+    "genres": "Action,Thriller"
+  },
+  {
+    "id": "tt1093370",
+    "title": "Jab We Met",
+    "year": "2007",
+    "rating": "7.9",
+    "votes": "61770",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0046359",
+    "title": "Stalag 17",
+    "year": "1953",
+    "rating": "7.9",
+    "votes": "60121",
+    "genres": "Comedy,Drama,War"
+  },
+  {
+    "id": "tt0423866",
+    "title": "3-Iron",
+    "year": "2004",
+    "rating": "7.9",
+    "votes": "59829",
+    "genres": "Crime,Drama,Romance"
+  },
+  {
+    "id": "tt4387040",
+    "title": "Airlift",
+    "year": "2016",
+    "rating": "7.9",
+    "votes": "59734",
+    "genres": "Drama,History"
+  },
+  {
+    "id": "tt0042546",
+    "title": "Harvey",
+    "year": "1950",
+    "rating": "7.9",
+    "votes": "59543",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt0247586",
+    "title": "Nine Queens",
+    "year": "2000",
+    "rating": "7.9",
+    "votes": "59469",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0347048",
+    "title": "Head-On",
+    "year": "2004",
+    "rating": "7.9",
+    "votes": "59203",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt1360860",
+    "title": "About Elly",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "59011",
+    "genres": "Drama,Mystery"
+  },
+  {
+    "id": "tt5116302",
+    "title": "Togo",
+    "year": "2019",
+    "rating": "7.9",
+    "votes": "58736",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0039628",
+    "title": "Miracle on 34th Street",
+    "year": "1947",
+    "rating": "7.9",
+    "votes": "57969",
+    "genres": "Comedy,Drama,Family"
+  },
+  {
+    "id": "tt0029843",
+    "title": "The Adventures of Robin Hood",
+    "year": "1938",
+    "rating": "7.9",
+    "votes": "56081",
+    "genres": "Action,Adventure,Romance"
+  },
+  {
+    "id": "tt0051459",
+    "title": "Cat on a Hot Tin Roof",
+    "year": "1958",
+    "rating": "7.9",
+    "votes": "55199",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0072443",
+    "title": "Mirror",
+    "year": "1975",
+    "rating": "7.9",
+    "votes": "54855",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0037008",
+    "title": "Laura",
+    "year": "1944",
+    "rating": "7.9",
+    "votes": "53636",
+    "genres": "Drama,Film-Noir,Mystery"
+  },
+  {
+    "id": "tt0293715",
+    "title": "My Sassy Girl",
+    "year": "2001",
+    "rating": "7.9",
+    "votes": "51672",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0069281",
+    "title": "Sleuth",
+    "year": "1972",
+    "rating": "7.9",
+    "votes": "51377",
+    "genres": "Mystery,Thriller"
+  },
+  {
+    "id": "tt0283509",
+    "title": "No Man's Land",
+    "year": "2001",
+    "rating": "7.9",
+    "votes": "49672",
+    "genres": "Comedy,Drama,War"
+  },
+  {
+    "id": "tt0376968",
+    "title": "The Return",
+    "year": "2003",
+    "rating": "7.9",
+    "votes": "48533",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt2395469",
+    "title": "Gully Boy",
+    "year": "2019",
+    "rating": "7.9",
+    "votes": "45069",
+    "genres": "Drama,Music,Romance"
+  },
+  {
+    "id": "tt0037884",
+    "title": "The Lost Weekend",
+    "year": "1945",
+    "rating": "7.9",
+    "votes": "41699",
+    "genres": "Drama,Film-Noir"
+  },
+  {
+    "id": "tt0080979",
+    "title": "Kagemusha: The Shadow Warrior",
+    "year": "1980",
+    "rating": "7.9",
+    "votes": "39532",
+    "genres": "Drama,History,War"
+  },
+  {
+    "id": "tt7725596",
+    "title": "Badhaai Ho",
+    "year": "2018",
+    "rating": "7.9",
+    "votes": "39172",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt7485048",
+    "title": "Super 30",
+    "year": "2019",
+    "rating": "7.9",
+    "votes": "39131",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0069467",
+    "title": "Cries & Whispers",
+    "year": "1972",
+    "rating": "7.9",
+    "votes": "38406",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0110729",
+    "title": "Once Were Warriors",
+    "year": "1994",
+    "rating": "7.9",
+    "votes": "38075",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0042593",
+    "title": "In a Lonely Place",
+    "year": "1950",
+    "rating": "7.9",
+    "votes": "37265",
+    "genres": "Drama,Film-Noir,Mystery"
+  },
+  {
+    "id": "tt0065571",
+    "title": "The Conformist",
+    "year": "1970",
+    "rating": "7.9",
+    "votes": "36752",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0106469",
+    "title": "Blood In, Blood Out",
+    "year": "1993",
+    "rating": "7.9",
+    "votes": "35972",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt6878038",
+    "title": "A Taxi Driver",
+    "year": "2017",
+    "rating": "7.9",
+    "votes": "34922",
+    "genres": "Action,Drama,History"
+  },
+  {
+    "id": "tt0025878",
+    "title": "The Thin Man",
+    "year": "1934",
+    "rating": "7.9",
+    "votes": "33751",
+    "genres": "Comedy,Crime,Mystery"
+  },
+  {
+    "id": "tt0091670",
+    "title": "The Sacrifice",
+    "year": "1986",
+    "rating": "7.9",
+    "votes": "33120",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1327035",
+    "title": "Dev.D",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "33065",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0031885",
+    "title": "The Rules of the Game",
+    "year": "1939",
+    "rating": "7.9",
+    "votes": "32391",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0057091",
+    "title": "The Leopard",
+    "year": "1963",
+    "rating": "7.9",
+    "votes": "32162",
+    "genres": "Drama,History"
+  },
+  {
+    "id": "tt0086022",
+    "title": "Nostalghia",
+    "year": "1983",
+    "rating": "7.9",
+    "votes": "31571",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0045555",
+    "title": "The Big Heat",
+    "year": "1953",
+    "rating": "7.9",
+    "votes": "30964",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0061809",
+    "title": "In Cold Blood",
+    "year": "1967",
+    "rating": "7.9",
+    "votes": "30615",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt7218518",
+    "title": "Pad Man",
+    "year": "2018",
+    "rating": "7.9",
+    "votes": "30395",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0065531",
+    "title": "Le cercle rouge",
+    "year": "1970",
+    "rating": "7.9",
+    "votes": "30155",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0051378",
+    "title": "Elevator to the Gallows",
+    "year": "1958",
+    "rating": "7.9",
+    "votes": "30108",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0037913",
+    "title": "Mildred Pierce",
+    "year": "1945",
+    "rating": "7.9",
+    "votes": "29984",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt0034240",
+    "title": "Sullivan's Travels",
+    "year": "1941",
+    "rating": "7.9",
+    "votes": "29683",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0038348",
+    "title": "Beauty and the Beast",
+    "year": "1946",
+    "rating": "7.9",
+    "votes": "28984",
+    "genres": "Drama,Fantasy,Romance"
+  },
+  {
+    "id": "tt1702014",
+    "title": "The Way He Looks",
+    "year": "2014",
+    "rating": "7.9",
+    "votes": "28636",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0055499",
+    "title": "Through a Glass Darkly",
+    "year": "1961",
+    "rating": "7.9",
+    "votes": "28338",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0028010",
+    "title": "My Man Godfrey",
+    "year": "1936",
+    "rating": "7.9",
+    "votes": "27489",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0860906",
+    "title": "Evangelion: 2.0 You Can (Not) Advance",
+    "year": "2009",
+    "rating": "7.9",
+    "votes": "26686",
+    "genres": "Animation,Action,Drama"
+  },
+  {
+    "id": "tt2488496",
+    "title": "Star Wars: Episode VII - The Force Awakens",
+    "year": "2015",
+    "rating": "7.8",
+    "votes": "996929",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0903624",
+    "title": "The Hobbit: An Unexpected Journey",
+    "year": "2012",
+    "rating": "7.8",
+    "votes": "900956",
+    "genres": "Adventure,Fantasy"
+  },
+  {
+    "id": "tt3498820",
+    "title": "Captain America: Civil War",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "885471",
+    "genres": "Action,Sci-Fi"
+  },
+  {
+    "id": "tt1877830",
+    "title": "The Batman",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "866961",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt1285016",
+    "title": "The Social Network",
+    "year": "2010",
+    "rating": "7.8",
+    "votes": "788222",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt5013056",
+    "title": "Dunkirk",
+    "year": "2017",
+    "rating": "7.8",
+    "votes": "770769",
+    "genres": "Action,Drama,History"
+  },
+  {
+    "id": "tt5052448",
+    "title": "Get Out",
+    "year": "2017",
+    "rating": "7.8",
+    "votes": "755762",
+    "genres": "Horror,Mystery,Thriller"
+  },
+  {
+    "id": "tt1074638",
+    "title": "Skyfall",
+    "year": "2012",
+    "rating": "7.8",
+    "votes": "749250",
+    "genres": "Action,Adventure,Thriller"
+  },
+  {
+    "id": "tt0780504",
+    "title": "Drive",
+    "year": "2011",
+    "rating": "7.8",
+    "votes": "733755",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt1170358",
+    "title": "The Hobbit: The Desolation of Smaug",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "730152",
+    "genres": "Adventure,Fantasy"
+  },
+  {
+    "id": "tt0421715",
+    "title": "The Curious Case of Benjamin Button",
+    "year": "2008",
+    "rating": "7.8",
+    "votes": "719669",
+    "genres": "Drama,Fantasy,Romance"
+  },
+  {
+    "id": "tt3748528",
+    "title": "Rogue One: A Star Wars Story",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "711522",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt3460252",
+    "title": "The Hateful Eight",
+    "year": "2015",
+    "rating": "7.8",
+    "votes": "689434",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0162222",
+    "title": "Cast Away",
+    "year": "2000",
+    "rating": "7.8",
+    "votes": "663493",
+    "genres": "Adventure,Drama,Romance"
+  },
+  {
+    "id": "tt0332280",
+    "title": "The Notebook",
+    "year": "2004",
+    "rating": "7.8",
+    "votes": "653109",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt2872718",
+    "title": "Nightcrawler",
+    "year": "2014",
+    "rating": "7.8",
+    "votes": "634701",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0096874",
+    "title": "Back to the Future Part II",
+    "year": "1989",
+    "rating": "7.8",
+    "votes": "596162",
+    "genres": "Adventure,Comedy,Sci-Fi"
+  },
+  {
+    "id": "tt0258463",
+    "title": "The Bourne Identity",
+    "year": "2002",
+    "rating": "7.8",
+    "votes": "593450",
+    "genres": "Action,Mystery,Thriller"
+  },
+  {
+    "id": "tt6710474",
+    "title": "Everything Everywhere All at Once",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "577696",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt0425112",
+    "title": "Hot Fuzz",
+    "year": "2007",
+    "rating": "7.8",
+    "votes": "550776",
+    "genres": "Action,Comedy,Mystery"
+  },
+  {
+    "id": "tt0449059",
+    "title": "Little Miss Sunshine",
+    "year": "2006",
+    "rating": "7.8",
+    "votes": "535936",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt2245084",
+    "title": "Big Hero 6",
+    "year": "2014",
+    "rating": "7.8",
+    "votes": "527352",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt1568346",
+    "title": "The Girl with the Dragon Tattoo",
+    "year": "2011",
+    "rating": "7.8",
+    "votes": "512282",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt1596363",
+    "title": "The Big Short",
+    "year": "2015",
+    "rating": "7.8",
+    "votes": "508898",
+    "genres": "Biography,Comedy,Drama"
+  },
+  {
+    "id": "tt1535109",
+    "title": "Captain Phillips",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "506872",
+    "genres": "Action,Biography,Crime"
+  },
+  {
+    "id": "tt0139654",
+    "title": "Training Day",
+    "year": "2001",
+    "rating": "7.8",
+    "votes": "494466",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0325710",
+    "title": "The Last Samurai",
+    "year": "2003",
+    "rating": "7.8",
+    "votes": "487813",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt0093773",
+    "title": "Predator",
+    "year": "1987",
+    "rating": "7.8",
+    "votes": "475370",
+    "genres": "Action,Adventure,Horror"
+  },
+  {
+    "id": "tt0765429",
+    "title": "American Gangster",
+    "year": "2007",
+    "rating": "7.8",
+    "votes": "470594",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0087332",
+    "title": "Ghostbusters",
+    "year": "1984",
+    "rating": "7.8",
+    "votes": "469339",
+    "genres": "Action,Comedy,Fantasy"
+  },
+  {
+    "id": "tt0088847",
+    "title": "The Breakfast Club",
+    "year": "1985",
+    "rating": "7.8",
+    "votes": "455182",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt1302006",
+    "title": "The Irishman",
+    "year": "2019",
+    "rating": "7.8",
+    "votes": "451773",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt8367814",
+    "title": "The Gentlemen",
+    "year": "2019",
+    "rating": "7.8",
+    "votes": "431624",
+    "genres": "Action,Crime"
+  },
+  {
+    "id": "tt2194499",
+    "title": "About Time",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "410972",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt0091042",
+    "title": "Ferris Bueller's Day Off",
+    "year": "1986",
+    "rating": "7.8",
+    "votes": "401523",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0964517",
+    "title": "The Fighter",
+    "year": "2010",
+    "rating": "7.8",
+    "votes": "398272",
+    "genres": "Action,Biography,Drama"
+  },
+  {
+    "id": "tt1182345",
+    "title": "Moon",
+    "year": "2009",
+    "rating": "7.8",
+    "votes": "385548",
+    "genres": "Drama,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt1646971",
+    "title": "How to Train Your Dragon 2",
+    "year": "2014",
+    "rating": "7.8",
+    "votes": "380125",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt1748122",
+    "title": "Moonrise Kingdom",
+    "year": "2012",
+    "rating": "7.8",
+    "votes": "374137",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0414387",
+    "title": "Pride & Prejudice",
+    "year": "2005",
+    "rating": "7.8",
+    "votes": "350211",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0472043",
+    "title": "Apocalypto",
+    "year": "2006",
+    "rating": "7.8",
+    "votes": "343965",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0094226",
+    "title": "The Untouchables",
+    "year": "1987",
+    "rating": "7.8",
+    "votes": "342290",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt14230458",
+    "title": "Poor Things",
+    "year": "2023",
+    "rating": "7.8",
+    "votes": "338454",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt5726616",
+    "title": "Call Me by Your Name",
+    "year": "2017",
+    "rating": "7.8",
+    "votes": "338321",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0106977",
+    "title": "The Fugitive",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "332244",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt4034228",
+    "title": "Manchester by the Sea",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "331811",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0783233",
+    "title": "Atonement",
+    "year": "2007",
+    "rating": "7.8",
+    "votes": "312960",
+    "genres": "Drama,Mystery,Romance"
+  },
+  {
+    "id": "tt0379786",
+    "title": "Serenity",
+    "year": "2005",
+    "rating": "7.8",
+    "votes": "310248",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0327597",
+    "title": "Coraline",
+    "year": "2009",
+    "rating": "7.8",
+    "votes": "282871",
+    "genres": "Animation,Drama,Family"
+  },
+  {
+    "id": "tt0358273",
+    "title": "Walk the Line",
+    "year": "2005",
+    "rating": "7.8",
+    "votes": "273738",
+    "genres": "Biography,Drama,Music"
+  },
+  {
+    "id": "tt4846340",
+    "title": "Hidden Figures",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "273180",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt1016150",
+    "title": "All Quiet on the Western Front",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "272218",
+    "genres": "Drama,History,War"
+  },
+  {
+    "id": "tt3281548",
+    "title": "Little Women",
+    "year": "2019",
+    "rating": "7.8",
+    "votes": "265979",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt1655442",
+    "title": "The Artist",
+    "year": "2011",
+    "rating": "7.8",
+    "votes": "252011",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0100157",
+    "title": "Misery",
+    "year": "1990",
+    "rating": "7.8",
+    "votes": "249086",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt3553976",
+    "title": "Captain Fantastic",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "243357",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0210945",
+    "title": "Remember the Titans",
+    "year": "2000",
+    "rating": "7.8",
+    "votes": "239862",
+    "genres": "Biography,Comedy,Drama"
+  },
+  {
+    "id": "tt0067992",
+    "title": "Willy Wonka & the Chocolate Factory",
+    "year": "1971",
+    "rating": "7.8",
+    "votes": "236348",
+    "genres": "Adventure,Comedy,Family"
+  },
+  {
+    "id": "tt1139797",
+    "title": "Let the Right One In",
+    "year": "2008",
+    "rating": "7.8",
+    "votes": "233006",
+    "genres": "Drama,Fantasy,Horror"
+  },
+  {
+    "id": "tt1132620",
+    "title": "The Girl with the Dragon Tattoo",
+    "year": "2009",
+    "rating": "7.8",
+    "votes": "226616",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt1398426",
+    "title": "Straight Outta Compton",
+    "year": "2015",
+    "rating": "7.8",
+    "votes": "226590",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0088846",
+    "title": "Brazil",
+    "year": "1985",
+    "rating": "7.8",
+    "votes": "216127",
+    "genres": "Drama,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt0756683",
+    "title": "The Man from Earth",
+    "year": "2007",
+    "rating": "7.8",
+    "votes": "208479",
+    "genres": "Drama,Fantasy,Mystery"
+  },
+  {
+    "id": "tt3915174",
+    "title": "Puss in Boots: The Last Wish",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "202372",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt5104604",
+    "title": "Isle of Dogs",
+    "year": "2018",
+    "rating": "7.8",
+    "votes": "199263",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0058331",
+    "title": "Mary Poppins",
+    "year": "1964",
+    "rating": "7.8",
+    "votes": "192340",
+    "genres": "Comedy,Family,Fantasy"
+  },
+  {
+    "id": "tt0109707",
+    "title": "Ed Wood",
+    "year": "1994",
+    "rating": "7.8",
+    "votes": "187996",
+    "genres": "Biography,Comedy,Drama"
+  },
+  {
+    "id": "tt0140352",
+    "title": "The Insider",
+    "year": "1999",
+    "rating": "7.8",
+    "votes": "185970",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0108358",
+    "title": "Tombstone",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "178839",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt8178634",
+    "title": "RRR",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "177803",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0097814",
+    "title": "Kiki's Delivery Service",
+    "year": "1989",
+    "rating": "7.8",
+    "votes": "176446",
+    "genres": "Animation,Family,Fantasy"
+  },
+  {
+    "id": "tt0498380",
+    "title": "Letters from Iwo Jima",
+    "year": "2006",
+    "rating": "7.8",
+    "votes": "173450",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0106489",
+    "title": "A Bronx Tale",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "171542",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0099077",
+    "title": "Awakenings",
+    "year": "1990",
+    "rating": "7.8",
+    "votes": "168387",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt0101507",
+    "title": "Boyz n the Hood",
+    "year": "1991",
+    "rating": "7.8",
+    "votes": "161709",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt16277242",
+    "title": "Society of the Snow",
+    "year": "2023",
+    "rating": "7.8",
+    "votes": "160828",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0079417",
+    "title": "Kramer vs. Kramer",
+    "year": "1979",
+    "rating": "7.8",
+    "votes": "160529",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1588170",
+    "title": "I Saw the Devil",
+    "year": "2010",
+    "rating": "7.8",
+    "votes": "155735",
+    "genres": "Action,Thriller"
+  },
+  {
+    "id": "tt0079522",
+    "title": "Manhattan",
+    "year": "1979",
+    "rating": "7.8",
+    "votes": "150593",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt13238346",
+    "title": "Past Lives",
+    "year": "2023",
+    "rating": "7.8",
+    "votes": "150149",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0097441",
+    "title": "Glory",
+    "year": "1989",
+    "rating": "7.8",
+    "votes": "148967",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt4698684",
+    "title": "Hunt for the Wilderpeople",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "147566",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0063350",
+    "title": "Night of the Living Dead",
+    "year": "1968",
+    "rating": "7.8",
+    "votes": "144976",
+    "genres": "Horror,Thriller"
+  },
+  {
+    "id": "tt1924396",
+    "title": "The Best Offer",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "132914",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0077402",
+    "title": "Dawn of the Dead",
+    "year": "1978",
+    "rating": "7.8",
+    "votes": "132583",
+    "genres": "Horror,Thriller"
+  },
+  {
+    "id": "tt0064665",
+    "title": "Midnight Cowboy",
+    "year": "1969",
+    "rating": "7.8",
+    "votes": "126305",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0085794",
+    "title": "The King of Comedy",
+    "year": "1982",
+    "rating": "7.8",
+    "votes": "125686",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0907657",
+    "title": "Once",
+    "year": "2006",
+    "rating": "7.8",
+    "votes": "123138",
+    "genres": "Drama,Music,Musical"
+  },
+  {
+    "id": "tt0460791",
+    "title": "The Fall",
+    "year": "2006",
+    "rating": "7.8",
+    "votes": "122515",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt0095647",
+    "title": "Mississippi Burning",
+    "year": "1988",
+    "rating": "7.8",
+    "votes": "120358",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0013442",
+    "title": "Nosferatu: A Symphony of Horror",
+    "year": "1922",
+    "rating": "7.8",
+    "votes": "118495",
+    "genres": "Fantasy,Horror"
+  },
+  {
+    "id": "tt0108394",
+    "title": "Three Colors: Blue",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "114868",
+    "genres": "Drama,Music,Mystery"
+  },
+  {
+    "id": "tt0108037",
+    "title": "The Sandlot",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "107997",
+    "genres": "Comedy,Drama,Family"
+  },
+  {
+    "id": "tt0185125",
+    "title": "All About My Mother",
+    "year": "1999",
+    "rating": "7.8",
+    "votes": "106395",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt2013293",
+    "title": "The Wind Rises",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "105915",
+    "genres": "Animation,Biography,Drama"
+  },
+  {
+    "id": "tt4468740",
+    "title": "Paddington 2",
+    "year": "2017",
+    "rating": "7.8",
+    "votes": "105208",
+    "genres": "Adventure,Comedy,Family"
+  },
+  {
+    "id": "tt1235166",
+    "title": "A Prophet",
+    "year": "2009",
+    "rating": "7.8",
+    "votes": "104832",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0132477",
+    "title": "October Sky",
+    "year": "1999",
+    "rating": "7.8",
+    "votes": "101250",
+    "genres": "Biography,Drama,Family"
+  },
+  {
+    "id": "tt0049730",
+    "title": "The Searchers",
+    "year": "1956",
+    "rating": "7.8",
+    "votes": "99982",
+    "genres": "Adventure,Western"
+  },
+  {
+    "id": "tt0056923",
+    "title": "Charade",
+    "year": "1963",
+    "rating": "7.8",
+    "votes": "89453",
+    "genres": "Comedy,Mystery,Romance"
+  },
+  {
+    "id": "tt0107943",
+    "title": "The Remains of the Day",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "88396",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0021884",
+    "title": "Frankenstein",
+    "year": "1931",
+    "rating": "7.8",
+    "votes": "83322",
+    "genres": "Drama,Horror,Sci-Fi"
+  },
+  {
+    "id": "tt0075029",
+    "title": "The Outlaw Josey Wales",
+    "year": "1976",
+    "rating": "7.8",
+    "votes": "82999",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt0097937",
+    "title": "My Left Foot",
+    "year": "1989",
+    "rating": "7.8",
+    "votes": "82360",
+    "genres": "Biography,Drama"
+  },
+  {
+    "id": "tt1149362",
+    "title": "The White Ribbon",
+    "year": "2009",
+    "rating": "7.8",
+    "votes": "79643",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0091167",
+    "title": "Hannah and Her Sisters",
+    "year": "1986",
+    "rating": "7.8",
+    "votes": "78902",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0113824",
+    "title": "Whisper of the Heart",
+    "year": "1995",
+    "rating": "7.8",
+    "votes": "78078",
+    "genres": "Animation,Drama,Family"
+  },
+  {
+    "id": "tt1190539",
+    "title": "The Chaser",
+    "year": "2008",
+    "rating": "7.8",
+    "votes": "76343",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0104940",
+    "title": "The Muppet Christmas Carol",
+    "year": "1992",
+    "rating": "7.8",
+    "votes": "76302",
+    "genres": "Comedy,Drama,Family"
+  },
+  {
+    "id": "tt0032904",
+    "title": "The Philadelphia Story",
+    "year": "1940",
+    "rating": "7.8",
+    "votes": "76153",
+    "genres": "Comedy,Romance"
+  },
+  {
+    "id": "tt0115751",
+    "title": "Breaking the Waves",
+    "year": "1996",
+    "rating": "7.8",
+    "votes": "73744",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt12262116",
+    "title": "Thirteen Lives",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "73280",
+    "genres": "Biography,Drama,Thriller"
+  },
+  {
+    "id": "tt0036342",
+    "title": "Shadow of a Doubt",
+    "year": "1943",
+    "rating": "7.8",
+    "votes": "72906",
+    "genres": "Drama,Film-Noir,Mystery"
+  },
+  {
+    "id": "tt0372824",
+    "title": "The Chorus",
+    "year": "2004",
+    "rating": "7.8",
+    "votes": "69357",
+    "genres": "Drama,Music"
+  },
+  {
+    "id": "tt0029947",
+    "title": "Bringing Up Baby",
+    "year": "1938",
+    "rating": "7.8",
+    "votes": "68115",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0086197",
+    "title": "The Right Stuff",
+    "year": "1983",
+    "rating": "7.8",
+    "votes": "67167",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt5168192",
+    "title": "I, Daniel Blake",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "66661",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt3262342",
+    "title": "Loving Vincent",
+    "year": "2017",
+    "rating": "7.8",
+    "votes": "66034",
+    "genres": "Animation,Drama,Mystery"
+  },
+  {
+    "id": "tt0032599",
+    "title": "His Girl Friday",
+    "year": "1940",
+    "rating": "7.8",
+    "votes": "65476",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0068182",
+    "title": "Aguirre, the Wrath of God",
+    "year": "1972",
+    "rating": "7.8",
+    "votes": "65092",
+    "genres": "Action,Adventure,Biography"
+  },
+  {
+    "id": "tt2350496",
+    "title": "The Lunchbox",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "63510",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt3169706",
+    "title": "Pride",
+    "year": "2014",
+    "rating": "7.8",
+    "votes": "63475",
+    "genres": "Biography,Comedy,Drama"
+  },
+  {
+    "id": "tt0068327",
+    "title": "Cabaret",
+    "year": "1972",
+    "rating": "7.8",
+    "votes": "61971",
+    "genres": "Drama,Music,Musical"
+  },
+  {
+    "id": "tt0097123",
+    "title": "Crimes and Misdemeanors",
+    "year": "1989",
+    "rating": "7.8",
+    "votes": "61951",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0412080",
+    "title": "The World's Fastest Indian",
+    "year": "2005",
+    "rating": "7.8",
+    "votes": "61556",
+    "genres": "Biography,Drama,Sport"
+  },
+  {
+    "id": "tt0087553",
+    "title": "The Killing Fields",
+    "year": "1984",
+    "rating": "7.8",
+    "votes": "61530",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0106364",
+    "title": "Batman: Mask of the Phantasm",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "60197",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0420332",
+    "title": "Veer-Zaara",
+    "year": "2004",
+    "rating": "7.8",
+    "votes": "59641",
+    "genres": "Drama,Family,Musical"
+  },
+  {
+    "id": "tt0031971",
+    "title": "Stagecoach",
+    "year": "1939",
+    "rating": "7.8",
+    "votes": "56320",
+    "genres": "Adventure,Drama,Western"
+  },
+  {
+    "id": "tt0026138",
+    "title": "Bride of Frankenstein",
+    "year": "1935",
+    "rating": "7.8",
+    "votes": "55694",
+    "genres": "Drama,Horror,Sci-Fi"
+  },
+  {
+    "id": "tt0275277",
+    "title": "Cowboy Bebop: The Movie",
+    "year": "2001",
+    "rating": "7.8",
+    "votes": "55373",
+    "genres": "Animation,Action,Crime"
+  },
+  {
+    "id": "tt0022913",
+    "title": "Freaks",
+    "year": "1932",
+    "rating": "7.8",
+    "votes": "52643",
+    "genres": "Drama,Horror"
+  },
+  {
+    "id": "tt0300140",
+    "title": "Lilya 4-Ever",
+    "year": "2002",
+    "rating": "7.8",
+    "votes": "52306",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt1827487",
+    "title": "Once Upon a Time in Anatolia",
+    "year": "2011",
+    "rating": "7.8",
+    "votes": "52073",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0061735",
+    "title": "Guess Who's Coming to Dinner",
+    "year": "1967",
+    "rating": "7.8",
+    "votes": "51005",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0388473",
+    "title": "Tokyo Godfathers",
+    "year": "2003",
+    "rating": "7.8",
+    "votes": "50831",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0048028",
+    "title": "East of Eden",
+    "year": "1955",
+    "rating": "7.8",
+    "votes": "50233",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0069947",
+    "title": "The Day of the Jackal",
+    "year": "1973",
+    "rating": "7.8",
+    "votes": "50092",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0071129",
+    "title": "Amarcord",
+    "year": "1973",
+    "rating": "7.8",
+    "votes": "49588",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt14331144",
+    "title": "Jujutsu Kaisen 0",
+    "year": "2021",
+    "rating": "7.8",
+    "votes": "49104",
+    "genres": "Animation,Action,Fantasy"
+  },
+  {
+    "id": "tt3841424",
+    "title": "Land of Mine",
+    "year": "2015",
+    "rating": "7.8",
+    "votes": "47617",
+    "genres": "Drama,History,War"
+  },
+  {
+    "id": "tt9660502",
+    "title": "Close",
+    "year": "2022",
+    "rating": "7.8",
+    "votes": "42911",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0107692",
+    "title": "Ninja Scroll",
+    "year": "1993",
+    "rating": "7.8",
+    "votes": "42749",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt2181931",
+    "title": "English Vinglish",
+    "year": "2012",
+    "rating": "7.8",
+    "votes": "40722",
+    "genres": "Comedy,Drama,Family"
+  },
+  {
+    "id": "tt0110877",
+    "title": "The Postman",
+    "year": "1994",
+    "rating": "7.8",
+    "votes": "40188",
+    "genres": "Biography,Comedy,Drama"
+  },
+  {
+    "id": "tt0037382",
+    "title": "To Have and Have Not",
+    "year": "1944",
+    "rating": "7.8",
+    "votes": "39592",
+    "genres": "Adventure,Comedy,Drama"
+  },
+  {
+    "id": "tt0052893",
+    "title": "Hiroshima Mon Amour",
+    "year": "1959",
+    "rating": "7.8",
+    "votes": "37668",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0078754",
+    "title": "All That Jazz",
+    "year": "1979",
+    "rating": "7.8",
+    "votes": "37632",
+    "genres": "Drama,Music,Musical"
+  },
+  {
+    "id": "tt0056663",
+    "title": "Vivre sa vie",
+    "year": "1962",
+    "rating": "7.8",
+    "votes": "36376",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0036855",
+    "title": "Gaslight",
+    "year": "1944",
+    "rating": "7.8",
+    "votes": "35822",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0026778",
+    "title": "A Night at the Opera",
+    "year": "1935",
+    "rating": "7.8",
+    "votes": "35618",
+    "genres": "Comedy,Music,Musical"
+  },
+  {
+    "id": "tt0063227",
+    "title": "The Lion in Winter",
+    "year": "1968",
+    "rating": "7.8",
+    "votes": "35452",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0119472",
+    "title": "Knockin' on Heaven's Door",
+    "year": "1997",
+    "rating": "7.8",
+    "votes": "35313",
+    "genres": "Action,Crime,Comedy"
+  },
+  {
+    "id": "tt23736044",
+    "title": "Monster",
+    "year": "2023",
+    "rating": "7.8",
+    "votes": "34745",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0401085",
+    "title": "C.R.A.Z.Y.",
+    "year": "2005",
+    "rating": "7.8",
+    "votes": "34658",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0291350",
+    "title": "Millennium Actress",
+    "year": "2001",
+    "rating": "7.8",
+    "votes": "34359",
+    "genres": "Animation,Drama,Fantasy"
+  },
+  {
+    "id": "tt5764096",
+    "title": "Hindi Medium",
+    "year": "2017",
+    "rating": "7.8",
+    "votes": "33569",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0058450",
+    "title": "The Umbrellas of Cherbourg",
+    "year": "1964",
+    "rating": "7.8",
+    "votes": "33091",
+    "genres": "Drama,Musical,Romance"
+  },
+  {
+    "id": "tt0042208",
+    "title": "The Asphalt Jungle",
+    "year": "1950",
+    "rating": "7.8",
+    "votes": "31475",
+    "genres": "Crime,Drama,Film-Noir"
+  },
+  {
+    "id": "tt2321405",
+    "title": "My Life as a Zucchini",
+    "year": "2016",
+    "rating": "7.8",
+    "votes": "31161",
+    "genres": "Animation,Comedy,Drama"
+  },
+  {
+    "id": "tt2331143",
+    "title": "Like Father, Like Son",
+    "year": "2013",
+    "rating": "7.8",
+    "votes": "29595",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0055852",
+    "title": "Cléo from 5 to 7",
+    "year": "1962",
+    "rating": "7.8",
+    "votes": "29389",
+    "genres": "Comedy,Drama,Music"
+  },
+  {
+    "id": "tt0030993",
+    "title": "You Can't Take It with You",
+    "year": "1938",
+    "rating": "7.8",
+    "votes": "29218",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0062136",
+    "title": "Playtime",
+    "year": "1967",
+    "rating": "7.8",
+    "votes": "27572",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0038574",
+    "title": "Great Expectations",
+    "year": "1946",
+    "rating": "7.8",
+    "votes": "27417",
+    "genres": "Adventure,Drama,Mystery"
+  },
+  {
+    "id": "tt0323013",
+    "title": "Lakshya",
+    "year": "2004",
+    "rating": "7.8",
+    "votes": "26591",
+    "genres": "Action,Drama,Romance"
+  },
+  {
+    "id": "tt0118767",
+    "title": "Brother",
+    "year": "1997",
+    "rating": "7.8",
+    "votes": "26534",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0075824",
+    "title": "That Obscure Object of Desire",
+    "year": "1977",
+    "rating": "7.8",
+    "votes": "25970",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt1843866",
+    "title": "Captain America: The Winter Soldier",
+    "year": "2014",
+    "rating": "7.7",
+    "votes": "931412",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0241527",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "year": "2001",
+    "rating": "7.7",
+    "votes": "901035",
+    "genres": "Adventure,Family,Fantasy"
+  },
+  {
+    "id": "tt1119646",
+    "title": "The Hangover",
+    "year": "2009",
+    "rating": "7.7",
+    "votes": "883992",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt1454468",
+    "title": "Gravity",
+    "year": "2013",
+    "rating": "7.7",
+    "votes": "880323",
+    "genres": "Drama,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt1045658",
+    "title": "Silver Linings Playbook",
+    "year": "2012",
+    "rating": "7.7",
+    "votes": "758504",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt2802144",
+    "title": "Kingsman: The Secret Service",
+    "year": "2014",
+    "rating": "7.7",
+    "votes": "750194",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt1270798",
+    "title": "X-Men: First Class",
+    "year": "2011",
+    "rating": "7.7",
+    "votes": "745070",
+    "genres": "Action,Sci-Fi"
+  },
+  {
+    "id": "tt0330373",
+    "title": "Harry Potter and the Goblet of Fire",
+    "year": "2005",
+    "rating": "7.7",
+    "votes": "715014",
+    "genres": "Adventure,Family,Fantasy"
+  },
+  {
+    "id": "tt0099785",
+    "title": "Home Alone",
+    "year": "1990",
+    "rating": "7.7",
+    "votes": "694249",
+    "genres": "Comedy,Family"
+  },
+  {
+    "id": "tt2562232",
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "year": "2014",
+    "rating": "7.7",
+    "votes": "681189",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0936501",
+    "title": "Taken",
+    "year": "2008",
+    "rating": "7.7",
+    "votes": "653791",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt1024648",
+    "title": "Argo",
+    "year": "2012",
+    "rating": "7.7",
+    "votes": "651525",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0240772",
+    "title": "Ocean's Eleven",
+    "year": "2001",
+    "rating": "7.7",
+    "votes": "643709",
+    "genres": "Crime,Thriller"
+  },
+  {
+    "id": "tt0443706",
+    "title": "Zodiac",
+    "year": "2007",
+    "rating": "7.7",
+    "votes": "632955",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0926084",
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "year": "2010",
+    "rating": "7.7",
+    "votes": "628882",
+    "genres": "Adventure,Family,Fantasy"
+  },
+  {
+    "id": "tt0470752",
+    "title": "Ex Machina",
+    "year": "2014",
+    "rating": "7.7",
+    "votes": "615785",
+    "genres": "Drama,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt1022603",
+    "title": "500 Days of Summer",
+    "year": "2009",
+    "rating": "7.7",
+    "votes": "588096",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0398286",
+    "title": "Tangled",
+    "year": "2010",
+    "rating": "7.7",
+    "votes": "519023",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0335266",
+    "title": "Lost in Translation",
+    "year": "2003",
+    "rating": "7.7",
+    "votes": "509570",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt3397884",
+    "title": "Sicario",
+    "year": "2015",
+    "rating": "7.7",
+    "votes": "506606",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt1408101",
+    "title": "Star Trek Into Darkness",
+    "year": "2013",
+    "rating": "7.7",
+    "votes": "503663",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0372183",
+    "title": "The Bourne Supremacy",
+    "year": "2004",
+    "rating": "7.7",
+    "votes": "499139",
+    "genres": "Action,Thriller"
+  },
+  {
+    "id": "tt2980516",
+    "title": "The Theory of Everything",
+    "year": "2014",
+    "rating": "7.7",
+    "votes": "495856",
+    "genres": "Biography,Drama,Romance"
+  },
+  {
+    "id": "tt1772341",
+    "title": "Wreck-It Ralph",
+    "year": "2012",
+    "rating": "7.7",
+    "votes": "478276",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0375679",
+    "title": "Crash",
+    "year": "2004",
+    "rating": "7.7",
+    "votes": "455096",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0119174",
+    "title": "The Game",
+    "year": "1997",
+    "rating": "7.7",
+    "votes": "450912",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0265086",
+    "title": "Black Hawk Down",
+    "year": "2001",
+    "rating": "7.7",
+    "votes": "438753",
+    "genres": "Action,Drama,History"
+  },
+  {
+    "id": "tt0328107",
+    "title": "Man on Fire",
+    "year": "2004",
+    "rating": "7.7",
+    "votes": "402352",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt1490017",
+    "title": "The Lego Movie",
+    "year": "2014",
+    "rating": "7.7",
+    "votes": "400945",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0388795",
+    "title": "Brokeback Mountain",
+    "year": "2005",
+    "rating": "7.7",
+    "votes": "399927",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt4912910",
+    "title": "Mission: Impossible - Fallout",
+    "year": "2018",
+    "rating": "7.7",
+    "votes": "393679",
+    "genres": "Action,Adventure,Thriller"
+  },
+  {
+    "id": "tt0120601",
+    "title": "Being John Malkovich",
+    "year": "1999",
+    "rating": "7.7",
+    "votes": "361693",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt0119008",
+    "title": "Donnie Brasco",
+    "year": "1997",
+    "rating": "7.7",
+    "votes": "343626",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0190590",
+    "title": "O Brother, Where Art Thou?",
+    "year": "2000",
+    "rating": "7.7",
+    "votes": "340664",
+    "genres": "Adventure,Comedy,Crime"
+  },
+  {
+    "id": "tt0119177",
+    "title": "Gattaca",
+    "year": "1997",
+    "rating": "7.7",
+    "votes": "335034",
+    "genres": "Drama,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt0425210",
+    "title": "Lucky Number Slevin",
+    "year": "2006",
+    "rating": "7.7",
+    "votes": "332102",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0120762",
+    "title": "Mulan",
+    "year": "1998",
+    "rating": "7.7",
+    "votes": "330961",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0119822",
+    "title": "As Good as It Gets",
+    "year": "1997",
+    "rating": "7.7",
+    "votes": "327782",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0112384",
+    "title": "Apollo 13",
+    "year": "1995",
+    "rating": "7.7",
+    "votes": "325587",
+    "genres": "Adventure,Drama,History"
+  },
+  {
+    "id": "tt0077651",
+    "title": "Halloween",
+    "year": "1978",
+    "rating": "7.7",
+    "votes": "322607",
+    "genres": "Horror,Thriller"
+  },
+  {
+    "id": "tt0089218",
+    "title": "The Goonies",
+    "year": "1985",
+    "rating": "7.7",
+    "votes": "311664",
+    "genres": "Adventure,Comedy,Family"
+  },
+  {
+    "id": "tt0104257",
+    "title": "A Few Good Men",
+    "year": "1992",
+    "rating": "7.7",
+    "votes": "301245",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt5362988",
+    "title": "Wind River",
+    "year": "2017",
+    "rating": "7.7",
+    "votes": "295377",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0257044",
+    "title": "Road to Perdition",
+    "year": "2002",
+    "rating": "7.7",
+    "votes": "292663",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0083944",
+    "title": "First Blood",
+    "year": "1982",
+    "rating": "7.7",
+    "votes": "288486",
+    "genres": "Action,Adventure,Thriller"
+  },
+  {
+    "id": "tt11813216",
+    "title": "The Banshees of Inisherin",
+    "year": "2022",
+    "rating": "7.7",
+    "votes": "277497",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0080339",
+    "title": "Airplane!",
+    "year": "1980",
+    "rating": "7.7",
+    "votes": "272784",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0824747",
+    "title": "Changeling",
+    "year": "2008",
+    "rating": "7.7",
+    "votes": "270310",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0107818",
+    "title": "Philadelphia",
+    "year": "1993",
+    "rating": "7.7",
+    "votes": "266290",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0108550",
+    "title": "What's Eating Gilbert Grape",
+    "year": "1993",
+    "rating": "7.7",
+    "votes": "261401",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0914798",
+    "title": "The Boy in the Striped Pajamas",
+    "year": "2008",
+    "rating": "7.7",
+    "votes": "261307",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0117381",
+    "title": "Primal Fear",
+    "year": "1996",
+    "rating": "7.7",
+    "votes": "258532",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0098635",
+    "title": "When Harry Met Sally...",
+    "year": "1989",
+    "rating": "7.7",
+    "votes": "254810",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0485947",
+    "title": "Mr. Nobody",
+    "year": "2009",
+    "rating": "7.7",
+    "votes": "251656",
+    "genres": "Drama,Fantasy,Romance"
+  },
+  {
+    "id": "tt0109445",
+    "title": "Clerks",
+    "year": "1994",
+    "rating": "7.7",
+    "votes": "236522",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt0090756",
+    "title": "Blue Velvet",
+    "year": "1986",
+    "rating": "7.7",
+    "votes": "231096",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0096438",
+    "title": "Who Framed Roger Rabbit",
+    "year": "1988",
+    "rating": "7.7",
+    "votes": "225095",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0158983",
+    "title": "South Park: Bigger, Longer & Uncut",
+    "year": "1999",
+    "rating": "7.7",
+    "votes": "219994",
+    "genres": "Animation,Comedy,Fantasy"
+  },
+  {
+    "id": "tt10288566",
+    "title": "Another Round",
+    "year": "2020",
+    "rating": "7.7",
+    "votes": "211689",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0058150",
+    "title": "Goldfinger",
+    "year": "1964",
+    "rating": "7.7",
+    "votes": "208775",
+    "genres": "Action,Adventure,Thriller"
+  },
+  {
+    "id": "tt0268126",
+    "title": "Adaptation.",
+    "year": "2002",
+    "rating": "7.7",
+    "votes": "208474",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt1070874",
+    "title": "The Trial of the Chicago 7",
+    "year": "2020",
+    "rating": "7.7",
+    "votes": "199894",
+    "genres": "Drama,History,Thriller"
+  },
+  {
+    "id": "tt0092991",
+    "title": "Evil Dead II",
+    "year": "1987",
+    "rating": "7.7",
+    "votes": "189147",
+    "genres": "Comedy,Horror"
+  },
+  {
+    "id": "tt0066999",
+    "title": "Dirty Harry",
+    "year": "1971",
+    "rating": "7.7",
+    "votes": "174544",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt23289160",
+    "title": "Godzilla Minus One",
+    "year": "2023",
+    "rating": "7.7",
+    "votes": "168798",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt2278871",
+    "title": "Blue Is the Warmest Colour",
+    "year": "2013",
+    "rating": "7.7",
+    "votes": "168353",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0350258",
+    "title": "Ray",
+    "year": "2004",
+    "rating": "7.7",
+    "votes": "161046",
+    "genres": "Biography,Drama,Music"
+  },
+  {
+    "id": "tt5363618",
+    "title": "Sound of Metal",
+    "year": "2019",
+    "rating": "7.7",
+    "votes": "159307",
+    "genres": "Drama,Music"
+  },
+  {
+    "id": "tt0071230",
+    "title": "Blazing Saddles",
+    "year": "1974",
+    "rating": "7.7",
+    "votes": "158182",
+    "genres": "Comedy,Western"
+  },
+  {
+    "id": "tt0373074",
+    "title": "Kung Fu Hustle",
+    "year": "2004",
+    "rating": "7.7",
+    "votes": "156569",
+    "genres": "Action,Comedy,Fantasy"
+  },
+  {
+    "id": "tt0301357",
+    "title": "Good Bye Lenin!",
+    "year": "2003",
+    "rating": "7.7",
+    "votes": "156156",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0245844",
+    "title": "The Count of Monte Cristo",
+    "year": "2002",
+    "rating": "7.7",
+    "votes": "154415",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0249462",
+    "title": "Billy Elliot",
+    "year": "2000",
+    "rating": "7.7",
+    "votes": "147716",
+    "genres": "Drama,Music"
+  },
+  {
+    "id": "tt0100150",
+    "title": "Miller's Crossing",
+    "year": "1990",
+    "rating": "7.7",
+    "votes": "145648",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0067116",
+    "title": "The French Connection",
+    "year": "1971",
+    "rating": "7.7",
+    "votes": "144186",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt4302938",
+    "title": "Kubo and the Two Strings",
+    "year": "2016",
+    "rating": "7.7",
+    "votes": "142561",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt2582496",
+    "title": "Me and Earl and the Dying Girl",
+    "year": "2015",
+    "rating": "7.7",
+    "votes": "141952",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0070666",
+    "title": "Serpico",
+    "year": "1973",
+    "rating": "7.7",
+    "votes": "140535",
+    "genres": "Biography,Crime,Drama"
+  },
+  {
+    "id": "tt0092965",
+    "title": "Empire of the Sun",
+    "year": "1987",
+    "rating": "7.7",
+    "votes": "138221",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0245574",
+    "title": "Y tu mamá también",
+    "year": "2001",
+    "rating": "7.7",
+    "votes": "134094",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0084726",
+    "title": "Star Trek II: The Wrath of Khan",
+    "year": "1982",
+    "rating": "7.7",
+    "votes": "132437",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0480025",
+    "title": "This Is England",
+    "year": "2006",
+    "rating": "7.7",
+    "votes": "131965",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt0114388",
+    "title": "Sense and Sensibility",
+    "year": "1995",
+    "rating": "7.7",
+    "votes": "131098",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0071360",
+    "title": "The Conversation",
+    "year": "1974",
+    "rating": "7.7",
+    "votes": "130129",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt1821549",
+    "title": "Nebraska",
+    "year": "2013",
+    "rating": "7.7",
+    "votes": "126071",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0061418",
+    "title": "Bonnie and Clyde",
+    "year": "1967",
+    "rating": "7.7",
+    "votes": "124453",
+    "genres": "Action,Biography,Crime"
+  },
+  {
+    "id": "tt0091605",
+    "title": "The Name of the Rose",
+    "year": "1986",
+    "rating": "7.7",
+    "votes": "122369",
+    "genres": "Drama,Mystery,Thriller"
+  },
+  {
+    "id": "tt0104348",
+    "title": "Glengarry Glen Ross",
+    "year": "1992",
+    "rating": "7.7",
+    "votes": "121665",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0093389",
+    "title": "The Last Emperor",
+    "year": "1987",
+    "rating": "7.7",
+    "votes": "115608",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt10370710",
+    "title": "The Worst Person in the World",
+    "year": "2021",
+    "rating": "7.7",
+    "votes": "110163",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0104652",
+    "title": "Porco Rosso",
+    "year": "1992",
+    "rating": "7.7",
+    "votes": "109025",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0032455",
+    "title": "Fantasia",
+    "year": "1940",
+    "rating": "7.7",
+    "votes": "107676",
+    "genres": "Animation,Family,Fantasy"
+  },
+  {
+    "id": "tt0318462",
+    "title": "The Motorcycle Diaries",
+    "year": "2004",
+    "rating": "7.7",
+    "votes": "106792",
+    "genres": "Adventure,Biography,Drama"
+  },
+  {
+    "id": "tt0054047",
+    "title": "The Magnificent Seven",
+    "year": "1960",
+    "rating": "7.7",
+    "votes": "106401",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0104797",
+    "title": "Malcolm X",
+    "year": "1992",
+    "rating": "7.7",
+    "votes": "106179",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt1683526",
+    "title": "Detachment",
+    "year": "2011",
+    "rating": "7.7",
+    "votes": "105188",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0058385",
+    "title": "My Fair Lady",
+    "year": "1964",
+    "rating": "7.7",
+    "votes": "104789",
+    "genres": "Drama,Family,Musical"
+  },
+  {
+    "id": "tt0851578",
+    "title": "Paprika",
+    "year": "2006",
+    "rating": "7.7",
+    "votes": "104067",
+    "genres": "Animation,Drama,Fantasy"
+  },
+  {
+    "id": "tt2358891",
+    "title": "The Great Beauty",
+    "year": "2013",
+    "rating": "7.7",
+    "votes": "102025",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0817177",
+    "title": "Flipped",
+    "year": "2010",
+    "rating": "7.7",
+    "votes": "102018",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0088939",
+    "title": "The Color Purple",
+    "year": "1985",
+    "rating": "7.7",
+    "votes": "100735",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0250258",
+    "title": "The Experiment",
+    "year": "2001",
+    "rating": "7.7",
+    "votes": "97618",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0053472",
+    "title": "Breathless",
+    "year": "1960",
+    "rating": "7.7",
+    "votes": "90910",
+    "genres": "Crime,Drama"
+  },
+  {
+    "id": "tt1365050",
+    "title": "Beasts of No Nation",
+    "year": "2015",
+    "rating": "7.7",
+    "votes": "88998",
+    "genres": "Drama,War"
+  },
+  {
+    "id": "tt0043456",
+    "title": "The Day the Earth Stood Still",
+    "year": "1951",
+    "rating": "7.7",
+    "votes": "87830",
+    "genres": "Drama,Sci-Fi"
+  },
+  {
+    "id": "tt0101921",
+    "title": "Fried Green Tomatoes",
+    "year": "1991",
+    "rating": "7.7",
+    "votes": "87199",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0043265",
+    "title": "The African Queen",
+    "year": "1951",
+    "rating": "7.7",
+    "votes": "86636",
+    "genres": "Adventure,Drama,Romance"
+  },
+  {
+    "id": "tt0389557",
+    "title": "Black Book",
+    "year": "2006",
+    "rating": "7.7",
+    "votes": "82096",
+    "genres": "Drama,Thriller,War"
+  },
+  {
+    "id": "tt0061578",
+    "title": "The Dirty Dozen",
+    "year": "1967",
+    "rating": "7.7",
+    "votes": "81536",
+    "genres": "Action,Adventure,War"
+  },
+  {
+    "id": "tt0069762",
+    "title": "Badlands",
+    "year": "1973",
+    "rating": "7.7",
+    "votes": "81111",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt1527788",
+    "title": "The Man from Nowhere",
+    "year": "2010",
+    "rating": "7.7",
+    "votes": "77774",
+    "genres": "Action,Drama,Thriller"
+  },
+  {
+    "id": "tt0147612",
+    "title": "Happiness",
+    "year": "1998",
+    "rating": "7.7",
+    "votes": "77147",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt1216496",
+    "title": "Mother",
+    "year": "2009",
+    "rating": "7.7",
+    "votes": "76161",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0125659",
+    "title": "Open Your Eyes",
+    "year": "1997",
+    "rating": "7.7",
+    "votes": "75115",
+    "genres": "Drama,Mystery,Sci-Fi"
+  },
+  {
+    "id": "tt4901306",
+    "title": "Perfect Strangers",
+    "year": "2016",
+    "rating": "7.7",
+    "votes": "74467",
+    "genres": "Comedy,Drama,Thriller"
+  },
+  {
+    "id": "tt0808506",
+    "title": "The Girl Who Leapt Through Time",
+    "year": "2006",
+    "rating": "7.7",
+    "votes": "73143",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt4080728",
+    "title": "A Man Called Ove",
+    "year": "2015",
+    "rating": "7.7",
+    "votes": "71803",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0102536",
+    "title": "Night on Earth",
+    "year": "1991",
+    "rating": "7.7",
+    "votes": "68610",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt5186714",
+    "title": "The Salesman",
+    "year": "2016",
+    "rating": "7.7",
+    "votes": "66685",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt0077405",
+    "title": "Days of Heaven",
+    "year": "1978",
+    "rating": "7.7",
+    "votes": "65639",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0023969",
+    "title": "Duck Soup",
+    "year": "1933",
+    "rating": "7.7",
+    "votes": "64058",
+    "genres": "Comedy,Musical"
+  },
+  {
+    "id": "tt0056197",
+    "title": "The Longest Day",
+    "year": "1962",
+    "rating": "7.7",
+    "votes": "61013",
+    "genres": "Action,Drama,History"
+  },
+  {
+    "id": "tt0030341",
+    "title": "The Lady Vanishes",
+    "year": "1938",
+    "rating": "7.7",
+    "votes": "59233",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0081283",
+    "title": "Ordinary People",
+    "year": "1980",
+    "rating": "7.7",
+    "votes": "59125",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0286244",
+    "title": "The Triplets of Belleville",
+    "year": "2003",
+    "rating": "7.7",
+    "votes": "58208",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0049366",
+    "title": "Invasion of the Body Snatchers",
+    "year": "1956",
+    "rating": "7.7",
+    "votes": "57255",
+    "genres": "Drama,Horror,Sci-Fi"
+  },
+  {
+    "id": "tt0089853",
+    "title": "The Purple Rose of Cairo",
+    "year": "1985",
+    "rating": "7.7",
+    "votes": "56953",
+    "genres": "Comedy,Fantasy,Romance"
+  },
+  {
+    "id": "tt0418455",
+    "title": "Adam's Apples",
+    "year": "2005",
+    "rating": "7.7",
+    "votes": "56682",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0104684",
+    "title": "Hard Boiled",
+    "year": "1992",
+    "rating": "7.7",
+    "votes": "55920",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0073341",
+    "title": "The Man Who Would Be King",
+    "year": "1975",
+    "rating": "7.7",
+    "votes": "53646",
+    "genres": "Adventure,Drama,War"
+  },
+  {
+    "id": "tt0097202",
+    "title": "The Killer",
+    "year": "1989",
+    "rating": "7.7",
+    "votes": "52908",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt2404461",
+    "title": "The Past",
+    "year": "2013",
+    "rating": "7.7",
+    "votes": "51751",
+    "genres": "Drama,Mystery"
+  },
+  {
+    "id": "tt0071615",
+    "title": "The Holy Mountain",
+    "year": "1973",
+    "rating": "7.7",
+    "votes": "50261",
+    "genres": "Adventure,Drama,Fantasy"
+  },
+  {
+    "id": "tt0096163",
+    "title": "The Vanishing",
+    "year": "1988",
+    "rating": "7.7",
+    "votes": "49785",
+    "genres": "Mystery,Thriller"
+  },
+  {
+    "id": "tt0068361",
+    "title": "The Discreet Charm of the Bourgeoisie",
+    "year": "1972",
+    "rating": "7.7",
+    "votes": "48818",
+    "genres": "Comedy,Drama,Fantasy"
+  },
+  {
+    "id": "tt0084855",
+    "title": "The Verdict",
+    "year": "1982",
+    "rating": "7.7",
+    "votes": "48244",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0107653",
+    "title": "Naked",
+    "year": "1993",
+    "rating": "7.7",
+    "votes": "46331",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt2317337",
+    "title": "Vicky Donor",
+    "year": "2012",
+    "rating": "7.7",
+    "votes": "46319",
+    "genres": "Comedy,Romance"
+  },
+  {
+    "id": "tt0055032",
+    "title": "Jules and Jim",
+    "year": "1962",
+    "rating": "7.7",
+    "votes": "45765",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0040506",
+    "title": "Key Largo",
+    "year": "1948",
+    "rating": "7.7",
+    "votes": "45397",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0058777",
+    "title": "Zulu",
+    "year": "1964",
+    "rating": "7.7",
+    "votes": "44416",
+    "genres": "Drama,History,War"
+  },
+  {
+    "id": "tt2024519",
+    "title": "The Broken Circle Breakdown",
+    "year": "2012",
+    "rating": "7.7",
+    "votes": "44373",
+    "genres": "Drama,Music,Romance"
+  },
+  {
+    "id": "tt0338309",
+    "title": "Evil",
+    "year": "2003",
+    "rating": "7.7",
+    "votes": "43443",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0116477",
+    "title": "Hamlet",
+    "year": "1996",
+    "rating": "7.7",
+    "votes": "40932",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0120265",
+    "title": "Taste of Cherry",
+    "year": "1997",
+    "rating": "7.7",
+    "votes": "39702",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0070544",
+    "title": "Fantastic Planet",
+    "year": "1973",
+    "rating": "7.7",
+    "votes": "39546",
+    "genres": "Animation,Sci-Fi"
+  },
+  {
+    "id": "tt0060665",
+    "title": "A Man for All Seasons",
+    "year": "1966",
+    "rating": "7.7",
+    "votes": "38593",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0248845",
+    "title": "Hedwig and the Angry Inch",
+    "year": "2001",
+    "rating": "7.7",
+    "votes": "38262",
+    "genres": "Comedy,Drama,Music"
+  },
+  {
+    "id": "tt0040724",
+    "title": "Red River",
+    "year": "1948",
+    "rating": "7.7",
+    "votes": "36210",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt0260991",
+    "title": "Joint Security Area",
+    "year": "2000",
+    "rating": "7.7",
+    "votes": "36191",
+    "genres": "Action,Drama,Thriller"
+  },
+  {
+    "id": "tt0053619",
+    "title": "L'Avventura",
+    "year": "1960",
+    "rating": "7.7",
+    "votes": "35265",
+    "genres": "Drama,Mystery,Romance"
+  },
+  {
+    "id": "tt0062467",
+    "title": "Wait Until Dark",
+    "year": "1967",
+    "rating": "7.7",
+    "votes": "35115",
+    "genres": "Thriller"
+  },
+  {
+    "id": "tt0880502",
+    "title": "The Edge of Heaven",
+    "year": "2007",
+    "rating": "7.7",
+    "votes": "34676",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0055018",
+    "title": "The Innocents",
+    "year": "1961",
+    "rating": "7.7",
+    "votes": "34508",
+    "genres": "Drama,Horror,Mystery"
+  },
+  {
+    "id": "tt0055824",
+    "title": "Cape Fear",
+    "year": "1962",
+    "rating": "7.7",
+    "votes": "33201",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt20561198",
+    "title": "The Promised Land",
+    "year": "2023",
+    "rating": "7.7",
+    "votes": "32189",
+    "genres": "Action,Biography,Drama"
+  },
+  {
+    "id": "tt0023427",
+    "title": "Scarface",
+    "year": "1932",
+    "rating": "7.7",
+    "votes": "31838",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0100998",
+    "title": "Dreams",
+    "year": "1990",
+    "rating": "7.7",
+    "votes": "30835",
+    "genres": "Drama,Fantasy"
+  },
+  {
+    "id": "tt0076740",
+    "title": "Sorcerer",
+    "year": "1977",
+    "rating": "7.7",
+    "votes": "30736",
+    "genres": "Adventure,Drama,Thriller"
+  },
+  {
+    "id": "tt0039192",
+    "title": "Black Narcissus",
+    "year": "1947",
+    "rating": "7.7",
+    "votes": "29516",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt3901826",
+    "title": "The Breadwinner",
+    "year": "2017",
+    "rating": "7.7",
+    "votes": "29439",
+    "genres": "Animation,Drama,Family"
+  },
+  {
+    "id": "tt0318411",
+    "title": "The Magdalene Sisters",
+    "year": "2002",
+    "rating": "7.7",
+    "votes": "29220",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt0033729",
+    "title": "How Green Was My Valley",
+    "year": "1941",
+    "rating": "7.7",
+    "votes": "27799",
+    "genres": "Drama,Family"
+  },
+  {
+    "id": "tt0038762",
+    "title": "My Darling Clementine",
+    "year": "1946",
+    "rating": "7.7",
+    "votes": "27089",
+    "genres": "Drama,Romance,Western"
+  },
+  {
+    "id": "tt5311542",
+    "title": "Never Look Away",
+    "year": "2018",
+    "rating": "7.7",
+    "votes": "26956",
+    "genres": "Biography,Drama,Romance"
+  },
+  {
+    "id": "tt0043924",
+    "title": "A Place in the Sun",
+    "year": "1951",
+    "rating": "7.7",
+    "votes": "25816",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt15109082",
+    "title": "The Quiet Girl",
+    "year": "2022",
+    "rating": "7.7",
+    "votes": "25788",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt7131622",
+    "title": "Once Upon a Time... in Hollywood",
+    "year": "2019",
+    "rating": "7.6",
+    "votes": "903955",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0416449",
+    "title": "300",
+    "year": "2006",
+    "rating": "7.6",
+    "votes": "888961",
+    "genres": "Action,Drama"
+  },
+  {
+    "id": "tt0121766",
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "year": "2005",
+    "rating": "7.6",
+    "votes": "876208",
+    "genres": "Action,Adventure,Fantasy"
+  },
+  {
+    "id": "tt5463162",
+    "title": "Deadpool 2",
+    "year": "2018",
+    "rating": "7.6",
+    "votes": "710055",
+    "genres": "Action,Adventure,Comedy"
+  },
+  {
+    "id": "tt0181689",
+    "title": "Minority Report",
+    "year": "2002",
+    "rating": "7.6",
+    "votes": "600986",
+    "genres": "Action,Crime,Mystery"
+  },
+  {
+    "id": "tt0409459",
+    "title": "Watchmen",
+    "year": "2009",
+    "rating": "7.6",
+    "votes": "596993",
+    "genres": "Action,Drama,Mystery"
+  },
+  {
+    "id": "tt0441773",
+    "title": "Kung Fu Panda",
+    "year": "2008",
+    "rating": "7.6",
+    "votes": "549130",
+    "genres": "Animation,Action,Adventure"
+  },
+  {
+    "id": "tt0289879",
+    "title": "The Butterfly Effect",
+    "year": "2004",
+    "rating": "7.6",
+    "votes": "539252",
+    "genres": "Drama,Sci-Fi,Thriller"
+  },
+  {
+    "id": "tt0119116",
+    "title": "The Fifth Element",
+    "year": "1997",
+    "rating": "7.6",
+    "votes": "525737",
+    "genres": "Action,Adventure,Sci-Fi"
+  },
+  {
+    "id": "tt0387564",
+    "title": "Saw",
+    "year": "2004",
+    "rating": "7.6",
+    "votes": "488053",
+    "genres": "Horror,Mystery,Thriller"
+  },
+  {
+    "id": "tt1210166",
+    "title": "Moneyball",
+    "year": "2011",
+    "rating": "7.6",
+    "votes": "484852",
+    "genres": "Biography,Drama,Sport"
+  },
+  {
+    "id": "tt1605783",
+    "title": "Midnight in Paris",
+    "year": "2011",
+    "rating": "7.6",
+    "votes": "460832",
+    "genres": "Comedy,Fantasy,Romance"
+  },
+  {
+    "id": "tt0361862",
+    "title": "The Machinist",
+    "year": "2004",
+    "rating": "7.6",
+    "votes": "428383",
+    "genres": "Drama,Thriller"
+  },
+  {
+    "id": "tt2582846",
+    "title": "The Fault in Our Stars",
+    "year": "2014",
+    "rating": "7.6",
+    "votes": "414073",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0230600",
+    "title": "The Others",
+    "year": "2001",
+    "rating": "7.6",
+    "votes": "408877",
+    "genres": "Horror,Mystery,Thriller"
+  },
+  {
+    "id": "tt10366206",
+    "title": "John Wick: Chapter 4",
+    "year": "2023",
+    "rating": "7.6",
+    "votes": "374514",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt1403865",
+    "title": "True Grit",
+    "year": "2010",
+    "rating": "7.6",
+    "votes": "366297",
+    "genres": "Drama,Western"
+  },
+  {
+    "id": "tt1306980",
+    "title": "50/50",
+    "year": "2011",
+    "rating": "7.6",
+    "votes": "347617",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0381849",
+    "title": "3:10 to Yuma",
+    "year": "2007",
+    "rating": "7.6",
+    "votes": "342306",
+    "genres": "Action,Crime,Drama"
+  },
+  {
+    "id": "tt0452623",
+    "title": "Gone Baby Gone",
+    "year": "2007",
+    "rating": "7.6",
+    "votes": "301559",
+    "genres": "Crime,Drama,Mystery"
+  },
+  {
+    "id": "tt0151804",
+    "title": "Office Space",
+    "year": "1999",
+    "rating": "7.6",
+    "votes": "298292",
+    "genres": "Comedy"
+  },
+  {
+    "id": "tt1979376",
+    "title": "Toy Story 4",
+    "year": "2019",
+    "rating": "7.6",
+    "votes": "296332",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0093870",
+    "title": "RoboCop",
+    "year": "1987",
+    "rating": "7.6",
+    "votes": "295546",
+    "genres": "Action,Crime,Sci-Fi"
+  },
+  {
+    "id": "tt9603212",
+    "title": "Mission: Impossible - Dead Reckoning Part One",
+    "year": "2023",
+    "rating": "7.6",
+    "votes": "283247",
+    "genres": "Action,Adventure,Thriller"
+  },
+  {
+    "id": "tt2582782",
+    "title": "Hell or High Water",
+    "year": "2016",
+    "rating": "7.6",
+    "votes": "264308",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0144117",
+    "title": "The Boondock Saints",
+    "year": "1999",
+    "rating": "7.6",
+    "votes": "256793",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0315733",
+    "title": "21 Grams",
+    "year": "2003",
+    "rating": "7.6",
+    "votes": "249709",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt13833688",
+    "title": "The Whale",
+    "year": "2022",
+    "rating": "7.6",
+    "votes": "244356",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt1899353",
+    "title": "The Raid: Redemption",
+    "year": "2011",
+    "rating": "7.6",
+    "votes": "223345",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0308644",
+    "title": "Finding Neverland",
+    "year": "2004",
+    "rating": "7.6",
+    "votes": "214620",
+    "genres": "Biography,Drama,Family"
+  },
+  {
+    "id": "tt0130827",
+    "title": "Run Lola Run",
+    "year": "1998",
+    "rating": "7.6",
+    "votes": "213046",
+    "genres": "Action,Crime,Thriller"
+  },
+  {
+    "id": "tt0056869",
+    "title": "The Birds",
+    "year": "1963",
+    "rating": "7.6",
+    "votes": "212450",
+    "genres": "Drama,Horror,Mystery"
+  },
+  {
+    "id": "tt3416742",
+    "title": "What We Do in the Shadows",
+    "year": "2014",
+    "rating": "7.6",
+    "votes": "207673",
+    "genres": "Comedy,Horror"
+  },
+  {
+    "id": "tt0120863",
+    "title": "The Thin Red Line",
+    "year": "1998",
+    "rating": "7.6",
+    "votes": "205918",
+    "genres": "Drama,History,War"
+  },
+  {
+    "id": "tt0128445",
+    "title": "Rushmore",
+    "year": "1998",
+    "rating": "7.6",
+    "votes": "202673",
+    "genres": "Comedy,Drama,Romance"
+  },
+  {
+    "id": "tt0455590",
+    "title": "The Last King of Scotland",
+    "year": "2006",
+    "rating": "7.6",
+    "votes": "200755",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0104691",
+    "title": "The Last of the Mohicans",
+    "year": "1992",
+    "rating": "7.6",
+    "votes": "196633",
+    "genres": "Action,Adventure,Drama"
+  },
+  {
+    "id": "tt0876563",
+    "title": "Ponyo",
+    "year": "2008",
+    "rating": "7.6",
+    "votes": "174065",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt6155172",
+    "title": "Roma",
+    "year": "2018",
+    "rating": "7.6",
+    "votes": "173970",
+    "genres": "Drama"
+  },
+  {
+    "id": "tt17009710",
+    "title": "Anatomy of a Fall",
+    "year": "2023",
+    "rating": "7.6",
+    "votes": "173235",
+    "genres": "Crime,Drama,Thriller"
+  },
+  {
+    "id": "tt0104952",
+    "title": "My Cousin Vinny",
+    "year": "1992",
+    "rating": "7.6",
+    "votes": "149148",
+    "genres": "Comedy,Crime"
+  },
+  {
+    "id": "tt7979580",
+    "title": "The Mitchells vs. the Machines",
+    "year": "2021",
+    "rating": "7.6",
+    "votes": "134277",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0068473",
+    "title": "Deliverance",
+    "year": "1972",
+    "rating": "7.6",
+    "votes": "124144",
+    "genres": "Adventure,Drama,Thriller"
+  },
+  {
+    "id": "tt9071322",
+    "title": "Dark Waters",
+    "year": "2019",
+    "rating": "7.6",
+    "votes": "115110",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0870111",
+    "title": "Frost/Nixon",
+    "year": "2008",
+    "rating": "7.6",
+    "votes": "114379",
+    "genres": "Biography,Drama,History"
+  },
+  {
+    "id": "tt0112579",
+    "title": "The Bridges of Madison County",
+    "year": "1995",
+    "rating": "7.6",
+    "votes": "92760",
+    "genres": "Drama,Romance"
+  },
+  {
+    "id": "tt0088680",
+    "title": "After Hours",
+    "year": "1985",
+    "rating": "7.6",
+    "votes": "87996",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0421082",
+    "title": "Control",
+    "year": "2007",
+    "rating": "7.6",
+    "votes": "70134",
+    "genres": "Biography,Drama,Music"
+  },
+  {
+    "id": "tt1754656",
+    "title": "The Little Prince",
+    "year": "2015",
+    "rating": "7.6",
+    "votes": "68871",
+    "genres": "Animation,Adventure,Comedy"
+  },
+  {
+    "id": "tt0090967",
+    "title": "Down by Law",
+    "year": "1986",
+    "rating": "7.6",
+    "votes": "57005",
+    "genres": "Comedy,Crime,Drama"
+  },
+  {
+    "id": "tt0101765",
+    "title": "The Double Life of Véronique",
+    "year": "1991",
+    "rating": "7.6",
+    "votes": "55067",
+    "genres": "Drama,Fantasy,Music"
+  },
+  {
+    "id": "tt0108122",
+    "title": "Short Cuts",
+    "year": "1993",
+    "rating": "7.6",
+    "votes": "48568",
+    "genres": "Comedy,Drama"
+  },
+  {
+    "id": "tt0086637",
+    "title": "Zelig",
+    "year": "1983",
+    "rating": "7.6",
+    "votes": "45079",
+    "genres": "Comedy"
+  }
+]
