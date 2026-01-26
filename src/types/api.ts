@@ -51,3 +51,12 @@ export interface MovieFull {
   Website: string;
   Response: "True" | "False";
 }
+
+export interface MovieJson {
+  id: string;
+  title: string;
+  year: string;
+  rating: string;
+  votes: string;
+  genres: string;
+}

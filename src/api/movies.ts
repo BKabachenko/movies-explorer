@@ -1,4 +1,8 @@
-import type { MovieFull, SearchResponse } from "../types";
+import type { MovieFull, MovieJson, SearchResponse } from "../types";
+
+
+
+
 
 const apiKey = import.meta.env.VITE_API_KEY;
 const apiUrl = import.meta.env.VITE_API_URL;
@@ -23,22 +27,38 @@ export const searchMovie = async (searchTitle: string): Promise<SearchResponse> 
   }
 };
 
-export const getMovieById = async (id: string): Promise<MovieFull> => {
+export const getMovieById = async (id: string, signal?: AbortSignal): Promise<MovieFull> => {
   try {
-    const response = await fetch(`${apiUrl}?apikey=${apiKey}&i=${id}&plot=full`);
+    const response = await fetch(`${apiUrl}?apikey=${apiKey}&i=${id}&plot=full`, {signal});
 
     if (!response.ok) {
-      throw new Error("Response isn`t OK");
+      throw new Error('Response isn`t OK');
     }
     const data: MovieFull = await response.json();
 
-    if (data.Response === "False") {
-      throw new Error("Failed to fetch movie");
+    if (data.Response === 'False') {
+      throw new Error('Failed to fetch movie');
     }
 
     return data;
   } catch (error) {
-    console.error("Api error", error);
+    console.error('Api error', error);
+    throw error;
+  }
+};
+
+export const getMoviesFromFile = async (signal : AbortSignal): Promise<MovieJson[]> => {
+  try {
+    const response = await fetch('/data/top1000movies.json', { signal });
+
+    if (!response.ok) {
+      throw new Error('Response isn`t OK');
+    }
+    const data: MovieJson[] = await response.json();
+
+    return data;
+  } catch (error) {
+    console.error('Api error', error);
     throw error;
   }
 };
