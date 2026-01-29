@@ -7,9 +7,9 @@ import type { MovieFull, MovieJson, SearchResponse } from "../types";
 const apiKey = import.meta.env.VITE_API_KEY;
 const apiUrl = import.meta.env.VITE_API_URL;
 
-export const searchMovie = async (searchTitle: string): Promise<SearchResponse> => {
+export const searchMovie = async (searchTitle: string, signal?: AbortSignal): Promise<SearchResponse> => {
   try {
-    const response = await fetch(`${apiUrl}?apikey=${apiKey}&s=${searchTitle}`);
+    const response = await fetch(`${apiUrl}?apikey=${apiKey}&s=${searchTitle}`, {signal});
 
     if (!response.ok) {
       throw new Error("Response isn`t OK");

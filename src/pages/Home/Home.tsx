@@ -23,9 +23,9 @@ const Home = () => {
         const data = await getMoviesFromFile(signal);
 
         const [topTen, randomOne, randomTen] = await Promise.all([
-          getTopTen(data),
-          getRandomOne(data),
-          getRandomTen(data),
+          getTopTen(data, signal),
+          getRandomOne(data, signal),
+          getRandomTen(data, signal),
         ]);
 
         setMoviesTop(topTen);
@@ -49,30 +49,30 @@ const Home = () => {
     };
   }, []);
 
-  const fetchMoviesById = async (moviesArr: MovieJson[]) => {
-    const request = moviesArr.map((e) => getMovieById(e.id));
+  const fetchMoviesById = async (moviesArr: MovieJson[], signal: AbortSignal) => {
+    const request = moviesArr.map((e) => getMovieById(e.id, signal));
     const response = await Promise.all(request);
     return response;
   };
 
-  const getTopTen = async (moviesList: MovieJson[]) => {
+  const getTopTen = async (moviesList: MovieJson[], signal: AbortSignal) => {
     const firstTenArr = moviesList?.slice(0, 10);
-    const result = await fetchMoviesById(firstTenArr);
+    const result = await fetchMoviesById(firstTenArr, signal);
     return result;
   };
 
-  const getRandomOne = async (moviesList: MovieJson[]) => {
+  const getRandomOne = async (moviesList: MovieJson[], signal: AbortSignal) => {
     const randomIndex = Math.floor(Math.random() * moviesList.length);
     const randomOne = moviesList[randomIndex];
-    const result = await fetchMoviesById([randomOne]);
+    const result = await fetchMoviesById([randomOne], signal);
     return result;
   };
 
-  const getRandomTen = async (moviesList: MovieJson[]) => {
+  const getRandomTen = async (moviesList: MovieJson[], signal: AbortSignal) => {
     let randomIndex = Math.floor(Math.random() * moviesList.length);
     if (randomIndex >= moviesList.length - 10) randomIndex -= 10;
     const randomTenArr = moviesList?.slice(randomIndex, randomIndex + 10);
-    const result = await fetchMoviesById(randomTenArr);
+    const result = await fetchMoviesById(randomTenArr, signal);
     return result;
   };
 
