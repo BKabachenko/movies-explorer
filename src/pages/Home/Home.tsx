@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react';
 
 import { getMoviesFromFile } from '../../api/movies';
+import heart from '../../assets/icons/heart.svg?react';
+import starHome from '../../assets/icons/star_home.svg?react';
+import Icon from '../../components/Icon/Icon';
 import MovieList from '../../components/MovieList/MovieList';
 import type { MovieFull } from '../../types';
-import { getTopTen, getRandomOne, getRandomTen } from '../../utils/Helpers';
+import { getRandomOne, getRandomTen, getTopTen } from '../../utils/Helpers';
+import OneMovie from './OneMovie';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -53,13 +57,23 @@ const Home = () => {
   return (
     <>
       {!isLoading && moviesTop && movieOne && moviesRandom && (
-        <div className=''>
-          <p>TOP 1</p>
-          <MovieList list={movieOne} />
-          <p>TOP 10</p>
-          <MovieList list={moviesTop} />
-          <p>Random 10</p>
-          <MovieList list={moviesRandom} />
+        <div className='flex flex-col gap-10 md:gap-18'>
+          <div className='h-100 w-full'>
+            <OneMovie movie={movieOne}/>
+          </div>
+          <div className=''>
+            <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>
+              <Icon src={starHome} size='md' className='text-indigo-600' /> TOP 10
+            </p>
+            <MovieList list={moviesTop} />
+          </div>
+
+          <div className=''>
+            <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>
+              <Icon src={heart} size='md' className='text-indigo-600' /> Recommended for you
+            </p>
+            <MovieList list={moviesRandom} />
+          </div>
         </div>
       )}
     </>
