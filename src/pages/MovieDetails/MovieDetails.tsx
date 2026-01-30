@@ -88,7 +88,7 @@ const MovieDetails = () => {
                   ))}
                   <Badge variant='rate'>
                     <Icon src={starIcon} />
-                    {movie.Metascore}
+                    {movie.imdbRating}
                   </Badge>
                 </div>
                 <h3 className='py-4 text-center text-4xl font-semibold sm:text-5xl md:text-start md:text-7xl'>
