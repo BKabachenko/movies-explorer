@@ -1,21 +1,22 @@
-import s from "./MovieList.module.scss";
-import type { MovieShort } from "../../types";
-import MovieCard from "../MovieCard/MovieCard";
+import type { MovieShort } from '@/types';
+
+import MovieCard from '../MovieCard/MovieCard';
 
 type MovieListProps = {
   list: MovieShort[];
 };
 
 const MovieList = ({ list }: MovieListProps) => {
-  if (list.length === 0 || !list ) return (
-    <div className={s.emptyList}>
-      <h2>No Films</h2>
-      <p>Please change search request.</p>
-    </div>
-  );
+  if (list.length === 0 || !list)
+    return (
+      <div className='flex flex-col items-center'>
+        <h2>No Films</h2>
+        <p>Please change search request.</p>
+      </div>
+    );
 
   return (
-    <div className={s.list}>
+    <div className='grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-5'>
       {list.map((item) => (
         <MovieCard key={item.imdbID} movie={item} />
       ))}
