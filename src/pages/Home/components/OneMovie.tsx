@@ -1,18 +1,18 @@
 import { Link } from 'react-router';
 
-import Badge from '../../../components/Badge/Badge';
-import type { MovieFull } from '../../../types';
+import type { MovieFull } from '@/types';
+
+import Badge from '@/components/Badge/Badge';
+import { DEFAULT_POSTER } from '@/constants';
 
 interface MovieOneProps {
   movie: MovieFull;
 }
 
 const OneMovie = ({ movie }: MovieOneProps) => {
-  const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
-
   const { Title, Poster, imdbRating, imdbID, Plot } = movie;
 
-  const posterLink = Poster === 'N/A' ? dummyPosterLink : Poster;
+  const posterLink = Poster === 'N/A' ? DEFAULT_POSTER : Poster;
 
   return (
     <div className='relative h-full w-full overflow-hidden rounded-xl bg-indigo-900 p-5 md:p-12'>
@@ -24,7 +24,7 @@ const OneMovie = ({ movie }: MovieOneProps) => {
               src={posterLink}
               alt={`${Title} poster`}
               onError={(e) => {
-                e.currentTarget.src = dummyPosterLink;
+                e.currentTarget.src = DEFAULT_POSTER;
               }}
               className='aspect-2/3 h-full w-full rounded-xl object-cover object-center transition-all group-hover:shadow-xl group-hover:shadow-indigo-200/50'
             />
