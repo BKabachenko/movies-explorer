@@ -4,17 +4,13 @@ import { useParams } from 'react-router';
 import { getMovieById } from '../../api/movies';
 import calendarIcon from '../../assets/icons/calendar-year.svg?react';
 import clockIcon from '../../assets/icons/clock.svg?react';
-import infoIcon from '../../assets/icons/info.svg?react';
-import peopleIcon from '../../assets/icons/people.svg?react';
 import starIcon from '../../assets/icons/star.svg?react';
-import trophyIcon from '../../assets/icons/trophy.svg?react';
-import worldIcon from '../../assets/icons/world.svg?react';
 import BackBtn from '../../components/BackBtn/BackBtn';
 import Badge from '../../components/Badge/Badge';
 import Icon from '../../components/Icon/Icon';
 import type { MovieFull } from '../../types';
-
-// import s from './MovieDetails.module.scss';
+import { splitArray } from '../../utils/Helpers';
+import DetailsBlock from './components/DetailsBlock';
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState<MovieFull>();
@@ -24,18 +20,23 @@ const MovieDetails = () => {
   const { id } = useParams();
   useEffect(() => {
     const fetchMovie = async () => {
+      const controller = new AbortController();
+      const signal = controller.signal;
       try {
         setIsLoading(true);
         setError(null);
 
         if (id) {
-          const data = await getMovieById(id);
+          const data = await getMovieById(id, signal);
           setMovie(data);
         } else {
           throw new Error('ID undefined');
         }
       } catch (error) {
         if (error instanceof Error) {
+          if (error.name === 'AbortSignal') {
+            return;
+          }
           setError(error.message);
         } else {
           throw new Error('New error');
@@ -50,17 +51,9 @@ const MovieDetails = () => {
 
   const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
 
-
   const getPosterSrc = () => {
-    const posterLink =
-      movie!.Poster === 'N/A'
-        ? dummyPosterLink
-        : movie!.Poster;
+    const posterLink = movie!.Poster === 'N/A' ? dummyPosterLink : movie!.Poster;
     return posterLink;
-  };
-  const splitArray = (str: string) => {
-    const arr = str.split(',');
-    return arr;
   };
 
   return (
@@ -75,7 +68,12 @@ const MovieDetails = () => {
             <div className='mb-10 flex flex-col content-center justify-center gap-6 sm:flex-row md:justify-start'>
               <div className='flex content-center justify-center'>
                 <div className='flex h-96 w-fit content-center justify-center rounded-xl border border-gray-100 p-1 shadow-2xl'>
-                  <img src={getPosterSrc()} alt={movie.Title} className='rounded-xl' onError={e => e.currentTarget.src = dummyPosterLink}/>
+                  <img
+                    src={getPosterSrc()}
+                    alt={movie.Title}
+                    className='rounded-xl'
+                    onError={(e) => (e.currentTarget.src = dummyPosterLink)}
+                  />
                 </div>
               </div>
 
@@ -107,68 +105,7 @@ const MovieDetails = () => {
                 </div>
               </div>
             </div>
-            
-            <div className='flex flex-col justify-around gap-8 md:flex-row'>
-              <div className='flex flex-col gap-5 flex-1'>
-                <div className='flex flex-col'>
-                  <p className='mb-2 flex-1 text-center text-xl font-semibold md:text-left'>Plot</p>
-                  {movie.Plot}
-                </div>
-                <div className='flex flex-col'>
-                  <p className='mb-2 flex-1 text-center text-xl font-semibold md:text-left'>Cast</p>
-                  <div className='flex flex-col justify-center gap-2 sm:flex-row md:justify-start'>
-                    {splitArray(movie.Actors).map((e, i) => (
-                      <Badge key={i} variant='author'>
-                        <Icon src={peopleIcon} />
-                        {e}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              <div className='rounded-xl bg-gray-100 p-8 flex-1 md:max-w-100'>
-                <div className='flex items-center gap-2 text-xl font-semibold'>
-                  <Icon src={infoIcon} size='md' className='translate-y-0.4 text-indigo-600' />
-                  Details
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Director</p>
-                  {movie.Director}
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Writer</p>
-                  {movie.Writer}
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Type</p>
-                  {movie.Type}
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Awards</p>
-                  {movie.Awards}
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Country</p>
-                  {movie.Country}
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Language</p>
-                  {movie.Language}
-                </div>
-
-                <div className='mb-2 flex flex-col gap-1 border-b border-b-gray-300 py-3'>
-                  <p className='text-gray-500'>Production</p>
-                  {movie.Production}
-                </div>
-              </div>
-            </div>
+            <DetailsBlock movie={movie} />
           </div>
         </div>
       )}
