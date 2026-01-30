@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 
-import Badge from '../../components/Badge/Badge';
-import type { MovieFull } from '../../types';
+import Badge from '../../../components/Badge/Badge';
+import type { MovieFull } from '../../../types';
 
 interface MovieOneProps {
   movie: MovieFull[];
