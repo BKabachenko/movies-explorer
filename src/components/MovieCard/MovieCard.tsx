@@ -1,17 +1,17 @@
 import { Link } from 'react-router';
 
-import type { MovieShort } from '../../types';
+import type { MovieShort } from '@/types';
+
+import { DEFAULT_POSTER } from '@/constants';
 
 type MovieCardProps = {
   movie: MovieShort;
 };
 
-const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
-
 const MovieCard = ({ movie }: MovieCardProps) => {
   const { Title, Poster, Year, Type, imdbID } = movie;
 
-  const posterLink = Poster === 'N/A' ? dummyPosterLink : Poster;
+  const posterLink = Poster === 'N/A' ? DEFAULT_POSTER : Poster;
 
   return (
     <Link to={`/movie/${imdbID}`}>
@@ -22,7 +22,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
             alt={`${Title} poster`}
             loading='lazy'
             onError={(e) => {
-              e.currentTarget.src = dummyPosterLink;
+              e.currentTarget.src = DEFAULT_POSTER;
             }}
             className='aspect-2/3 h-full w-full rounded-xl object-cover object-center group-hover:shadow-xl group-hover:shadow-indigo-200/50'
           />
