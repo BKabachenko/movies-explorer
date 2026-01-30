@@ -1,4 +1,4 @@
-import { type KeyboardEvent, useState } from 'react';
+import { type KeyboardEvent, useEffect, useState } from 'react';
 
 import searchIcon from '../../assets/icons/search.svg?react';
 import Icon from '../Icon/Icon';
@@ -10,6 +10,10 @@ interface SearchInputProps {
 
 const SearchInput = ({ onSearch, initialValue = '' }: SearchInputProps) => {
   const [inputText, setInputText] = useState(initialValue);
+
+  useEffect(() => {
+  setInputText(initialValue);
+}, [initialValue]);
 
   const handleSearch = () => {
     const trimmed = inputText.trim();
