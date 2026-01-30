@@ -13,11 +13,12 @@
   "bracketSpacing": true,
   "endOfLine": "lf",
   "importOrder": [
-    "^react(.*)$",
-    "<THIRD_PARTY_MODULES>",
-    "^@/(.*)$",
-    "^[./].*(?<!\\.(c|le|sc)ss)$",
-    "\\.(c|le|sc)ss$"
+      "^react(.*)$",
+      "<THIRD_PARTY_MODULES>",
+      "^@/types(.*)$",       
+      "^@/(.*)$",
+      "^[./].*(?<!\\.(c|le|sc)ss)$",
+      "\\.(c|le|sc)ss$"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
