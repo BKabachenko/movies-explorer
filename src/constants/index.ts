@@ -1,0 +1,1 @@
+export const DEFAULT_POSTER = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
