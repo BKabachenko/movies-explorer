@@ -7,7 +7,7 @@ import Icon from '../../components/Icon/Icon';
 import MovieList from '../../components/MovieList/MovieList';
 import type { MovieFull } from '../../types';
 import { getRandomOne, getRandomTen, getTopTen } from '../../utils/Helpers';
-import OneMovie from './OneMovie';
+import OneMovie from './components/OneMovie';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -37,7 +37,11 @@ const Home = () => {
         setMovieOne(randomOne);
         setMoviesRandom(randomTen);
       } catch (error) {
+
         if (error instanceof Error) {
+          if (error.name === 'AbortError') {
+            return
+          }
           setError(error.message);
         } else {
           setError('Unknown error');
@@ -54,9 +58,12 @@ const Home = () => {
     };
   }, []);
 
+  if (isLoading) {return }
+  if (error) {return }
+
   return (
     <>
-      {!isLoading && moviesTop && movieOne && moviesRandom && (
+      {!isLoading && !error && moviesTop && movieOne && moviesRandom && (
         <div className='flex flex-col gap-10 md:gap-18'>
           <div className='h-100 w-full'>
             <OneMovie movie={movieOne}/>
