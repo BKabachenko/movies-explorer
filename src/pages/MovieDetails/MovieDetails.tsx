@@ -10,6 +10,7 @@ import starIcon from '@/assets/icons/star.svg?react';
 import BackBtn from '@/components/BackBtn/BackBtn';
 import Badge from '@/components/Badge/Badge';
 import Icon from '@/components/Icon/Icon';
+import { DEFAULT_POSTER } from '@/constants';
 import DetailsBlock from '@/pages/MovieDetails/components/DetailsBlock';
 import { splitArray } from '@/utils/Helpers';
 
@@ -50,10 +51,8 @@ const MovieDetails = () => {
     fetchMovie();
   }, [id]);
 
-  const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
-
   const getPosterSrc = () => {
-    const posterLink = movie!.Poster === 'N/A' ? dummyPosterLink : movie!.Poster;
+    const posterLink = movie!.Poster === 'N/A' ? DEFAULT_POSTER : movie!.Poster;
     return posterLink;
   };
 
@@ -73,7 +72,7 @@ const MovieDetails = () => {
                     src={getPosterSrc()}
                     alt={movie.Title}
                     className='rounded-xl'
-                    onError={(e) => (e.currentTarget.src = dummyPosterLink)}
+                    onError={(e) => (e.currentTarget.src = DEFAULT_POSTER)}
                   />
                 </div>
               </div>
