@@ -66,7 +66,7 @@ const Home = () => {
       {!isLoading && !error && moviesTop && movieOne && moviesRandom && (
         <div className='flex flex-col gap-10 md:gap-18'>
           <div className='h-100 w-full'>
-            <OneMovie movie={movieOne}/>
+            <OneMovie movie={movieOne[0]}/>
           </div>
           <div className=''>
             <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>

@@ -4,13 +4,13 @@ import Badge from '../../../components/Badge/Badge';
 import type { MovieFull } from '../../../types';
 
 interface MovieOneProps {
-  movie: MovieFull[];
+  movie: MovieFull;
 }
 
 const OneMovie = ({ movie }: MovieOneProps) => {
   const dummyPosterLink = 'https://dummyimage.com/300x450/787878/ffffff&text=No+Preview';
 
-  const { Title, Poster, imdbRating, imdbID, Plot } = movie[0];
+  const { Title, Poster, imdbRating, imdbID, Plot } = movie;
 
   const posterLink = Poster === 'N/A' ? dummyPosterLink : Poster;
 
