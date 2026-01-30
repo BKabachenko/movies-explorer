@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
+import type { MovieFull } from '@/types';
+
 import { getMovieById } from '@/api/movies';
 import calendarIcon from '@/assets/icons/calendar-year.svg?react';
 import clockIcon from '@/assets/icons/clock.svg?react';
@@ -9,7 +11,6 @@ import BackBtn from '@/components/BackBtn/BackBtn';
 import Badge from '@/components/Badge/Badge';
 import Icon from '@/components/Icon/Icon';
 import DetailsBlock from '@/pages/MovieDetails/components/DetailsBlock';
-import type { MovieFull } from '@/types';
 import { splitArray } from '@/utils/Helpers';
 
 const MovieDetails = () => {
