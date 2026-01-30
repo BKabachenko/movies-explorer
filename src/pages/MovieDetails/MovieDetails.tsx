@@ -12,7 +12,7 @@ import Badge from '@/components/Badge/Badge';
 import Icon from '@/components/Icon/Icon';
 import { DEFAULT_POSTER } from '@/constants';
 import DetailsBlock from '@/pages/MovieDetails/components/DetailsBlock';
-import { splitArray } from '@/utils/Helpers';
+import { splitStringToArray } from '@/utils/Helpers';
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState<MovieFull>();
@@ -79,7 +79,7 @@ const MovieDetails = () => {
 
               <div className='flex flex-1 flex-col justify-center'>
                 <div className='flex flex-row flex-wrap justify-center gap-3 sm:justify-start'>
-                  {splitArray(movie.Genre).map((e, i) => (
+                  {splitStringToArray(movie.Genre).map((e, i) => (
                     <Badge key={i} variant='genre'>
                       {e}
                     </Badge>

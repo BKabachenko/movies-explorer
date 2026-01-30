@@ -1,5 +1,6 @@
-import { getMovieById } from '../api/movies';
 import type { MovieJson } from '../types';
+
+import { getMovieById } from '../api/movies';
 
 export const fetchMoviesById = async (moviesArr: MovieJson[], signal: AbortSignal) => {
   const request = moviesArr.map((e) => getMovieById(e.id, signal));
@@ -28,7 +29,8 @@ export const getRandomTen = async (moviesList: MovieJson[], signal: AbortSignal)
   return result;
 };
 
-export const splitArray = (str: string) => {
-  const arr = str.split(',');
+export const splitStringToArray = (str: string) => {
+  if (!str) return [];
+  const arr = str.split(',').map((e) => e.trim());
   return arr;
 };

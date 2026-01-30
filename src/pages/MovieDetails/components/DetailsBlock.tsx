@@ -3,7 +3,7 @@ import peopleIcon from '../../../assets/icons/people.svg?react';
 import Badge from '../../../components/Badge/Badge';
 import Icon from '../../../components/Icon/Icon';
 import type { MovieFull } from '../../../types';
-import { splitArray } from '../../../utils/Helpers';
+import { splitStringToArray } from '../../../utils/Helpers';
 import DetailLine from './DetailLine';
 
 interface DetailsBlockProps {
@@ -21,7 +21,7 @@ const DetailsBlock = ({ movie }: DetailsBlockProps) => {
         <div className='flex flex-col'>
           <p className='mb-2 flex-1 text-center text-xl font-semibold md:text-left'>Cast</p>
           <div className='flex flex-col justify-center gap-2 sm:flex-row md:justify-start'>
-            {splitArray(movie.Actors).map((e, i) => (
+            {splitStringToArray(movie.Actors).map((e, i) => (
               <Badge key={i} variant='author'>
                 <Icon src={peopleIcon} />
                 {e}
