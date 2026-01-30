@@ -35,7 +35,7 @@ const MovieDetails = () => {
         }
       } catch (error) {
         if (error instanceof Error) {
-          if (error.name === 'AbortSignal') {
+          if (error.name === 'AbortError') {
             return;
           }
           setError(error.message);
