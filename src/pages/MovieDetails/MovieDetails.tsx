@@ -1,9 +1,5 @@
-import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
-import type { MovieFull } from '@/types';
-
-import { getMovieById } from '@/api/movies';
 import calendarIcon from '@/assets/icons/calendar-year.svg?react';
 import clockIcon from '@/assets/icons/clock.svg?react';
 import starIcon from '@/assets/icons/star.svg?react';
@@ -11,45 +7,14 @@ import BackBtn from '@/components/BackBtn/BackBtn';
 import Badge from '@/components/Badge/Badge';
 import Icon from '@/components/Icon/Icon';
 import { DEFAULT_POSTER } from '@/constants';
+import { useMovies } from '@/hooks/useMovies';
 import DetailsBlock from '@/pages/MovieDetails/components/DetailsBlock';
 import { splitStringToArray } from '@/utils/Helpers';
 
 const MovieDetails = () => {
-  const [movie, setMovie] = useState<MovieFull>();
-  const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [error, setError] = useState<null | string>(null);
-
   const { id } = useParams();
-  useEffect(() => {
-    const fetchMovie = async () => {
-      const controller = new AbortController();
-      const signal = controller.signal;
-      try {
-        setIsLoading(true);
-        setError(null);
 
-        if (id) {
-          const data = await getMovieById(id, signal);
-          setMovie(data);
-        } else {
-          throw new Error('ID undefined');
-        }
-      } catch (error) {
-        if (error instanceof Error) {
-          if (error.name === 'AbortError') {
-            return;
-          }
-          setError(error.message);
-        } else {
-          throw new Error('New error');
-        }
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    fetchMovie();
-  }, [id]);
+  const { movie, isLoading, error } = useMovies(id);
 
   const getPosterSrc = () => {
     const posterLink = movie!.Poster === 'N/A' ? DEFAULT_POSTER : movie!.Poster;
