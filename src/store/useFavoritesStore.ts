@@ -1,17 +1,22 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { devtools, persist } from 'zustand/middleware';
 
-interface useFavoritesStoreProps {
-  movies: number;
+interface useFavoritesStoreState {
+  movieList: string[];
+  addMovie: (id: string) => void;
+  // isMovie: (id: string) => boolean;
 }
 
-export const useFavoritesStore = create<useFavoritesStoreProps>()(
-  persist(
-    () => ({
-      movies: 0,
-    }),
-    {
-      name: 'FavoritesStore',
-    }
+export const useFavoritesStore = create<useFavoritesStoreState>()(
+  devtools(
+    persist(
+      (set) => ({
+        movieList: [],
+        addMovie: (id) => set((state) => ({ movieList: [...state.movieList, id] })),
+      }),
+      {
+        name: 'FavoritesStore',
+      }
+    )
   )
 );
