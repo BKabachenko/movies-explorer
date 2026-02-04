@@ -1,5 +1,8 @@
 import { Link, useNavigate, useSearchParams } from 'react-router';
 
+import { useFavoritesStore } from '@/store/useFavoritesStore';
+
+import heartIcon from '../../assets/icons/heart.svg?react';
 import logo from '../../assets/icons/main-logo.svg?react';
 import Icon from '../Icon/Icon';
 import SearchInput from '../SearchInput/SearchInput';
@@ -8,6 +11,8 @@ const Header = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const searchText = searchParams.get('search') || '';
   const navigate = useNavigate();
+
+  const favoriteCount = useFavoritesStore((s) => s.movieList.length);
 
   const onSearch = (searchText: string) => {
     if (searchText.trim().length > 0) {
@@ -36,6 +41,17 @@ const Header = () => {
         <div className='flex-5 pr-6'>
           <SearchInput onSearch={onSearch} initialValue={searchText} />
         </div>
+        <Link to='/favorite'>
+          <div className='flex w-fit cursor-pointer flex-row items-center gap-2 rounded-xl bg-indigo-50 p-1 px-3 hover:bg-indigo-200'>
+            <Icon src={heartIcon} className='h-5 w-5' />
+            Favorites{' '}
+            {favoriteCount ? (
+              <span className='rounded-lg bg-indigo-300 px-2'>{favoriteCount}</span>
+            ) : (
+              ''
+            )}
+          </div>
+        </Link>
       </div>
     </header>
   );
