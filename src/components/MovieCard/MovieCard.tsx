@@ -18,7 +18,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
   return (
     <Link to={`/movie/${imdbID}`}>
       <article className='group inset-shadow-xl inset-shadow-xl relative flex h-full cursor-pointer flex-col gap-2 rounded-xl inset-shadow-indigo-500 transition-all hover:scale-103'>
-        <FavoriteBadge id={imdbID} />
+        <FavoriteBadge movie={movie} />
         <div className='flex w-full justify-center rounded-xl border border-gray-300'>
           <img
             src={posterLink}
