@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 
 import { useFavoritesStore } from './useFavoritesStore';
 
@@ -12,10 +12,11 @@ const movieMock = {
 
 describe('useFavoritesStore test', () => {
   beforeEach(() => {
+    localStorage.clear();
     useFavoritesStore.setState({ movieList: [] });
   });
 
-  test('should add a movie to the list', () => {
+  it('should add a movie to the list', () => {
     useFavoritesStore.getState().addMovie(movieMock);
 
     const list = useFavoritesStore.getState().movieList;
@@ -25,7 +26,7 @@ describe('useFavoritesStore test', () => {
     expect(list[0]).toEqual(movieMock);
   });
 
-  test('should remove a movie from the list', () => {
+  it('should remove a movie from the list', () => {
     useFavoritesStore.getState().addMovie(movieMock);
 
     useFavoritesStore.getState().removeMovie(movieMock.imdbID);
@@ -37,7 +38,7 @@ describe('useFavoritesStore test', () => {
     expect(isMovie).toBeUndefined();
   });
 
-  test('should not add duplicates', () => {
+  it('should not add duplicates', () => {
     useFavoritesStore.getState().addMovie(movieMock);
     useFavoritesStore.getState().addMovie(movieMock);
     useFavoritesStore.getState().addMovie(movieMock);
@@ -48,7 +49,7 @@ describe('useFavoritesStore test', () => {
     expect(list).toHaveLength(1);
   });
 
-  test('should check movie is in list or not', () => {
+  it('should check movie is in list or not', () => {
     useFavoritesStore.getState().addMovie(movieMock);
 
     const list = useFavoritesStore.getState().movieList;
