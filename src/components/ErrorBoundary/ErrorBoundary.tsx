@@ -33,7 +33,11 @@ export default class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBo
       if (this.props.fallback) {
         return this.props.fallback;
       }
-      return <div>ErrorBoundary</div>;
+      return (
+        <div className='flex justify-center pt-10 text-xl'>
+          Something went wrong. Please reload the page.
+        </div>
+      );
     }
 
     return this.props.children;
