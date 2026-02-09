@@ -1,6 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router';
 
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
 import MainLayout from './layouts/MainLayout/MainLayout';
 
 const Home = lazy(() => import('@/pages/Home/Home'));
@@ -10,16 +11,18 @@ const Favorites = lazy(() => import('@/pages/Favorites/Favorites'));
 
 function App() {
   return (
-    <Suspense fallback={<div className=''>Loader...</div>}>
-      <Routes>
-        <Route element={<MainLayout />}>
-          <Route index element={<Home />} />
-          <Route path='movie/:id' element={<MovieDetails />} />
-          <Route path='/search' element={<SearchPage />} />
-          <Route path='/favorite' element={<Favorites />} />
-        </Route>
-      </Routes>
-    </Suspense>
+    <ErrorBoundary>
+      <Suspense fallback={<div className=''>Loader...</div>}>
+        <Routes>
+          <Route element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path='movie/:id' element={<MovieDetails />} />
+            <Route path='/search' element={<SearchPage />} />
+            <Route path='/favorite' element={<Favorites />} />
+          </Route>
+        </Routes>
+      </Suspense>
+    </ErrorBoundary>
   );
 }
 
