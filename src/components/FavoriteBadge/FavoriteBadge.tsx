@@ -28,7 +28,6 @@ const FavoriteBadge = ({ movie }: FavoriteBadgeProps) => {
     if (isFavorite) {
       removeMovie(movie.imdbID);
     } else {
-      console.log(movie);
       addMovie(movie);
     }
   };
