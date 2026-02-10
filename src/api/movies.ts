@@ -1,40 +1,43 @@
-import type { MovieFull, MovieJson, SearchResponse } from "../types";
+import type { MovieFull, MovieJson, SearchResponse } from '../types';
 
+const apiKey = import.meta.env.VITE_API_KEY as string;
+const apiUrl = import.meta.env.VITE_API_URL as string;
 
+if (!apiKey || !apiUrl) {
+  throw new Error('Missing env variables.');
+}
 
-
-
-const apiKey = import.meta.env.VITE_API_KEY;
-const apiUrl = import.meta.env.VITE_API_URL;
-
-export const searchMovie = async (searchTitle: string, signal?: AbortSignal): Promise<SearchResponse> => {
+export const searchMovie = async (
+  searchTitle: string,
+  signal?: AbortSignal
+): Promise<SearchResponse> => {
   try {
-    const response = await fetch(`${apiUrl}?apikey=${apiKey}&s=${searchTitle}`, {signal});
+    const response = await fetch(`${apiUrl}?apikey=${apiKey}&s=${searchTitle}`, { signal });
 
     if (!response.ok) {
-      throw new Error("Response isn`t OK");
+      throw new Error('Response isn`t OK');
     }
-    const data: SearchResponse = await response.json();
+    const data: SearchResponse = (await response.json()) as SearchResponse;
 
-    if (data.Response === "False") {
-      throw new Error(data.Error || "Failed to fetch movie");
+    if (data.Response === 'False') {
+      throw new Error(data.Error || 'Failed to fetch movie');
     }
 
     return data;
   } catch (error) {
-    console.error("Api error", error);
+    console.error('Api error', error);
     throw error;
   }
 };
 
 export const getMovieById = async (id: string, signal?: AbortSignal): Promise<MovieFull> => {
   try {
-    const response = await fetch(`${apiUrl}?apikey=${apiKey}&i=${id}&plot=full`, {signal});
+    const response = await fetch(`${apiUrl}?apikey=${apiKey}&i=${id}&plot=full`, { signal });
 
     if (!response.ok) {
       throw new Error('Response isn`t OK');
     }
-    const data: MovieFull = await response.json();
+    const data: MovieFull = (await response.json()) as MovieFull;
 
     if (data.Response === 'False') {
       throw new Error('Failed to fetch movie');
@@ -47,14 +50,14 @@ export const getMovieById = async (id: string, signal?: AbortSignal): Promise<Mo
   }
 };
 
-export const getMoviesFromFile = async (signal : AbortSignal): Promise<MovieJson[]> => {
+export const getMoviesFromFile = async (signal: AbortSignal): Promise<MovieJson[]> => {
   try {
     const response = await fetch('/data/top1000movies.json', { signal });
 
     if (!response.ok) {
       throw new Error('Response isn`t OK');
     }
-    const data: MovieJson[] = await response.json();
+    const data: MovieJson[] = (await response.json()) as MovieJson[];
 
     return data;
   } catch (error) {
