@@ -17,7 +17,8 @@ const MovieDetails = () => {
   const { movie, isLoading, error } = useMovies(id);
 
   const getPosterSrc = () => {
-    const posterLink = movie!.Poster === 'N/A' ? DEFAULT_POSTER : movie!.Poster;
+    if (!movie) return DEFAULT_POSTER;
+    const posterLink = movie.Poster === 'N/A' ? DEFAULT_POSTER : movie.Poster;
     return posterLink;
   };
 
