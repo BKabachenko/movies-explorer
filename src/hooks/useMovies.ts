@@ -34,7 +34,9 @@ export const useMovies = (id: string | undefined) => {
           setError('An unexpected error occurred');
         }
       } finally {
-        setIsLoading(false);
+        if(!signal.aborted){
+          setIsLoading(false);
+        }
       }
     };
 
