@@ -10,6 +10,7 @@ import { DEFAULT_POSTER } from '@/constants';
 import { useMovies } from '@/hooks/useMovies';
 import DetailsBlock from '@/pages/MovieDetails/components/DetailsBlock';
 import { splitStringToArray } from '@/utils/Helpers';
+import MovieDetailsSkeleton from './MovieDetailsSkeleton';
 
 const MovieDetails = () => {
   const { id } = useParams();
@@ -24,7 +25,7 @@ const MovieDetails = () => {
 
   return (
     <>
-      {isLoading && <h3>Loading... Please wait.</h3>}
+      {isLoading && <MovieDetailsSkeleton />}
       {error && <h3>Error. {error}</h3>}
       {!isLoading && !error && movie && (
         <div className='w-full bg-gray-200 px-4'>
