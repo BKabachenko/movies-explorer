@@ -9,10 +9,11 @@ if (!apiKey || !apiUrl) {
 
 export const searchMovie = async (
   searchTitle: string,
+  searchPage: number = 1,
   signal?: AbortSignal
 ): Promise<SearchResponse> => {
   try {
-    const response = await fetch(`${apiUrl}?apikey=${apiKey}&s=${searchTitle}`, { signal });
+    const response = await fetch(`${apiUrl}?apikey=${apiKey}&s=${searchTitle}&page=${searchPage}`, { signal });
 
     if (!response.ok) {
       throw new Error('Response isn`t OK');
