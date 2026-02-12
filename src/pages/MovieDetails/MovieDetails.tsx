@@ -3,6 +3,7 @@ import { useParams } from 'react-router';
 import calendarIcon from '@/assets/icons/calendar-year.svg?react';
 import clockIcon from '@/assets/icons/clock.svg?react';
 import starIcon from '@/assets/icons/star.svg?react';
+import AddToFavoritesBtn from '@/components/AddToFavoritesBtn/AddToFavoritesBtn';
 import BackBtn from '@/components/BackBtn/BackBtn';
 import Badge from '@/components/Badge/Badge';
 import Icon from '@/components/Icon/Icon';
@@ -10,6 +11,7 @@ import { DEFAULT_POSTER } from '@/constants';
 import { useMovies } from '@/hooks/useMovies';
 import DetailsBlock from '@/pages/MovieDetails/components/DetailsBlock';
 import { splitStringToArray } from '@/utils/Helpers';
+
 import MovieDetailsSkeleton from './MovieDetailsSkeleton';
 
 const MovieDetails = () => {
@@ -33,7 +35,7 @@ const MovieDetails = () => {
 
           <div className='rounded-xl bg-white px-10 py-5'>
             <div className='mb-10 flex flex-col content-center justify-center gap-6 sm:flex-row md:justify-start'>
-              <div className='flex content-center justify-center'>
+              <div className='flex flex-col content-center items-center justify-center gap-4'>
                 <div className='flex h-96 w-fit content-center justify-center rounded-xl border border-gray-100 p-1 shadow-2xl'>
                   <img
                     src={getPosterSrc()}
@@ -42,6 +44,7 @@ const MovieDetails = () => {
                     onError={(e) => (e.currentTarget.src = DEFAULT_POSTER)}
                   />
                 </div>
+                <AddToFavoritesBtn movie={movie} className='w-full' />
               </div>
 
               <div className='flex flex-1 flex-col justify-center'>
