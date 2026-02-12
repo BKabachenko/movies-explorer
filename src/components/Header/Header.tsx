@@ -18,7 +18,7 @@ const Header = () => {
     if (searchText.trim().length > 0) {
       navigate({
         pathname: '/search',
-        search: `search=${searchText}`,
+        search: `search=${searchText}&page=1`,
       });
     } else {
       setSearchParams({});
