@@ -1,8 +1,8 @@
-import type { MovieShort } from '@/types';
+import type { MovieFull, MovieShort } from '@/types';
 
 import { useFavoritesStore } from '@/store/useFavoritesStore';
 
-export const useFavoriteMovie = ( movie: MovieShort ) => {
+export const useFavoriteMovie = ( movie: MovieShort | MovieFull ) => {
   const addMovie = useFavoritesStore((s) => s.addMovie);
   const removeMovie = useFavoritesStore((s) => s.removeMovie);
 
