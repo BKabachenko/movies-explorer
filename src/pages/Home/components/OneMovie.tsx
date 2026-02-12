@@ -6,6 +6,7 @@ import type { MovieFull } from '@/types';
 import Badge from '@/components/Badge/Badge';
 import Skeleton from '@/components/Skeleton/Skeleton';
 import { DEFAULT_POSTER } from '@/constants';
+import AddToFavoritesBtn from '@/components/AddToFavoritesBtn/AddToFavoritesBtn';
 
 interface MovieOneProps {
   movie: MovieFull;
@@ -53,6 +54,7 @@ const OneMovie = ({ movie }: MovieOneProps) => {
               {Title}
             </h3>
             <p className='mb-2 line-clamp-3 text-sm text-ellipsis text-white'>{Plot}</p>
+            <AddToFavoritesBtn movie={movie}/>
           </div>
         </article>
       </Link>
