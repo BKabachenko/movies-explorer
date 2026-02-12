@@ -10,9 +10,10 @@ import Icon from '../Icon/Icon';
 
 interface FavoriteBadgeProps {
   movie: MovieShort;
+  className?: string;
 }
 
-const FavoriteBadge = ({ movie }: FavoriteBadgeProps) => {
+const FavoriteBadge = ({ movie, className }: FavoriteBadgeProps) => {
   const addMovie = useFavoritesStore((s) => s.addMovie);
   const removeMovie = useFavoritesStore((s) => s.removeMovie);
 
@@ -38,7 +39,7 @@ const FavoriteBadge = ({ movie }: FavoriteBadgeProps) => {
 
   return (
     <button
-      className='absolute top-5 right-5 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/50 transition group-hover:bg-white'
+      className={`${className} absolute top-5 right-5 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-white/50 transition group-hover:bg-white`}
       onClick={onClickHandler}
       aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
     >
