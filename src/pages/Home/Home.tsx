@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import MovieListSkeleton from '@/components/MovieList/MovieListSkeleton';
+import Skeleton from '@/components/Skeleton/Skeleton';
 
 import { getMoviesFromFile } from '../../api/movies';
 import heart from '../../assets/icons/heart.svg?react';
@@ -11,7 +12,6 @@ import type { MovieFull } from '../../types';
 import { getRandomOne, getRandomTen, getTopTen } from '../../utils/Helpers';
 
 import OneMovie from './components/OneMovie';
-import Skeleton from '@/components/Skeleton/Skeleton';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -64,7 +64,7 @@ const Home = () => {
   if (isLoading) {
     return (
       <>
-        <Skeleton className='w-full h-100 mb-18'/>
+        <Skeleton className='mb-18 h-100 w-full' />
         <div className='mb-20'>
           <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>
             <Icon src={starHome} size='md' className='text-indigo-600' /> TOP 10
@@ -81,9 +81,14 @@ const Home = () => {
       </>
     );
   }
-  
+
   if (error) {
-    return null;
+    return (
+      <p className='pt-10 text-center text-xl'>
+        Oops! Something went wrong. Please try refreshing the page or try again later.
+        <p>{error}</p>
+      </p>
+    );
   }
 
   return (
