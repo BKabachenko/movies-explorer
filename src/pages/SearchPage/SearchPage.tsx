@@ -1,11 +1,10 @@
 import { useSearchParams } from 'react-router';
 
+import BackBtn from '@/components/BackBtn/BackBtn';
+import MovieList from '@/components/MovieList/MovieList';
 import MovieListSkeleton from '@/components/MovieList/MovieListSkeleton';
 import Pagination from '@/components/Pagination/Pagination';
 import { useSearch } from '@/hooks/useSearch';
-
-import BackBtn from '../../components/BackBtn/BackBtn';
-import MovieList from '../../components/MovieList/MovieList';
 
 const SearchPage = () => {
   const [searchParams] = useSearchParams();
