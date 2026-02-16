@@ -11,6 +11,7 @@ import type { MovieFull } from '../../types';
 import { getRandomOne, getRandomTen, getTopTen } from '../../utils/Helpers';
 
 import OneMovie from './components/OneMovie';
+import Skeleton from '@/components/Skeleton/Skeleton';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -63,7 +64,8 @@ const Home = () => {
   if (isLoading) {
     return (
       <>
-        <div className=''>
+        <Skeleton className='w-full h-100 mb-18'/>
+        <div className='mb-20'>
           <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>
             <Icon src={starHome} size='md' className='text-indigo-600' /> TOP 10
           </p>
