@@ -1,11 +1,10 @@
+import heart from '@/assets/icons/heart.svg?react';
+import starHome from '@/assets/icons/star_home.svg?react';
+import Icon from '@/components/Icon/Icon';
+import MovieList from '@/components/MovieList/MovieList';
 import MovieListSkeleton from '@/components/MovieList/MovieListSkeleton';
 import Skeleton from '@/components/Skeleton/Skeleton';
 import { useMoviesFromFile } from '@/hooks/useMoviesFromFile';
-
-import heart from '../../assets/icons/heart.svg?react';
-import starHome from '../../assets/icons/star_home.svg?react';
-import Icon from '../../components/Icon/Icon';
-import MovieList from '../../components/MovieList/MovieList';
 
 import OneMovie from './components/OneMovie';
 
