@@ -19,7 +19,7 @@ const SearchPage = () => {
       <BackBtn />
       {isLoading && <MovieListSkeleton count={10} />}
       {error && <p className='text-center'>Error. {error} </p>}
-      {(movies.length === 0 || searchText.length === 0) && (
+      {(movies.length === 0 || searchText.length === 0) && !isLoading && (
         <p className='text-center'>
           We can&#39;t search for nothing! Please type what you are looking for in the search bar.
         </p>
