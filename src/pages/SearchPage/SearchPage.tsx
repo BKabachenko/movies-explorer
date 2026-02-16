@@ -2,9 +2,10 @@ import { useSearchParams } from 'react-router';
 
 import BackBtn from '@/components/BackBtn/BackBtn';
 import MovieList from '@/components/MovieList/MovieList';
-import MovieListSkeleton from '@/components/MovieList/MovieListSkeleton';
 import Pagination from '@/components/Pagination/Pagination';
 import { useSearch } from '@/hooks/useSearch';
+
+import SearchPageSkeleton from './SearchPageSkeleton';
 
 const SearchPage = () => {
   const [searchParams] = useSearchParams();
@@ -14,10 +15,13 @@ const SearchPage = () => {
 
   const { movies, isLoading, error } = useSearch(searchText, searchPageNumber);
 
+  if (isLoading) {
+    return <SearchPageSkeleton />;
+  }
+
   return (
     <>
       <BackBtn />
-      {isLoading && <MovieListSkeleton count={10} />}
       {error && <p className='text-center'>Error. {error} </p>}
       {(movies.length === 0 || searchText.length === 0) && !isLoading && (
         <p className='text-center'>
