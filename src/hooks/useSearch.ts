@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import type { MovieShort, SearchResponse } from '@/types';
 
 import { searchMovie } from '@/api/movies';
+import { TEXTS } from '@/constants/strings';
 
 export const useSearch = (searchText: string | undefined, searchPage: number | undefined = 1) => {
   const [movies, setMovies] = useState<MovieShort[]>([]);
@@ -30,7 +31,7 @@ export const useSearch = (searchText: string | undefined, searchPage: number | u
           }
           setError(error.message);
         } else {
-          setError('An unexpected error occurred');
+          setError(TEXTS.ERRORS.UNEXPECTED);
         }
       } finally {
         if (!signal.aborted) {
