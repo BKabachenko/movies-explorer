@@ -1,4 +1,5 @@
 import type { MovieShort } from '@/types';
+import { TEXTS } from '@/constants/strings';
 
 import MovieCard from '../MovieCard/MovieCard';
 
@@ -10,8 +11,8 @@ const MovieList = ({ list }: MovieListProps) => {
   if (list.length === 0 || !list)
     return (
       <div className='flex flex-col items-center'>
-        <h2>No Films</h2>
-        <p>Please change search request.</p>
+        <h2>{TEXTS.SEARCH.NO_FILMS}</h2>
+        <p>{TEXTS.SEARCH.CHANGE_REQUEST}</p>
       </div>
     );
 
