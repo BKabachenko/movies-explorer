@@ -1,4 +1,5 @@
 import { useSearchParams } from 'react-router';
+import { TEXTS } from '@/constants/strings';
 
 import BackBtn from '@/components/BackBtn/BackBtn';
 import MovieList from '@/components/MovieList/MovieList';
@@ -22,10 +23,10 @@ const SearchPage = () => {
   return (
     <>
       <BackBtn />
-      {error && <p className='text-center'>Error. {error} </p>}
+      {error && <p className='text-center'>{TEXTS.MOVIE_DETAILS.ERROR}{error} </p>}
       {(movies.length === 0 || searchText.length === 0) && !isLoading && (
         <p className='text-center'>
-          We can&#39;t search for nothing! Please type what you are looking for in the search bar.
+            {TEXTS.SEARCH.ERROR_EMPTY}
         </p>
       )}
       {!isLoading && !error && movies.length > 0 && (
