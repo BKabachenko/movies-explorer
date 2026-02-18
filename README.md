@@ -10,7 +10,7 @@
 
 A modern, responsive web application for exploring movies, checking details, and managing your favorite list. Built with the latest React 19 features and TypeScript, focusing on performance, clean code, and user experience.
 
-> **Note**: This is a personal pet project developed to demonstrate modern React development practices and architecture.
+> **Note**: This serves as a portfolio project demonstrating architectural patterns, clean code, and performance optimization in modern React 19.
 
 ## ✨ Features
 
@@ -24,6 +24,15 @@ A modern, responsive web application for exploring movies, checking details, and
   - **State Management**: Scalable global state management using Zustand.
   - **Testing**: Unit tests setup with Vitest and React Testing Library.
   - **Quality**: Enforced code style with ESLint and Prettier.
+
+## 🧠 Under the Hood (Technical Decisions)
+
+This project isn't just about UI. It solves common frontend challenges:
+
+- **Race Conditions Handling**: Custom `useSearch` hook utilizes `AbortController` to cancel stale API requests when the user types fast.
+- **State Persistence**: Implemented Zustand middleware to sync Favorites with LocalStorage automatically.
+- **Code Splitting**: Route-based lazy loading with React `Suspense` ensures the initial bundle remains lightweight.
+- **Architecture**: Logic is strictly separated from UI using Custom Hooks pattern.
 
 ## 🛠️ Tech Stack
 
