@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router';
 
+import { TEXTS } from '@/constants/strings';
+
 import backArrow from '../../assets/icons/back-arrow-icon.svg?react';
 import Button from '../Button/Button';
 import Icon from '../Icon/Icon';
@@ -16,7 +18,7 @@ const BackBtn = () => {
           src={backArrow}
           className='text-gray-600 group-hover:text-indigo-600 group-active:text-indigo-600'
         />
-          Back
+          {TEXTS.GLOBAL.BACK_BTN}
     </Button>
   );
 };
