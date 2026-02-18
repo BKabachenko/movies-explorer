@@ -3,14 +3,15 @@ import BackBtn from '@/components/BackBtn/BackBtn';
 import Icon from '@/components/Icon/Icon';
 import MovieList from '@/components/MovieList/MovieList';
 import { useFavoritesStore } from '@/store/useFavoritesStore';
+import { TEXTS } from '@/constants/strings';
 
 const emptyList = () => {
   return (
     <>
       <div className='flex flex-col pt-15 text-center'>
-        <h3 className='text-2xl font-semibold text-gray-900'>Oh no, list is empty!</h3>
+        <h3 className='text-2xl font-semibold text-gray-900'>{TEXTS.FAVORITES.EMPTY_TITLE}</h3>
         <p className='font-semibold text-gray-500'>
-          Add movies to favorite and then you can see they in this list.
+          {TEXTS.FAVORITES.EMPTY_TEXT}
         </p>
       </div>
     </>
@@ -28,8 +29,8 @@ const Favorites = () => {
           <Icon src={heartIcon} size='lg' className='fill-indigo-600 text-indigo-600' />
         </div>
         <div className='flex flex-col'>
-          <h3 className='text-2xl font-semibold text-gray-900'>Your Favorites</h3>
-          <p className='font-semibold text-gray-500'>Movies you have saved for later</p>
+          <h3 className='text-2xl font-semibold text-gray-900'>{TEXTS.FAVORITES.TITLE}</h3>
+          <p className='font-semibold text-gray-500'>{TEXTS.FAVORITES.SUBTITLE}</p>
         </div>
       </div>
       {!movieList || !movieList.length ? emptyList() : <MovieList list={movieList} />}
