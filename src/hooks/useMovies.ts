@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import type { MovieFull } from '@/types';
 
 import { getMovieById } from '@/api/movies';
+import { TEXTS } from '@/constants/strings';
 
 export const useMovies = (id: string | undefined) => {
   const [movie, setMovie] = useState<MovieFull>();
@@ -22,7 +23,7 @@ export const useMovies = (id: string | undefined) => {
           const data = await getMovieById(id, signal);
           setMovie(data);
         } else {
-          throw new Error('ID undefined');
+          throw new Error(TEXTS.ERRORS.ID_UNDEFINED);
         }
       } catch (error) {
         if (error instanceof Error) {
@@ -31,10 +32,10 @@ export const useMovies = (id: string | undefined) => {
           }
           setError(error.message);
         } else {
-          setError('An unexpected error occurred');
+          setError(TEXTS.ERRORS.UNEXPECTED);
         }
       } finally {
-        if(!signal.aborted){
+        if (!signal.aborted) {
           setIsLoading(false);
         }
       }
