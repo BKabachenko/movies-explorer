@@ -1,5 +1,6 @@
 import type React from 'react';
 import { Component } from 'react';
+import { TEXTS } from '@/constants/strings';
 
 interface ErrorBoundaryProps {
   children: React.ReactNode;
@@ -34,7 +35,7 @@ export default class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBo
       }
       return (
         <div className='flex justify-center pt-10 text-xl'>
-          Something went wrong. Please reload the page.
+          {TEXTS.ERRORS.BOUNDARY}
         </div>
       );
     }
