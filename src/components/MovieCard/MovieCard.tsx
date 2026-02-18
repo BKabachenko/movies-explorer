@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import type { MovieShort } from '@/types';
 
 import { DEFAULT_POSTER } from '@/constants';
+import { TEXTS } from '@/constants/strings';
 
 import FavoriteBadge from '../FavoriteBadge/FavoriteBadge';
 import Skeleton from '../Skeleton/Skeleton';
@@ -35,7 +36,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
           {!isImgLoad && <Skeleton className='absolute inset-0 aspect-2/3 h-full w-full' />}
           <img
             src={imgSrc}
-            alt={`${Title} poster`}
+            alt={`${Title} ${TEXTS.GLOBAL.POSTER_SUFFIX}`}
             loading='lazy'
             onLoad={imgLoadHandler}
             onError={imgErrorHandler}
