@@ -22,7 +22,8 @@ export const TEXTS = {
   SEARCH: {
     PLACEHOLDER: 'Type title of movie',
     BUTTON: 'Search',
-    ERROR_EMPTY: "We can't search for nothing! Please type what you are looking for in the search bar.",
+    ERROR_EMPTY:
+      "We can't search for nothing! Please type what you are looking for in the search bar.",
     NO_FILMS: 'No Films',
     CHANGE_REQUEST: 'Please change search request.',
   },
@@ -50,8 +51,10 @@ export const TEXTS = {
   ERRORS: {
     API_ERROR: 'Api error:',
     BAD_RESPONSE: 'Response isn`t OK',
-    MISSING_ENV:'Missing env variables.',
+    MISSING_ENV: 'Missing env variables.',
     FAILED_FETCH: 'Failed to fetch movie',
     BOUNDARY: 'Something went wrong. Please reload the page.',
+    UNEXPECTED: 'Unexpected error.',
+    ID_UNDEFINED: 'Id undefined.',
   },
 } as const;
