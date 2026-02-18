@@ -1,0 +1,57 @@
+export const TEXTS = {
+  GLOBAL: {
+    BACK_BTN: 'Back',
+    PREVIOUS_PAGE: 'Previous page',
+    NEXT_PAGE: 'Next page',
+    POSTER_SUFFIX: 'poster',
+  },
+  HEADER: {
+    KINO: 'Kino',
+    BASE: 'Base',
+    FAVORITES: 'Favorites',
+  },
+  FOOTER: {
+    KINOBASE: 'KinoBase',
+    COPYRIGHT: '2026 KinoBase. Data provided by OMDb.',
+  },
+  HOME: {
+    TOP_10: 'TOP 10',
+    RECOMMENDED: 'Recommended for you',
+    ERROR_OOPS: 'Oops! Something went wrong. Please try refreshing the page or try again later.',
+  },
+  SEARCH: {
+    PLACEHOLDER: 'Type title of movie',
+    BUTTON: 'Search',
+    ERROR_EMPTY: "We can't search for nothing! Please type what you are looking for in the search bar.",
+    NO_FILMS: 'No Films',
+    CHANGE_REQUEST: 'Please change search request.',
+  },
+  MOVIE_DETAILS: {
+    PLOT: 'Plot',
+    CAST: 'Cast',
+    DETAILS: 'Details',
+    DIRECTOR: 'Director',
+    WRITER: 'Writer',
+    TYPE: 'Type',
+    AWARDS: 'Awards',
+    COUNTRY: 'Country',
+    LANGUAGE: 'Language',
+    PRODUCTION: 'Production',
+    ERROR: 'Error. ',
+  },
+  FAVORITES: {
+    EMPTY_TITLE: 'Oh no, list is empty!',
+    EMPTY_TEXT: 'Add movies to favorite and then you can see they in this list.',
+    TITLE: 'Your Favorites',
+    SUBTITLE: 'Movies you have saved for later',
+    ADD: 'Add to favorite',
+    REMOVE: 'Remove from favorite',
+  },
+  ERRORS: {
+    API_ERROR: 'Api error:',
+    BAD_RESPONSE: 'Response isn`t OK',
+    MISSING_ENV:'Missing env variables.',
+    FAILED_FETCH: 'Failed to fetch movie',
+    BOUNDARY: 'Something went wrong. Please reload the page.',
+  },
+} as const;
