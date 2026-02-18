@@ -2,6 +2,8 @@ import { Link, useNavigate, useSearchParams } from 'react-router';
 
 import { useFavoritesStore } from '@/store/useFavoritesStore';
 
+import { TEXTS } from '@/constants/strings';
+
 import heartIcon from '../../assets/icons/heart.svg?react';
 import logo from '../../assets/icons/main-logo.svg?react';
 import Icon from '../Icon/Icon';
@@ -34,7 +36,7 @@ const Header = () => {
               <Icon src={logo} className='h-full w-6 text-white' />
             </div>
             <p className='p-1 font-bold'>
-              Kino<span className='text-indigo-800'>Base</span>
+              {TEXTS.HEADER.KINO}<span className='text-indigo-800'>{TEXTS.HEADER.BASE}</span>
             </p>
           </Link>
         </div>
@@ -46,7 +48,7 @@ const Header = () => {
         <Link to='/favorite' className='order-2 flex flex-1 justify-center md:order-3' viewTransition>
           <div className='flex w-fit cursor-pointer flex-row items-center gap-2 rounded-xl bg-indigo-50 p-1 px-3 hover:bg-indigo-200'>
             <Icon src={heartIcon} className='h-5 w-5' />
-            Favorites
+            {TEXTS.HEADER.FAVORITES}
             {favoriteCount ? (
               <span className='rounded-lg bg-indigo-300 px-2'>{favoriteCount}</span>
             ) : (
