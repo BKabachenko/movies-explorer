@@ -36,7 +36,7 @@ const Header = () => {
               <Icon src={logo} className='h-full w-6 text-white' />
             </div>
             <p className='p-1 font-bold'>
-              {TEXTS.HEADER.KINO}<span className='text-indigo-800'>{TEXTS.HEADER.BASE}</span>
+              Kino<span className='text-indigo-800'>Base</span>
             </p>
           </Link>
         </div>
