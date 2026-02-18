@@ -1,4 +1,5 @@
 import { useParams } from 'react-router';
+import { TEXTS } from '@/constants/strings';
 
 import calendarIcon from '@/assets/icons/calendar-year.svg?react';
 import clockIcon from '@/assets/icons/clock.svg?react';
@@ -28,7 +29,7 @@ const MovieDetails = () => {
   return (
     <>
       {isLoading && <MovieDetailsSkeleton />}
-      {error && <h3>Error. {error}</h3>}
+      {error && <h3>{TEXTS.MOVIE_DETAILS.ERROR}{error}</h3>}
       {!isLoading && !error && movie && (
         <div className='w-full bg-gray-200 px-4'>
           <BackBtn />
