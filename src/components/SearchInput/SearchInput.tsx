@@ -1,5 +1,7 @@
 import { type KeyboardEvent, useEffect, useState } from 'react';
 
+import { TEXTS } from '@/constants/strings';
+
 import searchIcon from '../../assets/icons/search.svg?react';
 import Icon from '../Icon/Icon';
 
@@ -37,7 +39,7 @@ const SearchInput = ({ onSearch, initialValue = '' }: SearchInputProps) => {
         onChange={(e) => setInputText(e.target.value)}
         onKeyDown={handleKeyDown}
         value={inputText}
-        placeholder='Type title of movie'
+        placeholder={TEXTS.SEARCH.PLACEHOLDER}
       />
       <button
         className='flex cursor-pointer flex-row items-center gap-1 rounded-lg border border-indigo-200 p-1 px-3 peer-focus-visible:bg-indigo-400 transition peer-focus-visible:text-white'
@@ -45,7 +47,7 @@ const SearchInput = ({ onSearch, initialValue = '' }: SearchInputProps) => {
         onClick={handleSearch}
       >
         <Icon src={searchIcon} className=''/>
-        Search
+        {TEXTS.SEARCH.BUTTON}
       </button>
     </div>
   );
