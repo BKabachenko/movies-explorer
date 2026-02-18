@@ -1,4 +1,5 @@
 import { useSearchParams } from 'react-router';
+import { TEXTS } from '@/constants/strings';
 
 import Button from '../Button/Button';
 
@@ -28,10 +29,10 @@ const Pagination = ({ maxValue }: PaginationProps) => {
   return (
     <div className='flex gap-5'>
       <Button variant='backBtn' onClick={prevPage} disabled={searchPageNumber <= 1}>
-        Previous page
+        {TEXTS.GLOBAL.PREVIOUS_PAGE}
       </Button>
       <Button variant='backBtn' onClick={nextPage} disabled={searchPageNumber >= maxValue}>
-        Next page
+        {TEXTS.GLOBAL.NEXT_PAGE}
       </Button>
     </div>
   );
