@@ -6,8 +6,6 @@ export const TEXTS = {
     POSTER_SUFFIX: 'poster',
   },
   HEADER: {
-    KINO: 'Kino',
-    BASE: 'Base',
     FAVORITES: 'Favorites',
   },
   FOOTER: {
