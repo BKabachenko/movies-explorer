@@ -1,10 +1,9 @@
 import heart from '@/assets/icons/heart.svg?react';
 import starHome from '@/assets/icons/star_home.svg?react';
-import Icon from '@/components/Icon/Icon';
-import MovieList from '@/components/MovieList/MovieList';
 import { useMoviesFromFile } from '@/hooks/useMoviesFromFile';
 
 import HomeSkeleton from './HomeSkeleton';
+import MovieLine from './components/MovieLine';
 import OneMovie from './components/OneMovie';
 
 const Home = () => {
@@ -30,19 +29,8 @@ const Home = () => {
           <div className='h-100 w-full'>
             <OneMovie movie={movieOne[0]} />
           </div>
-          <div className=''>
-            <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>
-              <Icon src={starHome} size='md' className='text-indigo-600' /> TOP 10
-            </p>
-            <MovieList list={moviesTop} />
-          </div>
-
-          <div className=''>
-            <p className='mb-3 flex flex-row items-center gap-2 text-3xl font-semibold md:mb-8'>
-              <Icon src={heart} size='md' className='text-indigo-600' /> Recommended for you
-            </p>
-            <MovieList list={moviesRandom} />
-          </div>
+          <MovieLine label='TOP 10' movies={moviesTop} icon={starHome} />
+          <MovieLine label='Recommended for you' movies={moviesRandom} icon={heart} />
         </div>
       )}
     </>
