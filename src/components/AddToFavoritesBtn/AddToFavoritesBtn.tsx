@@ -1,4 +1,5 @@
 import type { MovieFull, MovieShort } from '@/types';
+import { TEXTS } from '@/constants/strings';
 
 import { useFavoriteMovie } from '@/hooks/useFavoriteMovie';
 
@@ -18,7 +19,7 @@ const AddToFavoritesBtn = ({ movie, className }: AddToFavoritesBtnProps) => {
       onClick={toggleFavorite}
       className={className}
     >
-      {isFavorite ? 'Remove from favorite' : 'Add to favorite'}
+      {isFavorite ? TEXTS.FAVORITES.REMOVE : TEXTS.FAVORITES.ADD}
     </Button>
   );
 };
